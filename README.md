@@ -8,9 +8,9 @@ description: |
 
 # Web Novel Master
 
-### 爆款网文创作利器
+### 爆款网文创作利器 · 三模式并行
 
-[![Version](https://img.shields.io/badge/version-v0.0-blue.svg)](https://github.com)
+[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 </div>
@@ -19,64 +19,88 @@ description: |
 
 ## 什么是 Web Novel Master
 
-一个基于 Claude Code 的爆款网文创作技能。通过结构化的四阶段流程（初始化 → 问答收集 → 规划确认 → 自动化写作），帮助你从零开始创作都市爽文、玄幻修仙、穿越重生、甜宠言情等各类网文。
+一个基于 Claude Code 的爆款网文创作技能。支持三种创作模式，从快速动笔到工业流水线，帮助你从零开始创作都市爽文、玄幻修仙、穿越重生、甜宠言情等各类网文。
 
 **核心目标**：每章 2000-3000 字，章章有爽点，名场面驱动，让读者追更停不下来。
 
 ---
 
-## 爆款网文 vs 传统小说
+## 三种创作模式
 
-| 维度 | 传统文学 | 爆款网文 |
-|------|----------|----------|
-| **目标** | 文学性、艺术价值 | 情绪价值、爽感、读者粘性 |
-| **驱动** | 悬念驱动、情节驱动 | 爽点驱动、情绪驱动 |
-| **节奏** | 慢热铺垫 | 快节奏高密度，章章有爽点 |
-| **字数** | 3000-5000字/章 | 2000-3000字/章 |
-| **开头** | 即时冲突，文学性 | 极端场景/金手指觉醒/退婚打脸 |
-| **钩子** | 悬念钩子 | 爽点钩子/信息炸弹 |
+| 模式 | Phase数 | 适用场景 | 特点 |
+|------|---------|---------|------|
+| **Fast** | 5 | 爱好者，极简快速 | 少步骤，快开写 |
+| **Professional** | 8 | 作者，质量优先 | 步骤适中，质量够 |
+| **Industrial** | 10 | 团队，流水线 | 最全步骤，可分工 |
 
 ---
 
-## 创作流程
+### Fast 快速模式（5 Phase）
 
 ```
-Phase 0 → Phase 1 → Phase 2 → Phase 2.5 → Phase 3 → Phase 4
-  初始化    两层问答   规划确认   写作模式    疯狂创作   自动校验
+Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4
+  初始化    想法明确    快速起草    简单润色    最终校验
 ```
 
-### Phase 0：初始化
+**适合**：已有明确想法，想立刻动笔的爱好者
 
-加载用户偏好，检测未完成项目，展示个性化欢迎。
-
-### Phase 1：两层递进式问答
-
-- **Layer 1 — 核心定位**（4问）：网文类型、金手指、核心爽点、主角设定
-- **Layer 2 — 深度定制**（6问）：世界观、女主设定、反派设计、名场面规划、读者定位、章节数量
-
-### Phase 2：规划 + 确认
-
-AI 自动生成大纲、人物档案、写作计划 JSON，展示确认。
-
-### Phase 2.5：写作模式选择
-
-| 模式 | 说明 | 适用场景 |
-|------|------|----------|
-| **串行** | 主 Agent 逐章写，稳定可靠 | 默认推荐 |
-| **子Agent并行** | 多个子 Agent 分批并行写 | 追求速度 |
-| **Agent Teams** | Claude Code 多 Agent 协作 | 大型长篇 |
-
-### Phase 3：疯狂创作
-
-全自动创作，无需确认。每章执行：写前分析 → 撰写 → 爽点验证 → 字数检查 → 更新摘要。
-
-### Phase 4：自动校验
-
-自动检查字数、爽点密度、金句植入，不合格章节自动重写（最多3轮）。
+| Phase | 文件 | 职责 |
+|-------|------|------|
+| 0 | Fast0_Initialization.md | 初始化、偏好、中断续写 |
+| 1 | Fast1_Idea_Clarify.md | 极简问答、核心信息提取 |
+| 2 | Fast2_Quick_Draft.md | 串行写作、快速起草 |
+| 3 | Fast3_Simple_Polish.md | AI味清除、爽点强化 |
+| 4 | Fast4_Final_Validation.md | 字数校验、爽点检查 |
 
 ---
 
-## 核心法则
+### Professional 专业模式（8 Phase）
+
+```
+Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7
+  初始化    核心明确    世界人设    大纲规划    正文撰写    润色节奏    钩子包装    校验发布
+```
+
+**适合**：认真创作，追求质量的作者
+
+| Phase | 文件 | 职责 |
+|-------|------|------|
+| 0 | Pro0_Initialization.md | 初始化、偏好、中断续写 |
+| 1 | Pro1_Core_Clarify.md | 类型、金手指、爽点、主角 |
+| 2 | Pro2_World_Character_Setup.md | 世界观、情感线、反派、名场面 |
+| 3 | Pro3_Outline_Planning.md | 大纲生成、人物档案、写作计划 |
+| 4 | Pro4_Full_Draft_Writing.md | 逐章创作、串行/并行模式 |
+| 5 | Pro5_Polish_Pacing.md | AI味清除、白描留白、节奏调整 |
+| 6 | Pro6_Hook_Packaging.md | 标题优化、简介、连载钩子 |
+| 7 | Pro7_Validation_Release.md | 自动校验、修复、完成报告 |
+
+---
+
+### Industrial 工业模式（10 Phase）
+
+```
+Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8 → Phase 9
+  项目初始化   市场调研   核心定位   世界规则   人物标准化   模块化大纲   团队写作   统一润色   QC校验   发布运营
+```
+
+**适合**：长篇创作，团队协作，流水线生产
+
+| Phase | 文件 | 职责 |
+|-------|------|------|
+| 0 | Ind0_Project_Initialize.md | 项目初始化、团队配置 |
+| 1 | Ind1_Market_Research.md | 赛道分析、竞品调研、趋势分析 |
+| 2 | Ind2_Core_Positioning.md | 类型、金手指、爽点、主角 |
+| 3 | Ind3_World_Rule_Setup.md | 世界观、力量体系、势力分布 |
+| 4 | Ind4_Character_Standard.md | 主角、女主、反派完整档案 |
+| 5 | Ind5_Modular_Outline.md | 模块化大纲、名场面时间轴、伏笔系统 |
+| 6 | Ind6_Team_Writing.md | 团队写作、并行/Teams协作 |
+| 7 | Ind7_Unified_Polish.md | 风格统一、节奏调整、伏笔核查 |
+| 8 | Ind8_QC_Validation.md | 三层校验体系、质量评分 |
+| 9 | Ind9_Release_Operation.md | 发布策略、运营规划、完本管理 |
+
+---
+
+## 爆款网文四法则
 
 | 法则 | 说明 |
 |------|------|
@@ -116,64 +140,79 @@ AI 自动生成大纲、人物档案、写作计划 JSON，展示确认。
 
 ---
 
-## 内置参考资料
+## 项目结构
 
-### 流程文档（`references/flows/`）
-
-| 文件 | 内容 |
-|------|------|
-| `phase0-initialization.md` | Phase 0：初始化与偏好加载 |
-| `phase1-layer1-core.md` | Phase 1 Layer 1：核心定位问答 |
-| `phase1-layer2-customize.md` | Phase 1 Layer 2：深度定制问答 |
-| `phase2-planning.md` | Phase 2：规划与写作计划生成 |
-| `phase3-writing.md` | Phase 3：疯狂创作（三种写作模式） |
-| `phase4-validation.md` | Phase 4：自动校验与修复 |
-| `shared-infrastructure.md` | 共享机制（偏好系统、速查表） |
-
-### 写作指南（`references/guides/`）
-
-| 文件 | 内容 |
-|------|------|
-| `famous-scenes.md` | 名场面设计指南（类型/公式/模板） |
-| `web-novel-tropes.md` | 爆款网文套路大全 |
-| `爽点设计指南.md` | 爽点类型、密度、节奏设计 |
-| `网文开篇公式.md` | 各类型开篇模板 |
-| `金手指设计.md` | 系统/异能/重生/传承设定方法 |
-| `情绪节奏指南.md` | 虐/爽/甜节奏设计 |
-| `scene-templates.md` | 名场面速写模板库 |
-| `hook-techniques.md` | 悬念设置技巧 |
-| `chapter-guide.md` | 章节写作指南 |
+```
+web-novel-master/
+├── SKILL.md                              # Skill 入口定义
+├── README.md                              # 使用文档
+├── assets/                               # 流程示意图
+├── references/
+│   ├── flows/                            # 流程文档
+│   │   ├── Mode_Selector.md              # 模式选择器
+│   │   ├── Shared_Infrastructure.md        # 共享机制
+│   │   ├── Fast/                         # Fast 快速模式（5 Phase）
+│   │   │   ├── Fast0_Initialization.md
+│   │   │   ├── Fast1_Idea_Clarify.md
+│   │   │   ├── Fast2_Quick_Draft.md
+│   │   │   ├── Fast3_Simple_Polish.md
+│   │   │   └── Fast4_Final_Validation.md
+│   │   ├── Pro/                          # Professional 专业模式（8 Phase）
+│   │   │   ├── Pro0_Initialization.md
+│   │   │   ├── Pro1_Core_Clarify.md
+│   │   │   ├── Pro2_World_Character_Setup.md
+│   │   │   ├── Pro3_Outline_Planning.md
+│   │   │   ├── Pro4_Full_Draft_Writing.md
+│   │   │   ├── Pro5_Polish_Pacing.md
+│   │   │   ├── Pro6_Hook_Packaging.md
+│   │   │   └── Pro7_Validation_Release.md
+│   │   └── Ind/                          # Industrial 工业模式（10 Phase）
+│   │       ├── Ind0_Project_Initialize.md
+│   │       ├── Ind1_Market_Research.md
+│   │       ├── Ind2_Core_Positioning.md
+│   │       ├── Ind3_World_Rule_Setup.md
+│   │       ├── Ind4_Character_Standard.md
+│   │       ├── Ind5_Modular_Outline.md
+│   │       ├── Ind6_Team_Writing.md
+│   │       ├── Ind7_Unified_Polish.md
+│   │       ├── Ind8_QC_Validation.md
+│   │       └── Ind9_Release_Operation.md
+│   └── guides/                           # 写作指南
+│       ├── famous-scenes.md               # 名场面设计指南
+│       ├── web-novel-tropes.md            # 爆款网文套路大全
+│       ├── 爽点设计指南.md                # 爽点类型、密度、节奏
+│       ├── 网文开篇公式.md                # 各类型开篇模板
+│       ├── 金手指设计.md                  # 系统/异能/重生/传承
+│       ├── 情绪节奏指南.md                # 虐/爽/甜节奏设计
+│       ├── scene-templates.md             # 名场面速写模板
+│       ├── hook-techniques.md             # 悬念设置技巧
+│       ├── chapter-guide.md               # 章节写作指南（融合传统文学技法）
+│       ├── character-template.md          # 人物档案模板
+│       └── content-expansion.md           # 内容扩充技巧
+└── scripts/
+    └── check_chapter_wordcount.py        # 字数校验脚本
+```
 
 ---
 
 ## 输出结构
 
 ```
-web-novels/
-├── user-preferences.json              # 用户偏好（跨项目共享）
-└── {timestamp}-{小说名称}/
-    ├── 00-大纲.md                     # 故事大纲 + 名场面规划
-    ├── 01-人物档案.md                # 主角/女主/反派档案
-    ├── 03-写作计划.json             # 机器可读的写作状态
-    ├── 第01章-xxx.md
-    ├── 第02章-xxx.md
-    └── ...
-```
-
----
-
-## 项目结构
-
-```
-web-novel-master/
-├── SKILL.md                         # Skill 入口定义
-├── README.md                         # 使用文档
-├── assets/                          # 流程示意图
-├── references/
-│   ├── flows/                       # 7个流程执行文档
-│   └── guides/                      # 9个写作指南文档
-└── scripts/
-    └── check_chapter_wordcount.py   # 字数校验脚本
+web-novels/                                    # 项目根目录
+├── user-preferences.json                       # 用户偏好（跨项目共享）
+└── {timestamp}-{小说名称}/                     # 小说项目文件夹
+    ├── 00-大纲.md                             # 故事大纲
+    ├── 01-人物档案.md                         # 人物详细档案
+    ├── 02-名场面时间轴.md                     # 名场面规划
+    ├── 03-伏笔系统.md                         # 伏笔记录（Industrial模式）
+    ├── 04-章节详细规划.md                     # 每章详细规划（Industrial模式）
+    ├── 05-写作计划.json                      # 机器可读的写作状态
+    ├── chapters/                              # 章节文件夹
+    │   ├── 第01章.md
+    │   ├── 第02章.md
+    │   └── ...
+    ├── 市场调研报告.md                        # Industrial模式输出
+    └── QC校验报告.md                          # Industrial模式输出
 ```
 
 ---

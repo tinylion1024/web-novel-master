@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Claude Code
+.claude/

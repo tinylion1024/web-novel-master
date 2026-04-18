@@ -148,9 +148,9 @@ web-novel-master/
 ├── README.md                              # 使用文档
 ├── assets/                               # 流程示意图
 ├── references/
-│   ├── flows/                            # 流程文档
+│   ├── Flow/                             # 写作流程（Fast/Pro/Ind 三模式）
 │   │   ├── Mode_Selector.md              # 模式选择器
-│   │   ├── Shared_Infrastructure.md        # 共享机制
+│   │   ├── Shared_Infrastructure.md      # 共享机制
 │   │   ├── Fast/                         # Fast 快速模式（5 Phase）
 │   │   │   ├── Fast0_Initialization.md
 │   │   │   ├── Fast1_Idea_Clarify.md
@@ -177,18 +177,29 @@ web-novel-master/
 │   │       ├── Ind7_Unified_Polish.md
 │   │       ├── Ind8_QC_Validation.md
 │   │       └── Ind9_Release_Operation.md
-│   └── guides/                           # 写作指南
-│       ├── famous-scenes.md               # 名场面设计指南
-│       ├── web-novel-tropes.md            # 爆款网文套路大全
-│       ├── 爽点设计指南.md                # 爽点类型、密度、节奏
-│       ├── 网文开篇公式.md                # 各类型开篇模板
-│       ├── 金手指设计.md                  # 系统/异能/重生/传承
-│       ├── 情绪节奏指南.md                # 虐/爽/甜节奏设计
-│       ├── scene-templates.md             # 名场面速写模板
-│       ├── hook-techniques.md             # 悬念设置技巧
-│       ├── chapter-guide.md               # 章节写作指南（融合传统文学技法）
-│       ├── character-template.md          # 人物档案模板
-│       └── content-expansion.md           # 内容扩充技巧
+│   ├── Plot/                             # 剧情/爽点/钩子
+│   │   ├── Opening-Formula.md            # 网文开篇公式
+│   │   ├── Excitement-Point-Guide.md     # 爽点设计指南
+│   │   ├── Emotional-Rhythm-Guide.md     # 情绪节奏指南
+│   │   ├── Famous-Scenes-Guide.md         # 名场面设计指南
+│   │   ├── Trope-Catalog.md              # 爆款网文套路大全
+│   │   ├── Scene-Template-Library.md      # 名场面模板库
+│   │   ├── Hook-Techniques.md            # 悬念设置技巧
+│   │   └── Plot-Structures.md            # 情节结构模板
+│   ├── Role/                             # 人设/金手指
+│   │   ├── Golden-Finger-Design.md      # 金手指设计
+│   │   ├── Character-Template.md          # 人物档案模板
+│   │   └── Character-Building.md          # 人物塑造指南
+│   ├── Materials/                         # 素材/描写
+│   │   ├── Content-Expansion.md          # 内容扩充技巧
+│   │   └── Dialogue-Writing.md           # 对话写作规范
+│   ├── Guides/                           # 教程/模板
+│   │   ├── Chapter-Writing-Guide.md      # 章节写作指南
+│   │   └── Chapter-Template.md           # 章节模板
+│   ├── Soul/                             # 文风参考（待填充）
+│   ├── World/                             # 世界观设定（待填充）
+│   ├── Data/                             # 市场数据（待填充）
+│   └── Check/                             # 自检清单（待填充）
 └── scripts/
     └── check_chapter_wordcount.py        # 字数校验脚本
 ```

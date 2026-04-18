@@ -105,21 +105,9 @@ WHILE 03-写作计划.json 中存在 status != "completed" 的章节:
 - 金手指：[金手指]
 - 核心爽点：[核心爽点]
 
-## 创作步骤（对每一章依次执行）
+## 创作步骤
 
-1. **首先读取 {projectPath}/00-大纲.md**，找到当前章节的规划信息（核心事件、爽点设计、承接、钩子）
-2. 读取 03-写作计划.json，确认章节状态
-3. 将当前章节 status 更新为 "in_progress"
-4. 创建章节文件，基于大纲规划撰写正文（2000-3000字）
-5. 前 20% 必须有即时爽点（打脸/装逼/系统激活等）
-6. 按照名场面规划设置本章爽点
-7. 结尾设置钩子
-8. 运行字数检查: python scripts/check_chapter_wordcount.py <文件路径>
-9. 深度润色（强化爽感，去除AI味）
-10. 再次字数检查
-11. 在 00-大纲.md 追加 200-300 字章节摘要
-12. 更新 status → "completed"，填入 wordCount
-13. 立即继续下一章
+**严格按以下流程执行「逐章创作流程」（详见 phase3-writing.md 第1节）**
 
 ## 重要约束
 - 不要使用 AskUserQuestion，不要向用户确认任何事
@@ -147,7 +135,7 @@ WHILE 03-写作计划.json 中存在 status != "completed" 的章节:
 4. 团队成员各自:
    a. 从 TaskList 读取可用任务
    b. 使用 TaskUpdate 认领任务（设置 owner）
-   c. 执行「逐章创作流程」
+   c. 执行「逐章创作流程」（见第1节）
    d. 使用 TaskUpdate 标记任务完成
    e. 回到 TaskList 认领下一个任务
 5. 所有任务完成后 → 关闭团队 → 进入第四阶段：自动校验
@@ -169,16 +157,7 @@ WHILE 03-写作计划.json 中存在 status != "completed" 的章节:
 2. 使用 TaskUpdate 认领任务（设置 owner 为你的名字）
 3. **首先读取 {projectPath}/00-大纲.md**，找到该章节的规划信息
 4. 读取 03-写作计划.json，获取该章节状态
-5. 执行逐章创作流程:
-   a. 更新 status 为 "in_progress"
-   b. 创建章节文件，基于大纲规划撰写正文（2000-3000字）
-   c. 前 20% 必须有即时爽点
-   d. 按照名场面规划设置本章爽点
-   e. 字数检查: python scripts/check_chapter_wordcount.py <文件路径>
-   f. 深度润色（强化爽感）
-   g. 再次字数检查
-   h. 在 00-大纲.md 追加章节摘要
-   i. 更新 status → "completed"，填入 wordCount
+5. **执行「逐章创作流程」**（详见 phase3-writing.md 第1节）
 6. 使用 TaskUpdate 标记任务完成
 7. 回到 TaskList 认领下一个任务
 

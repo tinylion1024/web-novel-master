@@ -15,8 +15,6 @@ description: |
 [![CLAUDE](https://img.shields.io/badge/Power%20By-Claude%20Code-orange.svg)](https://claude.com/claude-code)
 [![Stars](https://img.shields.io/github/stars/tinylion1024/web-novel-master?style=social)](https://github.com/tinylion1024/web-novel-master)
 
-**English · [中文介绍](README_CN.md)**
-
 </div>
 
 ---

@@ -20,76 +20,74 @@ metadata:
 3. **金句记忆** - 每章必须有让读者想截图的金句
 4. **名场面** - 每3-5章必须有让人印象深刻的名场面
 
-## 特性说明
+## 三种创作模式
 
-- **10阶段流程**：从初始化到发布，结构清晰，逻辑连贯
-- **名场面设计**：系统化设计每章的爽点名场面
-- **金手指系统**：支持系统/重生/传承/异能等多种金手指
-- **自动校验**：创作完成后自动检查字数、爽点密度、金句植入
-- **并行写作**（可选）：支持子Agent并行写作和Agent Teams协作
+| 模式 | Phase数 | 适用场景 |
+|------|---------|---------|
+| **Fast** | 5 | 爱好者，极简快速 |
+| **Professional** | 8 | 作者，质量优先 |
+| **Industrial** | 10 | 团队，流水线生产 |
 
-## 核心流程（10阶段）
+---
+
+## 核心流程
 
 进入每个阶段时，先阅读对应的流程文档以获取详细执行指令。
 
-| Phase | 名称 | 核心职责 |
-|-------|------|---------|
-| Phase 0 | Initialization | 初始化、偏好加载、中断续写检测 |
-| Phase 1 | Market Research | 市场分析、套路速查、意向提取 |
-| Phase 2 | Core Clarify | 类型、金手指、爽点、主角 |
-| Phase 3 | World & Character Setup | 世界观、情感线、反派、名场面 |
-| Phase 4 | Style Customization | 读者定位、章节数量、特殊要求 |
-| Phase 5 | Outline Planning | 大纲生成、人物档案、写作计划 |
-| Phase 6 | Full Draft Writing | 逐章创作、三种写作模式 |
-| Phase 7 | Polish & Pacing | AI味清除、语言质量、节奏调整 |
-| Phase 8 | Hook & Packaging | 标题优化、章节简介、连载钩子 |
-| Phase 9 | Validation & Release | 自动校验、自动修复、完成报告 |
-
-### Phase 0: Initialization
+### Phase 0: 初始化
 
 读取用户偏好，检测未完成项目（中断续写），展示个性化欢迎。
 → 详见 [Phase0_Initialization.md](references/flows/Phase0_Initialization.md)
 
-### Phase 1-4: 需求收集
+### 模式选择
 
-通过递进式问答收集创作需求：
+→ 详见 [Mode_Selector.md](references/flows/Mode_Selector.md)
 
-- **Phase 1**: 市场调研、爆款套路速查、意向提取 → [Phase1_Market_Research.md](references/flows/Phase1_Market_Research.md)
-- **Phase 2**: 类型、金手指、核心爽点、主角设定 → [Phase2_Core_Clarify.md](references/flows/Phase2_Core_Clarify.md)
-- **Phase 3**: 世界观、情感线、反派设计、名场面规划 → [Phase3_World_Character_Setup.md](references/flows/Phase3_World_Character_Setup.md)
-- **Phase 4**: 读者定位、章节数量、特殊要求 → [Phase4_Style_Customization.md](references/flows/Phase4_Style_Customization.md)
+用户选择模式后，进入对应模式的 Phase 1。
 
-### Phase 5: Outline Planning
+---
 
-创建项目文件夹，生成大纲、人物档案和写作计划JSON，等待用户确认。
-→ 详见 [Phase5_Outline_Planning.md](references/flows/Phase5_Outline_Planning.md)
+## 模式文件索引
 
-### Phase 6: Full Draft Writing
+### Fast 快速模式（5 Phase）
 
-**重要**：全程无需向用户确认，必须逐章创作直到完成。
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Fast/Fast0_Initialization.md | 初始化 |
+| 1 | Fast/Fast1_Idea_Clarify.md | 想法明确 |
+| 2 | Fast/Fast2_Quick_Draft.md | 快速起草 |
+| 3 | Fast/Fast3_Simple_Polish.md | 简单润色 |
+| 4 | Fast/Fast4_Final_Validation.md | 最终校验 |
 
-根据用户选择的写作模式（串行/并行/Teams）逐章执行创作流程。
-→ 详见 [Phase6_Full_Draft_Writing.md](references/flows/Phase6_Full_Draft_Writing.md)
+### Professional 专业模式（8 Phase）
 
-**写作模式**：
-- **逐章串行**（`serial`）：主 Agent 自己逐章写，全程无中断
-- **子Agent并行**（`subagent-parallel`）：将章节分成批次，派生子 Agent 并行写作
-- **Agent Teams**（`agent-teams`）：Claude Code 多 Agent 协作模式
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Pro/Pro0_Initialization.md | 初始化 |
+| 1 | Pro/Pro1_Core_Clarify.md | 核心明确 |
+| 2 | Pro/Pro2_World_Character_Setup.md | 世界观与人设 |
+| 3 | Pro/Pro3_Outline_Planning.md | 大纲规划 |
+| 4 | Pro/Pro4_Full_Draft_Writing.md | 正文撰写 |
+| 5 | Pro/Pro5_Polish_Pacing.md | 润色节奏 |
+| 6 | Pro/Pro6_Hook_Packaging.md | 钩子包装 |
+| 7 | Pro/Pro7_Validation_Release.md | 校验发布 |
 
-### Phase 7: Polish & Pacing
+### Industrial 工业模式（10 Phase）
 
-深度润色，去除AI味，节奏调整。
-→ 详见 [Phase7_Polish_Pacing.md](references/flows/Phase7_Polish_Pacing.md)
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Ind/Ind0_Project_Initialize.md | 项目初始化 |
+| 1 | Ind/Ind1_Market_Research.md | 市场调研 |
+| 2 | Ind/Ind2_Core_Positioning.md | 核心定位 |
+| 3 | Ind/Ind3_World_Rule_Setup.md | 世界规则设定 |
+| 4 | Ind/Ind4_Character_Standard.md | 人物标准化 |
+| 5 | Ind/Ind5_Modular_Outline.md | 模块化大纲 |
+| 6 | Ind/Ind6_Team_Writing.md | 团队写作 |
+| 7 | Ind/Ind7_Unified_Polish.md | 统一润色 |
+| 8 | Ind/Ind8_QC_Validation.md | QC校验 |
+| 9 | Ind/Ind9_Release_Operation.md | 发布运营 |
 
-### Phase 8: Hook & Packaging
-
-标题优化、章节简介撰写、连载钩子规划。
-→ 详见 [Phase8_Hook_Packaging.md](references/flows/Phase8_Hook_Packaging.md)
-
-### Phase 9: Validation & Release
-
-全程无需用户介入，自动检查所有章节，不合格章节自动重写（最多3轮）。
-→ 详见 [Phase9_Validation_Release.md](references/flows/Phase9_Validation_Release.md)
+---
 
 ## 共享机制
 

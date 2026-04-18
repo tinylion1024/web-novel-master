@@ -1,141 +1,163 @@
 ---
 name: web-novel-master
 description: |
-  爆款网文创作助手。分章节创作引人入胜的爆款网文，支持都市爽文/玄幻修仙/穿越重生/甜宠言情等多种类型。每章2000-3000字，强调爽点驱动、名场面设计、金句记忆。
+  爆款网文创作助手。基于 Claude Code 的智能网文写作系统，支持都市爽文/玄幻修仙/穿越重生/甜宠言情。章章有爽点，名场面驱动，让读者追更停不下来。
 ---
 
 <div align="center">
 
 # Web Novel Master
 
-### 爆款网文创作利器 · 三模式并行
+### 爆款网文创作利器 · 让 AI 帮你写出会火的书
 
-[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/tinylion1024/web-novel-master)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![CLAUDE](https://img.shields.io/badge/Power%20By-Claude%20Code-orange.svg)](https://claude.com/claude-code)
+[![Stars](https://img.shields.io/github/stars/tinylion1024/web-novel-master?style=social)](https://github.com/tinylion1024/web-novel-master)
+
+**English · [中文介绍](README_CN.md)**
 
 </div>
 
 ---
 
-## 什么是 Web Novel Master
+## 为什么需要 Web Novel Master？
 
-一个基于 Claude Code 的爆款网文创作技能。支持三种创作模式，从快速动笔到工业流水线，帮助你从零开始创作都市爽文、玄幻修仙、穿越重生、甜宠言情等各类网文。
+写网文难吗？难。**90% 的新手死在前三章**——节奏拖沓、爽点缺失、人设崩塌。
 
-**核心目标**：每章 2000-3000 字，章章有爽点，名场面驱动，让读者追更停不下来。
+写网文易吗？易。只要你懂：**爆款网文是可以被设计出来的。**
+
+> 每章 2000-3000 字，章章有爽点，名场面驱动，金句记忆 —— 这些都有方法论。
+
+Web Novel Master 把 **26 位顶流网文作者的写作套路**、**爆款四法则**、**套路模板库**全部结构化，嵌入 AI 写作流程，让 AI 帮你写出专业级别的网文。
+
+---
+
+## 核心亮点
+
+| | |
+|---|---|
+| 🤖 **AI 驱动** | 基于 Claude Code，调用顶级大模型辅助创作 |
+| 📚 **26 位作者文风库** | 内置天蚕土豆、辰东、猫腻、桐华等顶流风格分析 |
+| 🎯 **三模式并行** | Fast（快速动笔）/ Professional（质量优先）/ Industrial（团队流水线） |
+| 🏆 **爆款方法论** | 爽点驱动 + 情绪节奏 + 金句设计 + 名场面规划 |
+| 📖 **套路模板库** | 退婚流/系统流/重生流/马甲文等 10+ 经典套路 |
+| 🔧 **模块化设计** | 可整套使用，也可单独引用某个模块 |
 
 ---
 
 ## 三种创作模式
 
-| 模式 | Phase数 | 适用场景 | 特点 |
-|------|---------|---------|------|
-| **Fast** | 5 | 爱好者，极简快速 | 少步骤，快开写 |
-| **Professional** | 8 | 作者，质量优先 | 步骤适中，质量够 |
-| **Industrial** | 10 | 团队，流水线 | 最全步骤，可分工 |
-
----
-
-### Fast 快速模式（5 Phase）
+### ⚡ Fast 快速模式（5 Phase）— 30 分钟开写
 
 ```
-Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4
-  初始化    想法明确    快速起草    简单润色    最终校验
+想法 → 确认 → 起草 → 润色 → 校验
 ```
 
-**适合**：已有明确想法，想立刻动笔的爱好者
+想立刻动笔？选这个。5 步搞定第一章，2 小时搞定一个开头。
 
-| Phase | 文件 | 职责 |
-|-------|------|------|
-| 0 | Fast0_Initialization.md | 初始化、偏好、中断续写 |
-| 1 | Fast1_Idea_Clarify.md | 极简问答、核心信息提取 |
-| 2 | Fast2_Quick_Draft.md | 串行写作、快速起草 |
-| 3 | Fast3_Simple_Polish.md | AI味清除、爽点强化 |
-| 4 | Fast4_Final_Validation.md | 字数校验、爽点检查 |
-
----
-
-### Professional 专业模式（8 Phase）
+### 💻 Professional 专业模式（8 Phase）— 系统化写作
 
 ```
-Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7
-  初始化    核心明确    世界人设    大纲规划    正文撰写    润色节奏    钩子包装    校验发布
+初始化 → 核心定位 → 世界人设 → 大纲规划 → 正文撰写 → 润色节奏 → 钩子包装 → 校验发布
 ```
 
-**适合**：认真创作，追求质量的作者
+认真写作、追求质量？选这个。8 步覆盖从构思到发布的完整流程。
 
-| Phase | 文件 | 职责 |
-|-------|------|------|
-| 0 | Pro0_Initialization.md | 初始化、偏好、中断续写 |
-| 1 | Pro1_Core_Clarify.md | 类型、金手指、爽点、主角 |
-| 2 | Pro2_World_Character_Setup.md | 世界观、情感线、反派、名场面 |
-| 3 | Pro3_Outline_Planning.md | 大纲生成、人物档案、写作计划 |
-| 4 | Pro4_Full_Draft_Writing.md | 逐章创作、串行/并行模式 |
-| 5 | Pro5_Polish_Pacing.md | AI味清除、白描留白、节奏调整 |
-| 6 | Pro6_Hook_Packaging.md | 标题优化、简介、连载钩子 |
-| 7 | Pro7_Validation_Release.md | 自动校验、修复、完成报告 |
-
----
-
-### Industrial 工业模式（10 Phase）
+### 🏭 Industrial 工业模式（10 Phase）— 团队流水线
 
 ```
-Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8 → Phase 9
-  项目初始化   市场调研   核心定位   世界规则   人物标准化   模块化大纲   团队写作   统一润色   QC校验   发布运营
+项目初始化 → 市场调研 → 核心定位 → 世界规则 → 人物标准化 → 模块化大纲 → 团队写作 → 统一润色 → QC校验 → 发布运营
 ```
 
-**适合**：长篇创作，团队协作，流水线生产
-
-| Phase | 文件 | 职责 |
-|-------|------|------|
-| 0 | Ind0_Project_Initialize.md | 项目初始化、团队配置 |
-| 1 | Ind1_Market_Research.md | 赛道分析、竞品调研、趋势分析 |
-| 2 | Ind2_Core_Positioning.md | 类型、金手指、爽点、主角 |
-| 3 | Ind3_World_Rule_Setup.md | 世界观、力量体系、势力分布 |
-| 4 | Ind4_Character_Standard.md | 主角、女主、反派完整档案 |
-| 5 | Ind5_Modular_Outline.md | 模块化大纲、名场面时间轴、伏笔系统 |
-| 6 | Ind6_Team_Writing.md | 团队写作、并行/Teams协作 |
-| 7 | Ind7_Unified_Polish.md | 风格统一、节奏调整、伏笔核查 |
-| 8 | Ind8_QC_Validation.md | 三层校验体系、质量评分 |
-| 9 | Ind9_Release_Operation.md | 发布策略、运营规划、完本管理 |
+长篇连载、团队协作？选这个。10 步工业流水线，支持多人分工、质量管控。
 
 ---
 
 ## 爆款网文四法则
 
-| 法则 | 说明 |
-|------|------|
-| **爽点驱动** | 每章必须有爽点，读者追更是为了"爽" |
-| **情绪波动** | 有憋有放，张弛有度，虐后必爽 |
-| **金句记忆** | 每章必须有让读者想截图的金句 |
-| **名场面** | 每3-5章必须有让人印象深刻的名场面 |
+> 这是网文与普通小说的本质区别。不懂这四条，写出来的东西没人看。
+
+| 法则 | 说明 | 实践 |
+|------|------|------|
+| 🔥 **爽点驱动** | 读者追更，是为了「爽」 | 每章必须有一个让读者拍案的瞬间 |
+| 🌊 **情绪波动** | 有憋有放，张弛有度 | 虐 3 章必须爽 1 章，情绪不憋死 |
+| 💎 **金句记忆** | 让读者想截图 | 每章至少一句让读者忍不住截图的金句 |
+| 🎬 **名场面** | 每 3-5 章一个记忆点 | 打脸/装逼/甜宠/燃点，名场面要够名 |
 
 ---
 
 ## 黄金套路速查
 
-| 套路 | 核心公式 |
-|------|---------|
-| **退婚流** | 废物开局 → 当众羞辱 → 意外觉醒 → 打脸 |
-| **系统流** | 濒死/危机 → 系统激活 → 任务奖励 → 变强 |
-| **重生流** | 死亡/失败 → 重生节点 → 先知优势 → 复仇 |
-| **装逼流** | 低调被逼 → 无奈展示 → 全场震惊 |
+```
+退婚流    ▸ 废物开局 → 当众羞辱 → 意外觉醒 → 碾压打脸
+系统流    ▸ 濒死/危机 → 系统激活 → 任务奖励 → 飞速变强
+重生流    ▸ 死亡/失败 → 重生节点 → 先知优势 → 复仇清算
+装逼流    ▸ 低调隐藏 → 被逼无奈 → 展露实力 → 全场震惊
+马甲文    ▸ 多重身份 → 故意隐藏 → 逐层掉马 → 爽感炸裂
+追妻火葬场 ▸ 前期虐女 → 心死离开 → 追妻追到 → 跪榴莲
+```
 
-### 名场面类型
+---
 
-| 类型 | 效果 |
-|------|------|
-| 打脸型 | 羞辱→反转→碾压 |
-| 装逼型 | 低调→被逼→展露 |
-| 甜宠型 | 吃醋→壁咚→撒糖 |
-| 燃点型 | 绝境→守护→爆发 |
+## 26 位网文大神文风参考
 
-### 金句模板
+内置作者风格分析，创作时可随时调用：
+
+**男频顶流**
+- 天蚕土豆（退婚流、爽点节奏）
+- 辰东（宏大叙事、诸天万界）
+- 忘语（凡人流、严谨设定）
+- 耳根（虐心、意志流）
+- 猫腻（权谋、文笔华丽）
+- 老鹰吃小鸡（日更 3 万、高武流）
+
+**女频顶流**
+- 桐华（虐恋情深、三生三世）
+- 天下归元（大女主、女强男强）
+- 一路烦花（马甲、团宠）
+- 叶非夜（甜宠、总裁）
+- 希行（重生复仇、宅斗）
+-吱吱（种田经商、穿越宅斗）
+
+---
+
+## 快速开始
+
+### 1. 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/tinylion1024/web-novel-master.git
+
+# 放入 Claude Code skills 目录
+cp -r web-novel-master ~/.claude/skills/
+
+# 重启 Claude Code，输入 /skill web-novel-master 启动
+```
+
+### 2. 选择模式
+
+启动后，AI 会引导你选择模式：
 
 ```
-打脸："你说的这辈子...好像有点短？"
-装逼："不是我想装，是你们逼我的。"
-燃点："谁都不能动我在乎的人。"
-甜点："以后离他远点，听见没？"
+📌 请选择创作模式：
+  [1] ⚡ Fast - 快速动笔（5步，30分钟开始写）
+  [2] 💻 Professional - 质量优先（8步，系统化写作）
+  [3] 🏭 Industrial - 团队流水线（10步，长篇连载）
+```
+
+### 3. 开始创作
+
+以 Professional 模式为例：
+
+```
+📌 Phase 1: 核心定位
+请告诉我：你想写什么类型的网文？
+  - 都市爽文 / 玄幻修仙 / 穿越重生 / 甜宠言情 / 其他
+
+AI 会追问：主角是谁？金手指是什么？爽点设计？...
+帮你把模糊的想法变成完整的人物设定和情节规划。
 ```
 
 ---
@@ -144,102 +166,86 @@ Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 
 
 ```
 web-novel-master/
-├── SKILL.md                              # Skill 入口定义
-├── README.md                              # 使用文档
-├── assets/                               # 流程示意图
+├── SKILL.md                          # Skill 入口
+├── README.md                          # 本文档
 ├── references/
-│   ├── Flow/                             # 写作流程（Fast/Pro/Ind 三模式）
-│   │   ├── Mode_Selector.md              # 模式选择器
-│   │   ├── Shared_Infrastructure.md      # 共享机制
-│   │   ├── Fast/                         # Fast 快速模式（5 Phase）
-│   │   │   ├── Fast0_Initialization.md
-│   │   │   ├── Fast1_Idea_Clarify.md
-│   │   │   ├── Fast2_Quick_Draft.md
-│   │   │   ├── Fast3_Simple_Polish.md
-│   │   │   └── Fast4_Final_Validation.md
-│   │   ├── Pro/                          # Professional 专业模式（8 Phase）
-│   │   │   ├── Pro0_Initialization.md
-│   │   │   ├── Pro1_Core_Clarify.md
-│   │   │   ├── Pro2_World_Character_Setup.md
-│   │   │   ├── Pro3_Outline_Planning.md
-│   │   │   ├── Pro4_Full_Draft_Writing.md
-│   │   │   ├── Pro5_Polish_Pacing.md
-│   │   │   ├── Pro6_Hook_Packaging.md
-│   │   │   └── Pro7_Validation_Release.md
-│   │   └── Ind/                          # Industrial 工业模式（10 Phase）
-│   │       ├── Ind0_Project_Initialize.md
-│   │       ├── Ind1_Market_Research.md
-│   │       ├── Ind2_Core_Positioning.md
-│   │       ├── Ind3_World_Rule_Setup.md
-│   │       ├── Ind4_Character_Standard.md
-│   │       ├── Ind5_Modular_Outline.md
-│   │       ├── Ind6_Team_Writing.md
-│   │       ├── Ind7_Unified_Polish.md
-│   │       ├── Ind8_QC_Validation.md
-│   │       └── Ind9_Release_Operation.md
-│   ├── Plot/                             # 剧情/爽点/钩子
-│   │   ├── Opening-Formula.md            # 网文开篇公式
-│   │   ├── Excitement-Point-Guide.md     # 爽点设计指南
-│   │   ├── Emotional-Rhythm-Guide.md     # 情绪节奏指南
-│   │   ├── Famous-Scenes-Guide.md         # 名场面设计指南
-│   │   ├── Trope-Catalog.md              # 爆款网文套路大全
-│   │   ├── Scene-Template-Library.md      # 名场面模板库
-│   │   ├── Hook-Techniques.md            # 悬念设置技巧
-│   │   └── Plot-Structures.md            # 情节结构模板
-│   ├── Role/                             # 人设/金手指
-│   │   ├── Golden-Finger-Design.md      # 金手指设计
-│   │   ├── Character-Template.md          # 人物档案模板
-│   │   └── Character-Building.md          # 人物塑造指南
-│   ├── Materials/                         # 素材/描写
-│   │   ├── Content-Expansion.md          # 内容扩充技巧
-│   │   └── Dialogue-Writing.md           # 对话写作规范
-│   ├── Guides/                           # 教程/模板
-│   │   ├── Chapter-Writing-Guide.md      # 章节写作指南
-│   │   └── Chapter-Template.md           # 章节模板
-│   ├── Soul/                             # 文风参考（待填充）
-│   ├── World/                             # 世界观设定（待填充）
-│   ├── Data/                             # 市场数据（待填充）
-│   └── Check/                             # 自检清单（待填充）
+│   ├── Flow/                         # 三模式流程定义
+│   │   ├── Fast/                     # Fast 模式（5 Phase）
+│   │   ├── Pro/                      # Professional 模式（8 Phase）
+│   │   └── Ind/                      # Industrial 模式（10 Phase）
+│   ├── Plot/                         # 剧情/爽点/钩子
+│   │   ├── Opening-Formula.md         # 开篇公式
+│   │   ├── Excitement-Point-Guide.md # 爽点设计指南
+│   │   ├── Famous-Scenes-Guide.md    # 名场面设计
+│   │   ├── Trope-Catalog.md          # 套路大全
+│   │   └── ...
+│   ├── Soul/                         # 26 位作者文风库
+│   │   ├── 01_Male-Oriented/         # 男频大神风格
+│   │   └── 02_Female-Oriented/       # 女频大神风格
+│   ├── Role/                         # 人设/金手指
+│   ├── Materials/                    # 素材/描写技巧
+│   ├── Guides/                       # 写作教程/模板
+│   ├── World/                        # 世界观设定（待填充）
+│   ├── Data/                         # 市场数据（待填充）
+│   └── Check/                        # 自检清单（待填充）
 └── scripts/
-    └── check_chapter_wordcount.py        # 字数校验脚本
+    └── check_chapter_wordcount.py    # 字数校验脚本
+```
+
+**70+ 参考文件**，覆盖网文创作的全部环节。
+
+---
+
+## 输出示例
+
+使用 Web Novel Master 创作的小说项目结构：
+
+```
+2024-06-01-都市异能王者/
+├── 00-大纲.md                         # 完整故事大纲
+├── 01-人物档案.md                     # 主角/女主/反派/配角档案
+├── 02-名场面时间轴.md                 # 20+ 名场面规划
+├── 03-伏笔系统.md                     # 埋的坑和回收计划
+├── 04-章节详细规划.md                 # 每章核心事件
+├── chapters/
+│   ├── 第01章.md                     # 2000-3000字/章
+│   ├── 第02章.md
+│   └── ...
+└── QC校验报告.md                      # 质量评分 & 修复建议
 ```
 
 ---
 
-## 输出结构
+## 谁在用 Web Novel Master？
 
-```
-web-novels/                                    # 项目根目录
-├── user-preferences.json                       # 用户偏好（跨项目共享）
-└── {timestamp}-{小说名称}/                     # 小说项目文件夹
-    ├── 00-大纲.md                             # 故事大纲
-    ├── 01-人物档案.md                         # 人物详细档案
-    ├── 02-名场面时间轴.md                     # 名场面规划
-    ├── 03-伏笔系统.md                         # 伏笔记录（Industrial模式）
-    ├── 04-章节详细规划.md                     # 每章详细规划（Industrial模式）
-    ├── 05-写作计划.json                      # 机器可读的写作状态
-    ├── chapters/                              # 章节文件夹
-    │   ├── 第01章.md
-    │   ├── 第02章.md
-    │   └── ...
-    ├── 市场调研报告.md                        # Industrial模式输出
-    └── QC校验报告.md                          # Industrial模式输出
-```
+- **网文爱好者** — 第一次写小说，不知道怎么开头
+- **兼职作者** — 想提升写作效率，保持稳定更新
+- **全职作者** — 系统化创作流程，减少卡文概率
+- **工作室/团队** — 流水线生产，多人分工协作
+- **AI 写作探索者** — 研究如何用 AI 辅助创意写作
 
 ---
 
-## 安装
+## 如何贡献
 
-将此目录放入 Claude Code 的 skills 目录：
+欢迎提交 Issue 和 Pull Request！
 
-```
-~/.claude/skills/web-novel-master/
-```
-
-或通过 Claude Code 技能管理界面安装。
+- 🐛 报告 Bug
+- 💡 提出新功能建议
+- 📝 补充参考素材（作者文风、套路模板）
+- 🔧 优化现有流程文件
+- ⭐ Star 支持一下
 
 ---
 
-## 许可
+## License
 
-MIT
+MIT License - 永久开源，可自由使用、修改、商业化。
+
+---
+
+<div align="center">
+
+**如果这个项目对你有帮助，请点个 ⭐ Star**
+
+</div>

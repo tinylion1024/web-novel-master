@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 1: Market Research
+# Industrial 模式 - Phase 1：市场调研
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 2/10

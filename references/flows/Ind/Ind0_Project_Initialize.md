@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 0: Project Initialize
+# Industrial 模式 - Phase 0：项目初始化
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 1/10

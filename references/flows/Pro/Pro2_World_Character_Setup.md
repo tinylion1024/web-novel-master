@@ -1,4 +1,4 @@
-# Professional Mode - Phase 2: World & Character Setup
+# Professional 模式 - Phase 2：世界与人设
 
 **模式**: Professional 专业模式（作者・完整但不繁琐）
 **Phase数**: 3/8

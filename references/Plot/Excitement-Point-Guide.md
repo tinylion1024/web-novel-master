@@ -1,233 +1,233 @@
-# Excitement Point Design Guide
+# 爽点设计指南
 
-Excitement points (爽点) are the core driving force of web novels. The essence of readers following updates is "waiting for爽"—waiting for the protagonist to slap faces, for逆袭, for发糖.
+爽点是网络小说的核心驱动力。读者追更的本质是"等爽"——等主角打脸、等逆袭、等发糖。
 
 ---
 
-## 1. The Essence of Excitement Points
+## 1. 爽点的本质
 
-**Excitement Point = Release after Suppression**
+**爽点 = 压抑后的释放**
 
-No suppression, no excitement. The prerequisite for excitement points is "憋"—protagonist is humiliated, suppressed, looked down upon, then reversed.
+没有压抑就没有爽。爽点的前提是"憋"——主角被羞辱、被压制、被看不起，然后逆袭。
 
 ```
-Suppression (憋) → Release (爽)
+压抑（憋） → 释放（爽）
         ↓              ↓
-  More suppressed  More released
+   越压抑        越释放
 ```
 
-**Anti-example:**
-Protagonist suddenly becomes strong with no foreshadowing, readers only think "oh."
+**反面教材：**
+主角突然变强，没有任何铺垫，读者只觉得"哦"。
 
-**Positive example:**
-Divorced, ridiculed, little sister looks down on... in Chapter 3 protagonist reveals identity, readers feel爽.
+**正面教材：**
+被离婚、被嘲笑、小姨子看不起...第三章主角揭露身份，读者觉得爽。
 
 ---
 
-## 2. Excitement Point Type System
+## 2. 爽点类型系统
 
-### 1. Slap Face Excitement Point
+### 1. 打脸爽点
 
-**Prerequisite:** Sufficiently狠humiliation must exist
+**前提：** 必须有足够狠的羞辱
 
-| Humiliation Stage | Slap Face Stage | Effect |
+| 羞辱阶段 | 打脸阶段 | 效果 |
 |------------------|-----------------|--------|
-| Mild humiliation | Minor slap face | Slight爽 |
-| Moderate humiliation (public) | Moderate slap face (strength crush) | Great爽 |
-| Severe humiliation (involving family) | Extreme slap face (annihilate group) | Explosive爽 |
+| 轻度羞辱 | 轻度打脸 | 略微爽 |
+| 中度羞辱（当众） | 中度打脸（实力碾压） | 很爽 |
+| 重度羞辱（涉及家人） | 极致打脸（灭团） | 爆炸爽 |
 
-**Slap Face Excitement Point Formula:**
+**打脸爽点公式：**
 ```
-【1】Humiliation狠 enough: 废物/垃圾/不配/滚
-【2】Timing mature: Protagonist smiles faintly
-【3】Strength display: One action/one sentence
-【4】Everyone shocked: Dead silence/gasps/pale faces
-【5】Golden quote ending: One sentence readers remember
+【1】羞辱要狠：废物/垃圾/不配/滚
+【2】时机成熟：主角淡淡一笑
+【3】展示实力：一动作/一句话
+【4】众人震惊：死寂/倒吸凉气/脸色发白
+【5】金句结尾：一句让读者记住的话
 ```
 
-### 2. Leveling Up Excitement Point
+### 2. 升级爽点
 
-**Prerequisite:** Clear level system, readers can see growth
+**前提：** 等级体系清晰，读者能看到成长
 
-| Leveling Type | Example | Excitement |
+| 升级类型 | 示例 | 爽感 |
 |--------------|---------|-----------|
-| Breakthrough type | Foundation → Golden Core, heaven signs appear | Ritual sense |
-| Kill type | Cross-level kill enemy, win with weakness | Achievement sense |
-| Gain type | Obtain artifact/technique/pet | Satisfaction |
-| Unlock type | Transmission unlocks, technique upgrades | Anticipation |
+| 突破型 | 筑基 → 金丹，天象出现 | 仪式感 |
+| 击杀型 | 跨级杀敌，以弱胜强 | 成就感 |
+| 获得型 | 获得神器/功法/宠物 | 满足感 |
+| 解锁型 | 传承解锁，功法升级 | 期待感 |
 
-**Leveling Up Excitement Point Formula:**
+**升级爽点公式：**
 ```
-【1】Predicament: Enemy too strong, cannot win
-【2】Opportunity: Accidentally gain/enlightenment/trigger
-【3】Breakthrough: Strength surges, level increases
-【4】Verification: Use new strength to defeat old enemy
-【5】Shock: Spectators' reactions
+【1】困境：敌人太强，打不过
+【2】机缘：意外获得/顿悟/触发
+【3】突破：实力暴涨，等级提升
+【4】验证：用新实力打败旧敌人
+【5】震惊：旁观者的反应
 ```
 
-### 3. Emotional Excitement Point
+### 3. 情感爽点
 
-**Prerequisite:** Readers already emotionally invested in characters
+**前提：** 读者已经对角色产生情感投入
 
-| Emotional Excitement Point | Trigger Condition | Effect |
+| 情感爽点 | 触发条件 | 效果 |
 |---------------------------|-------------------|--------|
-| Jealousy爽 | Sees partner with someone else | Possessiveness |
-| Protection爽 | Bravely protects own people | Security |
-| Confession爽 | Finally confesses/confessed to | Sweetness |
-| Sugar撒爽 | Sweet interaction/wall slam/princess carry | Giggling |
-| Revenge爽 | Revenge those who hurt protagonist | Pleasure |
+| 吃醋爽 | 看到对象和别人在一起 | 占有欲 |
+| 保护爽 | 勇敢保护自己的人 | 安全感 |
+| 表白爽 | 终于表白/被表白 | 甜蜜感 |
+| 撒糖爽 | 甜蜜互动/壁咚/公主抱 | 傻笑 |
+| 复仇爽 | 为伤害过主角的人复仇 | 快感 |
 
-**Emotional Excitement Point Formula:**
+**情感爽点公式：**
 ```
-【1】Misunderstanding/crisis: Relationship turbulence
-【2】True feelings shown: True emotions in key moment
-【3】Famous scene: Wall slam/forced kiss/fierce declaration
-【4】Golden quote: One sentence readers want to screenshot
-【5】Aftermath: Sweet/warm/heartbeat
+【1】误会/危机：感情波动
+【2】真情流露：关键时刻真情表白
+【3】名场面：壁咚/强吻/霸气宣言
+【4】金句：一句让读者想截图的话
+【5】余韵：甜蜜/温馨/心跳
 ```
 
-### 4. Show-off Excitement Point
+### 4. 装逼爽点
 
-**Prerequisite:** Protagonist has strength but has been hiding
+**前提：** 主角有实力但一直在隐藏
 
-| Show-off Type | Example | Excitement |
+| 装逼类型 | 示例 | 爽感 |
 |--------------|---------|-----------|
-| Low-key show-off | Doesn't want to act, forced to display | Helpless feeling |
-| Identity show-off | Reveal hidden identity | Shock feeling |
-| Wealth show-off | Casually spend tens of millions/hundreds of millions | Satisfaction |
-| Power show-off | Bosses behind/small brothers/powerful faction | Intimidation |
+| 低调装逼 | 不想出手，被迫展示 | 无奈感 |
+| 身份装逼 | 揭露隐藏身份 | 震惊感 |
+| 财力装逼 | 随手花费几千万/亿万 | 满足感 |
+| 权力装逼 | 幕后大佬/小弟/强大家族 | 威慑感 |
 
-**Show-off Excitement Point Formula:**
+**装逼爽点公式：**
 ```
-【1】Suppressed: Mocked as poor/weak/no background
-【2】Forced: Required to prove/act/leave
-【3】Helpless sigh: Since you all want to see...
-【4】Display strength: Easy crush/casually play royal cards
-【5】Golden quote: Not targeting anyone, all of you are...
+【1】被压：被嘲笑穷/弱/没背景
+【2】被迫：被要求证明/出手/离开
+【3】无奈叹息：既然你们都想看...
+【4】展示实力：轻松碾压/随便玩皇家同花顺
+【5】金句：不是针对谁，你们都是...
 ```
 
 ---
 
-## 3. Excitement Point Density Design
+## 3. 爽点密度设计
 
-### Per 2000 Words Configuration
+### 每2000字配置
 
-| Excitement Type | Quantity | Position | Intensity |
+| 爽点类型 | 数量 | 位置 | 强度 |
 |----------------|----------|----------|-----------|
-| Small爽点 | 1-2 | Evenly distributed | Light |
-| Medium爽点 | 1 | Mid-chapter/end | Medium |
-| Big爽点 | 1 | Chapter climax | Strong |
-| Hook | 1-2 | Chapter end | Lead |
+| 小爽点 | 1-2 | 均匀分布 | 轻度 |
+| 中爽点 | 1 | 章中/章末 | 中度 |
+| 大爽点 | 1 | 章高潮 | 强度 |
+| 钩子 | 1-2 | 章末 | 引导 |
 
-### Rhythm Formula
+### 节奏公式
 
 ```
 爽 → 憋 → 更爽 → 大憋 → 大爽
 ↓    ↓    ↓      ↓     ↓
-Daily  Oppression  Small爽  Predicament   Counterattack
+日常  压迫  小爽   困境   反击
 ```
 
-### Chapter Type Configurations
+### 章节能配置
 
-**Chapter 1 (Introduction):**
-- Must have awakening爽点 (system activation/divorce slap face/rebirth)
-- Immediately let readers know "this story is very爽"
+**第一章（开篇）：**
+- 必须有觉醒爽点（系统激活/退婚打脸/重生）
+- 立刻让读者知道"这个故事很爽"
 
-**Chapter 3 (Verification):**
-- Must have first slap face爽点
-- Verify "爽文" label, establish reader expectations
+**第三章（验证）：**
+- 必须有第一次打脸爽点
+- 验证"爽文"标签，建立读者期待
 
-**Climax Chapters (10/20/30):**
-- Dense big爽点
-- Multiple爽点 stacked
-- Golden quote bombardment
+**高潮章（10/20/30）：**
+- 密集大爽点
+- 多个爽点叠加
+- 金句轰炸
 
-**Transition Chapters (5/15/25):**
-- Small爽点 maintain rhythm
-- Emotional foreshadowing/relationship progress
-- Build up for next wave of爽点
+**过渡章（5/15/25）：**
+- 小爽点维持节奏
+- 情感铺垫/感情进展
+- 为下一波爽点蓄力
 
 ---
 
-## 4. Excitement Point Design Checklist
+## 4. 爽点设计检查清单
 
-### Pre-Writing Check
+### 写作前检查
 
-- [ ] What is this chapter's爽点 type?
-- [ ] Is the prerequisite "憋" for this爽点 sufficient?
-- [ ] Is the爽点 intensity sufficient?
-- [ ] Is there a golden quote readers want to screenshot?
+- [ ] 这章的爽点类型是什么？
+- [ ] 这个爽点的"憋"前提够不够？
+- [ ] 爽点强度够不够？
+- [ ] 有没有让读者想截图的金句？
 
-### Post-Writing Check
+### 写作后检查
 
-- [ ] Is the爽点 timing correct? (Too early/late won't work)
-- [ ] Is there aftermath after the爽点?
-- [ ] Is the爽点 density appropriate? (Too little is watery, too much is cloying)
-- [ ] Is it repeated with last chapter's爽点? (Need variation)
+- [ ] 爽点时机对不对？（太早/太晚都不行）
+- [ ] 爽点后有没有余韵？
+- [ ] 爽点密度合不合适？（太少太水，太多太腻）
+- [ ] 和上一章的爽点重复了吗？（需要变化）
 
 ---
 
-## 5. Suppression and Release Ratio
+## 5. 压抑与释放比例
 
-### Suppression-Satisfaction Ratio Formula
+### 压抑-释放比例公式
 
 ```
-Relaxation period (daily/sweet/growth): 爽7 : 憋3
-Oppression period (suppressed/predicament): 憋6 : 爽4
-Explosion period (counterattack/slap face/climax): 爽8 : 憋2
+放松期（日常/甜蜜/成长）：爽7 : 憋3
+压迫期（压抑/困境）：憋6 : 爽4
+爆发期（反击/打脸/高潮）：爽8 : 憋2
 ```
 
-### Suppression Threshold
+### 压抑阈值
 
-| Type | Max Suppression Chapters | Risk if Exceeded |
+| 类型 | 最大压抑章数 | 超过风险 |
 |------|-------------------------|------------------|
-| Beginner web novel | 3 chapters | Drop book |
-| Experienced web novel | 5 chapters | Drop book |
-| Angst novel | 10 chapters | Reader attrition |
-| Sweet novel | 1 chapter without sugar | Drop book |
+| 新手小说 | 3章 | 弃书 |
+| 老手小说 | 5章 | 弃书 |
+| 虐文 | 10章 | 读者流失 |
+| 甜文 | 1章没糖 | 弃书 |
 
-### Suppression Release Techniques
+### 压抑释放技巧
 
-- Suppression can last at most 3 chapters, Chapter 4 must release
-- Release爽intensity must be strong enough to compensate for previous suppression
-- Can use "small爽" transitions to avoid reader attrition
+- 压抑最多持续3章，第四章必须释放
+- 释放的爽强度要足够弥补之前的压抑
+- 可以用"小爽"过渡避免读者流失
 
 ---
 
-## 6. Genre-Specific Excitement Points
+## 6. 各类型爽点特点
 
-| Genre | Core Excitement Point | Density | Notes |
+| 类型 | 核心爽点 | 密度 | 备注 |
 |------|----------------------|---------|-------|
-| Urban Power Fantasy | Slap face/show-off/wealth | High | Fast rhythm, dense爽点 |
-| Fantasy Xianxia | Leveling/slap face/transmission | Medium | Leveling primary, slightly slower |
-| Sweet Romance | Jealousy/sugar/protection | Medium | Sweet primary, slap face secondary |
-| Mystery | Reversal/reveal/strategic combat | Low | Quality over quantity for爽点 |
-| Apocalypse | Survival/hoarding/abilities | High | Crisis and爽coexist |
+| 都市爽文 | 打脸/装逼/财力 | 高 | 节奏快，爽点密集 |
+| 玄幻仙侠 | 升级/打脸/传承 | 中 | 升级为主，稍慢 |
+| 甜宠文 | 吃醋/撒糖/保护 | 中 | 甜蜜为主，打脸为辅 |
+| 悬疑 | 逆转/揭露/智斗 | 低 | 爽点重质不重量 |
+| 末日 | 生存/囤货/能力 | 高 | 危机与爽并存 |
 
 ---
 
-## 7. Golden Quote Templates
+## 7. 金句模板库
 
-### Slap Face Golden Quotes
+### 打脸金句
 
-- "What you called 'this lifetime'... seems a bit short?"
-- "Who was it that called me废物来着?"
-- "I'm not targeting anyone, all of you... are garbage."
+- "你说的'这辈子'...好像有点短？"
+- "谁刚才叫我是废物来着？"
+- "我不是针对谁，你们各位...都是垃圾。"
 
-### Show-off Golden Quotes
+### 装逼金句
 
-- "It's not that I want to show off, you forced me."
-- "Just playing around, didn't expect you to take it seriously."
-- " This thing? My kid's toy."
+- "不是我想装逼，是你们逼我的。"
+- "随便玩玩而已，没想到你们当真了。"
+- "这玩意儿？我小孩的玩具。"
 
-### Passion Golden Quotes
+### 热血金句
 
-- "No one can touch the people I care about."
-- "This battle, for brothers! For sect!"
-- "Burning everything, so what!"
+- "谁也不能动我在乎的人。"
+- "此战，为兄弟！为宗门！"
+- "燃尽一切，又怎样！"
 
-### Sweet Golden Quotes
+### 甜蜜金句
 
-- "Stay away from him from now on, got it?"
-- "Only I can bully my people."
-- "Miss me? Hm?"
+- "以后离他远点，听到没？"
+- "只有我能欺负我的人。"
+- "想我了？嗯？"

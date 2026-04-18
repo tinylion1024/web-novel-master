@@ -1,4 +1,4 @@
-# Professional Mode - Phase 4: Full Draft Writing
+# Professional 模式 - Phase 4：正文撰写
 
 **模式**: Professional 专业模式（作者・完整但不繁琐）
 **Phase数**: 5/8

@@ -1,534 +1,534 @@
-# Chapter Writing Guide for Hit Web Novels
+# 爆款网文章节写作指南
 
-**Core Objective**: 2000-3000 words per chapter, every chapter has爽点, famous scene driven. Simultaneously use traditional literary techniques to enhance language quality, making readers unable to stop following.
-
----
-
-## Web Novel vs Traditional Literature
-
-| Dimension | Traditional Literature | Web Novel | Optimal Solution |
-|-----------|---------------------|-----------|------------------|
-| **Goal** | Literary merit, artistic value | Emotional value, excitement | Excitement with literary merit |
-| **Driving Force** | Suspense-driven, plot-driven | 爽点-driven, emotion-driven | 爽点 as framework, literary quality as flesh |
-| **Rhythm** | Slow burn | Fast-paced high density | Fast-paced with layers |
-| **Word Count** | 3000-5000 words/chapter | 2000-3000 words/chapter | 2000-3000 words |
-| **Opening** | Immediate conflict, literary | Extreme scene/golden finger awakening | Extreme scene + literary expression |
-| **Emotion** | Restrained, subtle | Direct, outward | Outward when appropriate, restrained when appropriate |
-| **Hook** | Suspense hook | 爽点 hook | Suspense + 爽点 dual hook |
+**核心目标**：每章2000-3000字，每章必有爽点，名场面驱动。同时运用传统文学技巧提升语言质量，让读者欲罢不能。
 
 ---
 
-## The Four Laws of Hit Web Novels
+## 网文与传统文学的区别
 
-| Law | Description | Operational Requirement |
-|-----|-------------|----------------------|
-| **爽点 Driven** | Every chapter must have爽点, readers follow for "爽" | Before writing: What's this chapter's爽点? Where does it release? |
-| **Emotional Fluctuation** | Suppress and release, balanced tension, must爽after虐 | Suppression no more than 3 chapters, Chapter 4 must release |
-| **Golden Quote Memory** | Every chapter must have a quote readers want to screenshot | Must have at ending/climax, polished with literary techniques |
-| **Famous Scenes** | Every 3-5 chapters must have memorable famous scene | Plan in advance, write thoroughly with literary expression |
+| 维度 | 传统文学 | 网文 | 最优解 |
+|------|---------|------|-------|
+| **目标** | 文学性，艺术价值 | 情绪价值，爽感 | 爽感+文学性 |
+| **驱动力** | 悬疑驱动，情节驱动 | 爽点驱动，情绪驱动 | 爽点为框架，文学性为血肉 |
+| **节奏** | 慢热 | 快节奏高密度 | 快节奏有层次 |
+| **字数** | 3000-5000字/章 | 2000-3000字/章 | 2000-3000字 |
+| **开篇** | 即时冲突，文学性 | 极境场面/金手指觉醒 | 极境场面+文学表达 |
+| **情感** | 克制，含蓄 | 直接，外放 | 该外放时外放，该克制时克制 |
+| **钩子** | 悬疑钩子 | 爽点钩子 | 悬疑+爽点双钩子 |
 
 ---
 
-## Standard Chapter Structure (2000-3000 Words)
+## 爆款网文四大法则
+
+| 法则 | 描述 | 操作要求 |
+|------|------|---------|
+| **爽点驱动** | 每章必须有爽点，读者为"爽"而追 | 写前自问：这章爽点是什么？在哪里释放？ |
+| **情绪波动** | 压抑与释放交替，张弛有度，虐后必爽 | 压抑不超过3章，第4章必须释放 |
+| **金句记忆** | 每章必须有让读者想截图的金句 | 必须在结尾/高潮处，有文学技巧打磨 |
+| **名场面** | 每3-5章必须有让人印象深刻的名场面 | 提前策划，用文学表达写透 |
+
+---
+
+## 标准章节结构（2000-3000字）
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              Hit Web Novel Chapter Structure                │
+│              爆款网文章节结构                                    │
 ├─────────────────────────────────────────────────────────────┤
-│  Front 20% (400-600 words) │ Middle 60% │ Back 20% (400-600)│
-│  ──────────────────────── │ ──────────────────── │ ──────────│
-│  Opening hook             │ 憋 (suppress) → 爽   │ Climax    │
-│  Immediate conflict       │ Layered progression   │ Famous scene │
-│  Literary opening         │ Build emotion         │ + Golden quote │
-│                          │                       │ Hook ending │
+│  前20%（400-600字）  │  中间60%          │  后20%（400-600字）│
+│  ─────────────────── │ ─────────────────── │ ──────────────│
+│  开篇钩子             │ 憋（suppress）→ 爽  │ 高潮            │
+│  即时冲突             │ 层层递进             │ 名场面          │
+│  文学开篇             │ 积蓄情绪             │ + 金句          │
+│                       │                      │ 钩子结尾        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Opening Hook (Front 20%, 400-600 Words) — Life or Death
+### 1. 开篇钩子（前20%，400-600字）——生死存亡
 
-**Hit Web Novel Opening = Extreme Situation + Immediate Conflict + Literary Expression**
+**爆款网文开篇 = 极境场面 + 即时冲突 + 文学表达**
 
-#### Seven Hit Opening Techniques
+#### 七大爆款开篇技巧
 
-**① Divorce Slap Face Type**
-> Wedding venue, fiancée publicly produces divorce papers. "You a废物, deserve to marry me?"
-> The crowd gasps.
-> He doesn't speak, just smiles faintly—there, in that smile, is something she'll never understand in this lifetime.
+**① 退婚打脸型**
+> 婚礼现场，未婚妻当众拿出退婚书。"你一个废物，凭什么娶我？"
+> 全场哗然。
+> 他不说话，只是淡淡一笑——那一笑里，有她这辈子都不会懂的东西。
 
-**② System Activation Type**
-> "Ding—Strongest Divine Doctor System binding successful."
-> In near-death moment, a cold mechanical voice sounds in his mind.
-> His name is Chen Hao, three minutes ago he was still a disciple expelled from the sect.
+**② 系统激活型**
+> "叮——最强神医系统绑定成功。"
+> 濒死之际，脑海中响起冰冷的机械音。
+> 他叫陈浩，三分钟前还是被宗门驱逐的弟子。
 
-**③ Rebirth Return Type**
-> He stands at the edge of the rooftop, looking down at himself.
-> A lifetime of mediocrity in his previous life. This time, no more.
+**③ 重生归来型**
+> 他站在天台边缘，俯视着下方的自己。
+> 上辈子庸碌一生。这一次，不会了。
 
-**④ Public Slap Face Type**
-> "This is what you call a genius?" Examination elder laughs coldly. Complete silence.
-> At the back of the crowd, someone is laughing.
-> That laughter isn't loud, yet it makes everyone turn.
+**④ 当众打脸型**
+> "这就是你们所谓的天才？"考核心法长老冷笑。全场寂静。
+> 人群后方，有人笑了。
+> 那笑声不大，却让所有人转身。
 
-**⑤ Identity Contrast Type**
-> Walking into a five-star hotel in delivery uniform, the receptionist rolls her eyes.
-> Three minutes later, the manager personally comes to receive—calling him "Young Master."
+**⑤ 身份对比型**
+> 穿着外卖服走进五星级酒店，前台翻了个白眼。
+> 三分钟后，经理亲自出来迎接——称呼他"少爷"。
 
-**⑥ Desperate Counterattack Type**
-> Dan破碎, meridians severed. He's thrown out of the sect gates.
-> In his hand, that broken jade pendant, suddenly glows.
+**⑥ 绝境反击型**
+> 丹碎，经脉尽断。他被扔出宗门大门。
+> 手中，那枚破碎的玉佩，忽然发光。
 
-**⑦ Sweet Romance Sugar Type**
-> "Stay away from me." She pushes him away, face burning.
-> He glances at his phone: "The interview subject you mentioned... is me."
+**⑦ 甜宠撒糖型**
+> "离我远点。"她推开他，脸颊发烫。
+> 他瞥了眼手机："你说的采访对象……是我。"
 
-#### Opening Fatal Errors
+#### 开篇致命错误
 
-| Error | Consequence |
-|-------|-------------|
-| Weather description ("The weather was sunny that day") | Reader immediately drops book |
-| Daily routine ("Wake up, brush teeth, eat breakfast") | No conflict, no tension |
-| Too much background introduction (information dump) | First 20% has no爽点 at all |
-| Protagonist talking to self (no dialogue tension) | No conflict |
-
----
-
-### 2. Emotional Curve (Middle 60%, 1200-1800 Words) — Suppression-Satisfaction Rhythm
-
-**Core Principle: Suppress and release, traditional literary techniques make both more layered.**
-
-#### Suppression-Satisfaction Ratio Formula
-
-```
-Relaxation period (daily/sweet/growth): 爽7 : 憋3
-Oppression period (suppressed/predicament): 憋6 : 爽4
-Explosion period (counterattack/slap face/climax): 爽8 : 憋2
-```
-
-#### Suppression Creation Techniques
-
-**① Use描白 technique to write suppression**
-```
-Antagonist slaps.
-He doesn't dodge.
-Face burning, metallic taste at corner of mouth.
-People around are laughing.
-```
-
-**② Use留白 technique to write oppression**
-```
-"Kneel."
-He kneels.
-The sound of his knees hitting the ground, loud.
-No one speaks.
-No one knows what's beneath his knees.
-——Three days ago, he had just fallen from Transformed God realm.
-```
-
-**③ Use草蛇灰线 to bury suppression**
-```
-Chapter 1: Senior brother gives him a book, says "keep it safe."
-Chapter 3: A thorn hidden in the book, his hand gets pricked.
-Chapter 5: This thorn, is poisonous.
-Chapter 7: He collapses.
-```
-
-#### Excitement Release Techniques
-
-**Slap face release (with imagery)**
-```
-"Who did you say was废物?"
-He reaches out, flicks gently.
-Antagonist's Golden Core level protective spiritual energy—shattered.
-Complete silence.
-That thorn, finally pulled out.
-```
-
-**Leveling up release (with ritual sense)**
-```
-"Ding—Congratulations on breakthrough!"
-Heavenly signs appear, golden light fills the sky.
-He opens his eyes, pupils seem to contain flowing galaxies.
-```
-
-**Show-off release (with rhythm)**
-```
-"It's not that I want to show off, you forced me."
-He waves casually.
-A dozen flying swords hover in mid-air, sword energy surging.
-```
+| 错误 | 后果 |
+|------|------|
+| 天气描写（"那天天气晴朗"） | 读者立刻弃书 |
+| 日常流水（"起床、刷牙、吃早饭"） | 没有冲突，没有张力 |
+| 背景介绍太多（信息轰炸） | 前20%完全没有爽点 |
+| 主角自言自语（没有对话张力） | 没有冲突 |
 
 ---
 
-### 3. Climax Ending (Back 20%, 400-600 Words) — Famous Scene + Golden Quote + Hook
+### 2. 情绪曲线（中间60%，1200-1800字）——压抑-释放节奏
 
-#### Famous Scene Types
+**核心原则：压抑与释放交替，传统文学技巧让两者更有层次。**
 
-| Type | Formula | Example |
-|------|---------|---------|
-| Slap face | Humiliate → Reverse → Crush | "Didn't you say I was废物?" |
-| Show-off | Low-key → Forced → Display | "It's not that I want to show off..." |
-| Sweet | Jealousy → Wall slam → Sugar | "Stay away from him" |
-| Passion | Desperate → Protect → Explode | "No one can touch my people" |
+#### 压抑-释放比例公式
 
-#### Golden Quote Templates
-
-**Slap face golden quotes**
 ```
-"You said this lifetime... seems a bit short?"
-"Who was it that called me废物来着?"
-"I'm not targeting anyone, all of you... are garbage."
+放松期（日常/甜/成长）：爽7 : 憋3
+压迫期（被压/困境）：憋6 : 爽4
+爆发期（反击/打脸/高潮）：爽8 : 憋2
 ```
 
-**Show-off golden quotes**
+#### 压抑技巧
+
+**① 用白描写压抑**
 ```
-"It's not that I want to show off, you forced me."
-"Playing around casually, didn't expect you to take it seriously."
-"This thing? My kid's toy."
+反派的巴掌落下。
+他不躲。
+脸火辣辣地疼，嘴角泛起血腥味。
+周围的人在笑。
 ```
 
-**Passion golden quotes**
+**② 用留白写压迫**
 ```
-"No one can touch the people I care about."
-"This battle, for brothers! For sect!"
-"Burning everything, so what!"
-```
-
-**Sweet golden quotes**
-```
-"Stay away from him, got it?"
-"Only I can bully my people."
-"Miss me? Hm?"
+"跪下。"
+他跪下。
+膝盖撞向地面的声音，很响。
+没有人说话。
+没有人知道他膝盖下压着什么。
+——三天前，他刚从化神境界跌落。
 ```
 
-#### Ending Hook Types
-
-**Information bomb type**
+**③ 用草蛇灰线埋压抑**
 ```
-Just then, phone rings.
-Screen shows: Father.
-He has been dead for three years.
-```
-
-**Conflict escalation type**
-```
-He just walks out of the hotel, three black Mercedes block his way.
-"Mr. Chen wants to meet you."
-"What if I don't want to?"
+第1章：大师兄给了他一本书，说"好好保管"。
+第3章：书里藏着一根刺，他的手被扎了。
+第5章：这根刺，有毒。
+第7章：他倒下了。
 ```
 
-**Suspense ending type**
+#### 爽点释放技巧
+
+**打脸释放（带意象）**
 ```
-She looks down at her phone, message from her husband:
-"Babe, I'm at the funeral home."
-But her husband has been dead for three years.
+"你说谁是废物？"
+他伸出手，轻轻一弹。
+对手金丹级护体灵力——碎。
+全场寂静。
+那根刺，终于拔出来了。
+```
+
+**升级释放（带仪式感）**
+```
+"叮——恭喜突破！"
+天地异象出现，金光满天。
+他睁开眼，瞳孔中仿佛有流动的星河。
+```
+
+**装逼释放（带节奏）**
+```
+"不是我想装逼，是你们逼我的。"
+他随手一挥。
+十几把飞剑悬停半空，剑气汹涌。
 ```
 
 ---
 
-## Traditional Literary Techniques in Web Novels
+### 3. 高潮结尾（后20%，400-600字）——名场面+金句+钩子
 
-**Core approach**: Traditional techniques are tools, web novel excitement is the goal. Use traditional techniques to enhance the impact of suppression and satisfaction, not to slow down rhythm.
+#### 名场面类型
 
-### 白描 (Outline Drawing)
+| 类型 | 公式 | 示例 |
+|------|------|------|
+| 打脸 | 屈辱→反转→碾压 | "你不是说我是废物？" |
+| 装逼 | 低调→被迫→展示 | "不是我想装逼……" |
+| 甜宠 | 吃醋→壁咚→撒糖 | "离他远点" |
+| 热血 | 绝境→守护→爆发 | "没人能碰我的人" |
 
-Use minimal brushstrokes to precisely capture essence, let the scene speak for itself.
+#### 金句模板
 
-**Suppression scene**
+**打脸金句**
 ```
-Lights are dim.
-He crouches in the corner, leg broken.
-Someone walks by, kicks him.
-He doesn't make a sound.
-```
-
-**Excitement scene**
-```
-He stands up.
-Brushes off dust.
-Walks toward the arena.
-Opponent is laughing.
-——Three moves later, opponent stops laughing.
+"你说这辈子……好像有点短？"
+"刚才是谁叫我废物来着？"
+"我不是针对谁，在座的各位……都是垃圾。"
 ```
 
-**Operational points**
-- Verbs primary, adjectives minimized
-- Actions replace descriptions: "He's old" better than "He's elderly"
-- Short sentences create tension, long sentences build atmosphere
-
-### 留白 (Leaving Blank)
-
-What is not said is more powerful than what is said. Use silence at key moments to create tension.
-
-**Suppression留白**
+**装逼金句**
 ```
-"Kneel."
-He kneels.
-Sound of knees hitting ground, loud.
-No one speaks.
+"不是我想装逼，你们逼我的。"
+"随便玩玩，没想到你们当真了。"
+"这东西？我小孩的玩具。"
 ```
 
-**Excitement留白**
+**热血金句**
 ```
-He extends hand, flicks gently.
-Opponent's protective energy shatters.
-Examination elder's face turns pale.
-He still says: "Who was it that called me废物来着?"
-——No one dares answer.
+"没人能碰我在乎的人。"
+"这一战，为了兄弟！为了宗门！"
+"燃尽一切，又怎样！"
 ```
 
-**Operational points**
-- Dialogue scenes: End at that moment of silence
-- Emotional scenes: Write action, not feeling
-- Climax scenes: Cut off at highest peak
-
-### 草蛇灰线 (Grass-Snake Gray Line)
-
-Bury clues in seemingly casual details, recover them after several chapters apart, creating "so that's how it was" excitement.
-
-**Foreshadowing formula**
+**甜宠金句**
 ```
-Chapter 1: Mention casually (or a casual detail)
-Chapter 5: Appears again (not obvious)
-Chapter 10: Recovered and exploded
+"离他远点，听懂了吗？"
+"只有我能欺负我的人。"
+"想我了？嗯？"
 ```
 
-**Example**
+#### 结尾钩子类型
+
+**信息炸弹型**
 ```
-【Chapter 2】Senior brother says: "This technique, don't practice it for now."
-【Chapter 8】He flips to the technique's last page, discovers a corner is missing.
-【Chapter 15】That missing corner—senior brother tore it deliberately—the technique will backfire.
-【Chapter 20】He asks senior brother why.
-```
-
-**Operational points**
-- When burying foreshadowing, disguise as unimportant tangent
-- At least five chapters apart before recovering
-- Foreshadowing must be recorded in `foreshadow.seeds` in `03-Writing-Plan.json`
-
-### 意象营造 (Imagery Construction)
-
-Use a concrete object to carry abstract emotion, throughout the entire text.
-
-**Web novel imagery usage**
-```
-【Chapter 1】Her desk has a pot of green ivy, he waters it every day.
-【Chapter 10】Ivy withered, she's gone.
-【Chapter 20】He sees the ivy again, at her grave—surrounded by blooming flowers.
+就在这时，电话响了。
+屏幕上显示：父亲。
+他已经死了三年了。
 ```
 
-**Operational points**
-- Choose concrete objects related to characters or themes
-- Appear naturally early, not emphasized
-- Concentrated explosion at key moments
-- No more than three imagery objects in one book
-
-### 蒙太奇剪辑 (Montage Editing)
-
-Create meaning through scene jumps, no smooth transitions.
-
-**Web novel usage**
+**冲突升级型**
 ```
-Wedding.
-She in wedding dress, beautiful.
+他刚走出酒店，三辆黑色奔驰挡住去路。
+"陈先生想见你。"
+"要是我不想呢？"
+```
+
+**悬念结尾型**
+```
+她低头看手机，是老公的消息：
+"宝贝，我在殡仪馆。"
+但她老公已经死了三年了。
+```
+
+---
+
+## 网文中的传统文学技巧
+
+**核心思路**：传统技巧是工具，网文爽感是目的。用传统技巧增强压抑和释放的冲击力，而不是拖慢节奏。
+
+### 白描
+
+用最简洁的笔触精确抓住本质，让场面自己说话。
+
+**压抑场面**
+```
+灯很暗。
+他蹲在角落，腿断了。
+有人走过，踢了他一脚。
+他不吭声。
+```
+
+**爽点场面**
+```
+他站起来。
+拍拍土。
+向擂台走去。
+对手在笑。
+——三招后，对手不笑了。
+```
+
+**操作要点**
+- 动词为主，形容词最少化
+- 用动作代替描述："他老了"不如"他驼着背"
+- 短句制造紧张，长句营造氛围
+
+### 留白
+
+不说的比说出的更有力量。在关键时刻用沉默制造张力。
+
+**压抑留白**
+```
+"跪下。"
+他跪下。
+膝盖撞地的声音，很响。
+没人说话。
+```
+
+**爽点留白**
+```
+他伸出手，轻轻一弹。
+对手护体灵力碎。
+考核心法长老脸色煞白。
+他还说："刚才是谁叫我废物来着？"
+——没人敢应。
+```
+
+**操作要点**
+- 对话场面：在沉默那一刻结束
+- 情感场面：写动作，不写感受
+- 高潮场面：在最高点切断
+
+### 草蛇灰线
+
+在看似随意的细节中埋下线索，隔了几章后再收回，创造"原来如此"的爽感。
+
+**伏笔公式**
+```
+第1章：随口提及（或一个随意细节）
+第5章：再次出现（不明显）
+第10章：收回并爆发
+```
+
+**示例**
+```
+【第2章】大师兄说："这功法，暂不要练。"
+【第8章】他翻到功法最后一页，发现缺了一角。
+【第15章】那缺的一角——大师兄故意撕的——功法会反噬。
+【第20章】他问大师兄为什么。
+```
+
+**操作要点**
+- 埋伏笔时，要伪装成不重要的枝节
+- 至少隔五章再收回
+- 伏笔必须在`03-Writing-Plan.json`的`foreshadow.seeds`中记录
+
+### 意象营造
+
+用具体物品承载抽象情感，贯穿全文。
+
+**网文意象用法**
+```
+【第1章】她桌上有一盆绿萝，他每天浇水。
+【第10章】绿萝枯了，她走了。
+【第20章】他再次看到那盆绿萝，在她坟前——周围开满了花。
+```
+
+**操作要点**
+- 选择与角色或主题相关的具体物品
+- 早点自然出现，不刻意强调
+- 关键时刻集中爆发
+- 一本书不超过三个意象
+
+### 蒙太奇剪辑
+
+通过场景跳跃创造意义，不过渡。
+
+**网文用法**
+```
+婚礼。
+她穿着婚纱，很美。
 ——
-Funeral hall.
-She holding memorial photo, silent.
+灵堂。
+她拿着遗像，无声。
 ——
-Three years later.
-She stands before him.
+三年后。
+她站在他面前。
 ```
 
-**Operational points**
-- Use blank lines or "——" to mark jumps
-- Choose strongly contrasting scenes
-- Contrast creates third layer meaning: A + B = C
+**操作要点**
+- 用空行或"——"标记跳跃
+- 选择对比强烈的场景
+- 对比产生第三层含义：A + B = C
 
 ---
 
-## Chapter Writing by Type
+## 按类型写章节
 
-### Climax Chapter (Famous Scene Chapter)
+### 高潮章节（名场面章）
 
-- **Word count**: 2500-3000 words
-- **Structure**: Suppression (20%) + Big suppression (30%) + Release (50%)
-- **Requirements**:
-  - 爽点 must be thoroughly written, use描白 and留白 to enhance impact
-  - At least 2 golden quotes
-  - Slap face must be thorough
+- **字数**：2500-3000字
+- **结构**：压抑（20%）+ 大压抑（30%）+ 释放（50%）
+- **要求**：
+  - 爽点必须写透，用白描和留白增强冲击力
+  - 至少2个金句
+  - 打脸必须彻底
 
-### Transition Chapter (Connecting)
+### 过渡章节（衔接）
 
-- **Word count**: 2000-2500 words
-- **Structure**: Connect to last chapter (20%) + Progress + Small爽 (60%) + Hook (20%)
-- **Requirements**:
-  - Must have one or two small爽点 to maintain rhythm
-  - Use草蛇灰线 to bury foreshadowing for later
-  - Ending hook must be strong
+- **字数**：2000-2500字
+- **结构**：接上章（20%）+ 推进+ 小爽（60%）+ 钩子（20%）
+- **要求**：
+  - 必须有一两个小爽点维持节奏
+  - 用草蛇灰线埋下后续伏笔
+  - 结尾钩子必须强
 
-### Emotional Chapter (Sweet/Angst)
+### 情感章节（甜/虐）
 
-- **Word count**: 2000-3000 words
-- **Structure**: Daily (30%) + Conflict/Jealousy (30%) + Sugar/Angst point (40%)
-- **Requirements**:
-  - Use imagery to build emotion (keepsake, letter, promise)
-  - Sugar must be thorough, use留白 to create heart flutters
-  - Angst must be到位, but Chapter 4 must warm up
+- **字数**：2000-3000字
+- **结构**：日常（30%）+ 冲突/吃醋（30%）+ 撒糖/虐点（40%）
+- **要求**：
+  - 用意象营造情感（信物、信、承诺）
+  - 撒糖要彻底，用留白制造心跳
+  - 虐要到位，但第4章必须暖回来
 
-### Leveling Up Chapter (Breakthrough/Gain)
+### 升级章节（突破/获得）
 
-- **Word count**: 2500-3000 words
-- **Structure**: Predicament (30%) + Opportunity (20%) + Breakthrough (30%) + Verification (20%)
-- **Requirements**:
-  - Use蒙太奇 to skip repetitive cultivation process
-  - Breakthrough has ritual sense (heavenly signs, etc.)
-  - Verification uses new strength against old enemies
-
----
-
-## Word Count Control
-
-| Chapter Type | Word Count Range | Description |
-|-------------|------------------|-------------|
-| Standard chapter | 2000-2500 words | Default target |
-| Climax chapter | 2500-3000 words | Famous scene, leveling, slap face |
-| Transition chapter | 1800-2500 words | Can be slightly shorter if rhythm requires |
-
-**Remedies for insufficient words**
-- Add one secondary爽点
-- Add one golden quote
-- Use描白 to expand slap face/show-off details
-- Add one supporting character's reaction
-
-**Cutting for excess words**
-- Delete transitional sentences that don't advance plot
-- Delete repetitive emotional descriptions
-- Delete unnecessary environment descriptions
-- Streamline dialogue, delete nonsense
+- **字数**：2500-3000字
+- **结构**：困境（30%）+ 机遇（20%）+ 突破（30%）+ 验证（20%）
+- **要求**：
+  - 用蒙太奇跳过重复修炼过程
+  - 突破要有仪式感（天地异象等）
+  - 验证用新实力打旧敌人
 
 ---
 
-## Chapter Self-Checklist
+## 字数控制
 
-### 爽点 Check
-- [ ] What is this chapter's爽点 type? (Slap face/leveling/sweet/show-off)
-- [ ] Does the爽点 appear or get foreshadowed in the first 20%?
-- [ ] Is the suppression → satisfaction rhythm到位?
-- [ ] Is the爽点 written thoroughly?
+| 章节类型 | 字数范围 | 描述 |
+|---------|---------|------|
+| 标准章节 | 2000-2500字 | 默认目标 |
+| 高潮章节 | 2500-3000字 | 名场面、升级、打脸 |
+| 过渡章节 | 1800-2500字 | 节奏需要时可以稍短 |
 
-### Golden Quote Check
-- [ ] Does this chapter have a golden quote?
-- [ ] Where is the golden quote? (Ending/climax)
-- [ ] Does the golden quote have literary quality? (Not plain talk)
+**字数不够的补救**
+- 加一个副爽点
+- 加一个金句
+- 用白描扩展打脸/装逼细节
+- 加一个配角的反应
 
-### Hook Check
-- [ ] Is there a hook at the ending?
-- [ ] What type is the hook? (Suspense/conflict/information bomb)
-- [ ] Will readers want to read the next chapter?
-
-### Word Count Check
-- [ ] How many words in this chapter?
-- [ ] Is word count in reasonable range?
-- [ ] Any paragraphs padding word count?
-
-### Coherence Check
-- [ ] Does it connect to the last chapter?
-- [ ] Are character states correct?
-- [ ] Is foreshadowing buried? (If planned)
-
-### Traditional Technique Check
-- [ ] 白描: Are key scenes using action rather than description?
-- [ ] 留白: Is there blank space at climax/turn for reader to savor?
-- [ ] 草蛇灰线: Is foreshadowing naturally buried and recorded?
-- [ ] 意象: Does emotion have a concrete carrier?
-
-### Dialogue Check
-- [ ] Does dialogue match character personality?
-- [ ] Cold characters shouldn't talk much, humorous characters need quips
-- [ ] Any meaningless dialogue?
+**字数超标的削减**
+- 删除不推进情节的过渡句
+- 删除重复的情绪描写
+- 删除不必要的环境描写
+- 精简对话，删除废话
 
 ---
 
-## AI Flavor Removal
+## 章节自检清单
 
-### High-Frequency AI Words (Change immediately upon appearance)
+### 爽点检查
+- [ ] 这章爽点类型是什么？（打脸/升级/甜宠/装逼）
+- [ ] 爽点在前20%出现了或被铺垫了？
+- [ ] 压抑→释放节奏到位了？
+- [ ] 爽点写透了？
 
-| AI Word | Replacement |
-|---------|-------------|
-| "值得注意的是" | Delete directly or rewrite |
-| "不禁""油然而生" | Replace with specific emotion |
-| "仿佛""宛如" | Use real metaphor or delete |
-| "这一刻" | Delete or specify |
-| "彰显""诠释""赋能" | Replace with specific action |
+### 金句检查
+- [ ] 这章有金句吗？
+- [ ] 金句在哪里？（结尾/高潮）
+- [ ] 金句有文学质量吗？（不是大白话）
 
-### Sentence Problems
+### 钩子检查
+- [ ] 结尾有钩子吗？
+- [ ] 钩子是什么类型？（悬疑/冲突/信息炸弹）
+- [ ] 读者会想看下一章吗？
 
-| AI Sentence | Problem | Correction |
-|-------------|---------|------------|
-| "He did A, he did B, he did C" | Monotonous structure | Combine, omit subject |
-| "She is beautiful, she is kind, she is gentle" | Adjective pile-up | Show through scene |
-| "He took a deep breath, then..." | Walk through | Enter plot directly |
+### 字数检查
+- [ ] 这章多少字？
+- [ ] 字数在合理范围内吗？
+- [ ] 有凑字数的段落吗？
 
-### De (的) Control
+### 连贯性检查
+- [ ] 接上章了吗？
+- [ ] 角色状态对吗？
+- [ ] 伏笔埋了吗？（如果有计划）
 
-- No more than 2 de per sentence
-- Absolutely no "的的"
-- Simplify modifiers whenever possible
+### 传统技巧检查
+- [ ] 白描：关键场面用动作而不是描述？
+- [ ] 留白：高潮/转折处有留白让读者回味？
+- [ ] 草蛇灰线：伏笔自然埋下并记录了？
+- [ ] 意象：情感有具体载体？
 
----
-
-## Quality Scoring (Hit Web Novel + Literary Standards)
-
-| Dimension | Score | Description |
-|-----------|-------|-------------|
-| 爽点 Design | /25 | Is this chapter's爽点 thorough? Rhythm correct? |
-| Opening Hook | /20 | First 20% hook readers? Literary quality? |
-| Golden Quote Density | /15 | Any quotes readers want to screenshot? Literary quality? |
-| Ending Hook | /15 | Will readers chase next chapter? |
-| Emotional Curve | /15 | Suppression → satisfaction arc? Traditional techniques used? |
-| Word Count Control | /10 | Within 2000-3000 range? |
-| **Total** | **/100** | **>70 deliverable, >85 hit** |
-
----
-
-## Genre-Specific Checks
-
-### Urban Power Fantasy
-- [ ] Is slap face狠enough? (Slap face is core)
-- [ ] Is there identity contrast? (President/soldier king/divine doctor)
-- [ ] Is show-off狠? (Only forced when absolutely necessary)
-
-### Fantasy Xianxia
-- [ ] Does leveling up have ritual sense? (Heaventy signs)
-- [ ] Is the realm system clear?
-- [ ] Is resource competition fierce?
-- [ ] Is world built through small scenes not long explanations?
-
-### Rebirth/Time Travel
-- [ ] Is rebirth advantage used? (Prophet/experience)
-- [ ] Is past life's regret shown? (Revenge/compensation)
-- [ ] Is butterfly effect written?
-
-### Sweet Romance
-- [ ] Is sugar sweet enough?
-- [ ] Is there jealousy scene?
-- [ ] Can misunderstandings be resolved?
-- [ ] Is there imagery throughout? (Like keepsake, promise)
+### 对话检查
+- [ ] 对话符合角色性格吗？
+- [ ] 冷漠角色话不多，搞笑角色需要妙语
+- [ ] 有没有没意义的对话？
 
 ---
 
-## Pre/During/Post Writing Check Process
+## AI味道去除
 
-### Pre-Writing Three Questions
-1. **What is this chapter's爽点?** — No爽点, don't write
-2. **Where does it connect to the last chapter?** — Must connect
-3. **What is foreshadowed for next chapter?** — Hook must be pre-designed
+### 高频AI词汇（出现即改）
 
-### During Writing Three Checks
-1. Every 500 words: Any progress?
-2. Is suppression enough? Time to release?
-3. Are traditional techniques naturally integrated? (Not forcibly inserted)
+| AI词汇 | 替换 |
+|--------|------|
+| "值得注意的是" | 直接删除或重写 |
+| "不禁""油然而生" | 换成具体情感 |
+| "仿佛""宛如" | 用真实比喻或删除 |
+| "这一刻" | 删除或具体化 |
+| "彰显""诠释""赋能" | 换成具体动作 |
 
-### Post-Writing Three Inspections
-1. Is爽点 thorough enough?
-2. Is there a golden quote?
-3. Is the hook strong?
+### 句式问题
+
+| AI句式 | 问题 | 修正 |
+|--------|------|------|
+| "他做了A，他做了B，他做了C" | 句式单调 | 合并，省略主语 |
+| "她很美，她很善良，她很温柔" | 形容词堆砌 | 用场面展示 |
+| "他深吸一口气，然后……" | 拖沓 | 直接进入情节 |
+
+### 的（de）控制
+
+- 每句话"的"不超过2个
+- 绝对不能有"的的"
+- 能简化的修饰词尽量简化
+
+---
+
+## 质量评分（爆款网文+文学标准）
+
+| 维度 | 分值 | 描述 |
+|------|------|------|
+| 爽点设计 | /25 | 这章爽点透不透彻？节奏对不对？ |
+| 开篇钩子 | /20 | 前20%钩住读者了？文学质量？ |
+| 金句密度 | /15 | 有让读者想截图的金句？文学质量？ |
+| 结尾钩子 | /15 | 读者会追下一章吗？ |
+| 情绪曲线 | /15 | 压抑→释放弧线？传统技巧用了？ |
+| 字数控制 | /10 | 在2000-3000范围内？ |
+| **总分** | **/100** | **>70可交付，>85是爆款** |
+
+---
+
+## 类型专项检查
+
+### 都市爽文
+- [ ] 打脸够狠吗？（打脸是核心）
+- [ ] 有身份对比吗？（总裁/兵王/神医）
+- [ ] 装逼够狠吗？（绝对必要才出手）
+
+### 玄幻仙侠
+- [ ] 升级有仪式感吗？（天地异象）
+- [ ] 境界体系清晰吗？
+- [ ] 资源争夺激烈吗？
+- [ ] 世界观通过小场面而非长解释展现？
+
+### 重生/穿越
+- [ ] 重生优势用了吗？（先知/经验）
+- [ ] 上辈子的遗憾展现了吗？（复仇/弥补）
+- [ ] 蝴蝶效应写了吗？
+
+### 甜宠
+- [ ] 撒糖够甜吗？
+- [ ] 有吃醋场面吗？
+- [ ] 误会能解开吗？
+- [ ] 有贯穿全文的意象吗？（如信物、承诺）
+
+---
+
+## 写前/写中/写后检查流程
+
+### 写前三问
+1. **这章爽点是什么？** — 没爽点，不写
+2. **接上章哪里？** — 必须接上
+3. **为下一章埋什么钩子？** — 钩子必须提前设计
+
+### 写中三查
+1. 每500字：有没有推进？
+2. 压抑够了吗？该释放了？
+3. 传统技巧自然融入了吗？（不是强行插入）
+
+### 写后三检
+1. 爽点够透吗？
+2. 有金句吗？
+3. 钩子强吗？

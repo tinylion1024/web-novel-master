@@ -1,346 +1,346 @@
-# Trope Catalog
+# 套路目录
 
-Web novel golden tropes are writing templates verified by market testing. Mastering these tropes gives your novel built-in traffic appeal.
-
----
-
-## 1. Divorce Trope
-
-### Trope Overview
-
-Classic废物 material counterattack template, protagonist suppressed early, crushes and slaps face later.
-
-### Core Structure
-
-```
-【Stage 1: Humiliation】
-→ Fiancée/family publicly divorces
-→ Protagonist mocked as "废物"
-→ Humiliation狠enough, readers hold their breath
-
-【Stage 2: Accumulation】
-→ Protagonist accidentally gains inheritance/system/memory
-→ Strength begins to grow
-→ Secretly develop, don't show off
-
-【Stage 3: Slap Face】
-→ Reunite with those who humiliated
-→ Identity/strength completely crushes
-→ Golden quote ending: "Do you remember what you said back then?"
-```
-
-### Variation Play
-
-| Type | Humiliation Way | Slap Face Way |
-|------|-----------------|---------------|
-| Divorce flow | Public divorce, throw divorce letter | Identity revealed, fiancée regrets |
-| Divorce husband flow | Strong female weak male, reversed slap face | Female lead discovers male lead is hidden boss |
-| Betrayed clan flow | Expelled from clan | Returns to find clan needs him |
-
-### Famous Quote Templates
-
-> "Today's divorce, from now on men and women marry as they wish, no relation to each other."
->
-> "Thirty years east of the river, thirty years west of the river, don't欺youth穷!"
+网文金套路是经过市场验证的写作模板。掌握这些套路，你的小说就具备了流量吸引力。
 
 ---
 
-## 2. System Trope
+## 1. 退婚套路
 
-### Trope Overview
+### 套路概述
 
-Protagonist obtains an外挂 system, completes tasks for rewards, fast rhythm.
+经典废物材料逆袭模板，主角前期被压制，后期打脸翻盘。
 
-### Core Structure
-
-```
-【Activation】
-→ Desperate/death/major setback
-→ System activates
-→ Newbie quest released
-
-【Task Driven】
-→ Task complete → Reward → Strength increase
-→ Side quest → Special reward
-→ Hidden quest → High-level reward
-
-【Leveling Loop】
-→ Get stronger → New enemies → Stronger tasks → Stronger rewards
-```
-
-### System Types
-
-| Type | Feature | Excitement |
-|------|---------|-----------|
-| Task System | Publish tasks, complete for rewards | Task reward feeling |
-| Choice System | Branching choices, different results | Fate control feeling |
-| Check-in System | Daily check-in, cumulative rewards | Habit dependency |
-| Summon System | Can summon historical figures to battle | Famous general showdown |
-| Synthesis System | Synthesize low-level to high-level | Artifact refining快感 |
-| Live Stream System | Live stream abilities for gifts/powers | Audience interaction |
-
-### Famous Quote Templates
-
-> "Ding! Detect宿主 life-threatening, activate新手大礼包?"
->
-> "Ding! Congratulations on first kill, reward屠龙刀 one!"
->
-> "With system in hand, I dominate the world."
-
----
-
-## 3. Rebirth Trope
-
-### Trope Overview
-
-Protagonist returns to the past with memories of previous life, uses prophet advantage to reverse fate.
-
-### Core Structure
+### 核心结构
 
 ```
-【Death/Major Failure】
-→ Protagonist suffers betrayal/failure/death
-→ Remembers key information before dying
+【阶段一：屈辱】
+→ 未婚妻/家族当众退婚
+→ 主角被嘲笑为"废物"
+→ 屈辱要狠，读者才屏住呼吸
 
-【Rebirth Node】
-→ Returns to past point in time
-→ Retains previous life memories and skills
-→ Knows major events about to happen in future
+【阶段二：积累】
+→ 主角意外获得传承/系统/记忆
+→ 实力开始增长
+→ 暗中发展，不要张扬
 
-【Prophet Advantage】
-→ Advance planning, avoid risks
-→ Attach to big shots, invest in potential
-→ Revenge on enemies, crush opponents
+【阶段三：打脸】
+→ 与当初羞辱自己的人重逢
+→ 身份/实力全面碾压
+→ 金句收尾："你还记得当初说的话吗？"
 ```
 
-### Rebirth Types
+### 变体玩法
 
-| Type | Feature | Core Excitement |
-|------|---------|----------------|
-| Apocalypse Rebirth | Before zombie/disaster | Hoard supplies/build base/kill mutated beasts |
-| Campus Rebirth | Return to student era | Make up for regrets/chase first love/get into top school |
-| Historical Rebirth | Transmigrate to ancient/nationalist era | Know historical trajectory/technology copy作业 |
-| Immortal Emperor Rebirth | Rebirth after reaching pinnacle | Know all artifact/technique/pill secrets |
-| Stone Gambling Rebirth | Rebirth before stone gambling | One cut rich/emerald帝王绿 |
-
-### Famous Quote Templates
-
-> "This life, I won't let you succeed again."
->
-> "In my previous life I was blind, this life... it's my turn to dominate the world."
-
----
-
-## 4. Leveling Trope
-
-### Trope Overview
-
-Protagonist continuously breaks through in a clear level system, strong sense of rhythm.
-
-### Level System Examples
-
-```
-【Cultivation Levels】(Fantasy/Xianxia)
-Foundation Building → Golden Core → Nascent Soul → Yuan Ying →化神 → 大乘 → Tribulation → True Immortal
-
-【Urban Levels】(Ability/Business)
-Ordinary → Entry → Elite → Master → Grandmaster → Legend → God
-
-【Academy Levels】(Campus/Otherworld)
-Bronze → Silver → Gold → Platinum → Diamond → King → Honor
-```
-
-### Leveling Rhythm Formula
-
-```
-Every 10 chapters: Small breakthrough 1
-Every 20 chapters: Medium breakthrough 1
-Every 50 chapters: Large breakthrough 1
-Bottleneck → Crisis → Enlightenment → Breakthrough → New realm
-```
-
-### Leveling Famous Scenes
-
-- Heavenly signs when breaking through
-- Enemy's shock when discovering protagonist broke through
-- Strength display after breakthrough
-
----
-
-## 5. Mask Trope
-
-### Trope Overview
-
-Protagonist splits into multiple分身/masks, each identity has independent storyline.
-
-### Core Structure
-
-```
-【本体】Strong strength, hidden identity
-【分身/Mask】Each has independent identity
-【Identity Switch】Switch based on situation
-【Final Reveal】All masks are the same person
-```
-
-### Mask Types
-
-| Type | Feature | Excitement |
-|------|---------|-----------|
-| Clone Flow | Multiple clones acting simultaneously | Multi-line operation/clone counterattack |
-| Mask Flow | Different identity in different situation | Identity switch/reveal shock |
-| Split Personality | Main personality/secondary personality switch | Different personalities have different abilities |
-| Substitute Flow | Multiple substitutes代替本人 |狡兔三窟/information gap |
-
-### Famous Scenes
-
-> "Actually... all three identities are him."
->
-> "What? Divine doctor, soldier king, top tycoon... all the same person?"
-
----
-
-## 6. Live Stream Trope
-
-### Trope Overview
-
-Protagonist displays abilities on live stream platform, audience interaction affects plot.
-
-### Core Structure
-
-```
-【Live Stream Starts】
-→ Display special ability/skill
-→ Audience shocked/questioning
-→ Gift/barrage interaction
-
-【Slap Face Link】
-→ Someone questions it's fake
-→ Protagonist proves with strength
-→ Audience brushes screen "NiuX"
-
-【Heat Increases】
-→ Fans increase/gifts explode
-→ Trigger bigger attention
-→ Connect/PK other streamers
-```
-
-### Live Stream Types
-
-| Type | Content | Excitement |
-|------|---------|-----------|
-| Wilderness Live | Wilderness survival/building | Hardcore skills/危机化解 |
-| Gaming Live | Esports/clear level | Technical crush/penta kill |
-| Metaphysics Live | Fortune telling/feng shui/ghost catching | Accurate prediction/ghost appears |
-| Gourmet Live | Top cooking/web celebrity shop | Delicious to tears/queue three kilometers |
-| Antique Appraisal Live | Antique appraisal/stone gambling | One night rich/eye slip |
-
----
-
-## 7. Pet/Pet System Trope
-
-### Trope Overview
-
-Protagonist has unique pet/beast, grow together.
-
-### Core Structure
-
-```
-【Obtain Pet】
-→ Accidentally obtain rare pet
-→ Pet seems ordinary, actually powerful
-→ Sign contract, grow together
-
-【Grow Together】
-→ Pet evolves/levels up
-→ Pet saves master/master saves pet
-→ Bond deepens, strength multiplies
-
-【Ultimate Form】
-→ Pet awakens ultimate form
-→ Sweep everything, shock everyone
-→ Bond unbreakable
-```
-
-### Pet Types
-
-| Type | Example | Feature |
+| 类型 | 屈辱方式 | 打脸方式 |
 |------|---------|---------|
-| Evolution Type | Small snake → Flood Dragon → True Dragon | Clear growth line |
-| Fusion Type | Pet fuses with master | Battle power multiplies |
-| Summon Type | Can summon multiple pets | Group battle advantage |
-| Symbiosis Type | Pet is master | Life and death linked |
+| 退婚流 | 当众退婚，扔退婚书 | 身份曝光，未婚妻后悔 |
+| 退婚赘婿流 | 女方强男方弱，反向打脸 | 女主角发现男主角是隐藏大佬 |
+| 被家族抛弃流 | 被逐出家族 | 回归时发现家族需要他 |
+
+### 金句模板
+
+> "今日退婚，从今以后男女婚嫁各不相干。"
+>
+> "三十年河东，三十年河西，莫欺少年穷！"
 
 ---
 
-## 8. Inheritance Trope
+## 2. 系统套路
 
-### Trope Overview
+### 套路概述
 
-Protagonist receives ancient/mythical powerhouse inheritance, unlocks step by step.
+主角获得外挂系统，完成任务获取奖励，节奏快。
 
-### Core Structure
+### 核心结构
 
 ```
-【Discover Inheritance】
-→ Accidentally gain inheritance ground
-→ Accept inheritance trial
-→ Pass trial, receive inheritance
+【激活】
+→ 绝望/死亡/重大挫折
+→ 系统激活
+→ 新手任务发布
 
-【Unlock Upgrade】
-→ Inheritance has multiple layers
-→ Gradually unlock higher-level content
-→ Each unlock is an excitement point
+【任务驱动】
+→ 任务完成 → 奖励 → 实力提升
+→ 支线任务 → 特殊奖励
+→ 隐藏任务 → 高级奖励
 
-【Ultimate Inheritance】
-→ Receive strongest inheritance
-→ Strength crushes peers
-→ Become new legend
+【升级循环】
+→ 变强 → 新敌人 → 更强任务 → 更强奖励
 ```
 
-### Inheritance Types
+### 系统类型
 
-| Type | Example | Excitement |
-|------|---------|-----------|
-| Technique Inheritance | Obtain ancient techniques | Technique crush |
-| Skill Inheritance | Obtain lost skills | Artistry shock |
-| Memory Inheritance | Obtain powerhouse memories | Omniscient |
-| Master Disciple Inheritance | Accept master-disciple transmission | Identity reversal |
+| 类型 | 特点 | 爽点 |
+|------|------|------|
+| 任务系统 | 发布任务，完成获取奖励 | 任务奖励感 |
+| 选择系统 | 分支选择，不同结果 | 命运掌控感 |
+| 签到系统 | 每日签到，累计奖励 | 习惯依赖 |
+| 召唤系统 | 可召唤历史人物作战 | 名将对决 |
+| 合成系统 | 合成低阶到高阶 | 神器炼制爽感 |
+| 直播系统 | 直播能力获取礼物/力量 | 观众互动 |
 
----
+### 金句模板
 
-## 9. Combined Trope Formulas
-
-Hit web novels usually combine multiple tropes.
-
-### Common Golden Combinations
-
-| Combination | Description | Applicable Types |
-|-------------|-------------|------------------|
-| System + Leveling | System issues tasks, rewards promote leveling | Fantasy/Urban |
-| Rebirth + Revenge | Rebirth to revenge on enemies | Urban/Historical |
-| Divorce + System | Divorce activates system | Fantasy/Xianxia |
-| Live Stream + Slap Face | Live stream slaps face questioners | Urban/Ability |
-| Inheritance + Leveling | Inheritance assists leveling | Fantasy/Xianxia |
-| Rebirth + Sweet | Rebirth chases lover | Urban/Campus |
-| System + Sweet | System matches marriage | Urban/Modern |
-| Mask + Identity Reveal | Multiple masks ultimately revealed | Urban/Professional |
-
-### Trope Selection Principles
-
-1. **Select one main trope** as core framework
-2. **Add one secondary trope** for variation and excitement
-3. **Emotion line throughout** to increase reader粘性
-4. **Antagonists continuously cause trouble** to maintain conflict
+> "叮！检测到宿主生命危险，激活新手大礼包？"
+>
+> "叮！恭喜首杀，奖励屠龙刀一把！"
+>
+> "有了系统在手，我制霸天下。"
 
 ---
 
-## 10. Trope Pitfall Guide
+## 3. 重生套路
 
-| Pitfall | Problem | Solution |
-|---------|---------|----------|
-| Trope too old | Readers审美疲劳 | New wine in old bottle, add new elements |
-| Trope too messy | No main line | One main trope throughout |
-| Rhythm out of control | First 10 chapters no excitement | Chapter 1 must have hook |
-| Antagonist too stupid | Slap face not爽 | Antagonist must be strong, slap face才爽 |
-| System too invincible | No crisis | Add system restrictions/cooldowns |
-| Leveling too easy | No sense of achievement | Bottleneck + crisis + breakthrough cycle |
+### 套路概述
+
+主角带着前世记忆回到过去，利用先知优势扭转命运。
+
+### 核心结构
+
+```
+【死亡/重大失败】
+→ 主角遭受背叛/失败/死亡
+→ 临死前记起关键信息
+
+【重生节点】
+→ 回到过去的某个时间点
+→ 保留前世记忆和技能
+→ 知道未来即将发生的大事
+
+【先知优势】
+→ 提前布局，规避风险
+→ 依附大佬，投资潜力股
+→ 复仇敌人，碾压对手
+```
+
+### 重生类型
+
+| 类型 | 特点 | 核心爽点 |
+|------|------|---------|
+| 末世重生 | 丧尸/灾难来临前 | 囤物资/建基地/杀变异兽 |
+| 校园重生 | 回到学生时代 | 弥补遗憾/追初恋/考名校 |
+| 历史重生 | 穿越到古代/民国 | 知道历史走向/科技复制作业 |
+| 仙帝重生 | 达到巅峰后重生 | 知道所有神器/功法/丹药秘密 |
+| 赌石重生 | 赌石前重生 | 一刀富/帝王绿 |
+
+### 金句模板
+
+> "这一世，我不会让你得逞。"
+>
+> "上辈子我瞎了眼，这一世……该我制霸天下了。"
+
+---
+
+## 4. 升级套路
+
+### 套路概述
+
+主角在明确的等级体系中不断突破，节奏感强。
+
+### 等级体系示例
+
+```
+【修炼等级】（玄幻/仙侠）
+筑基 → 金丹 → 元婴 → 化神 → 大乘 → 渡劫 → 真仙
+
+【都市等级】（异能/商战）
+普通 → 入门 → 精英 → 大师 → 宗师 → 传奇 → 神
+
+【学院等级】（校园/异界）
+青铜 → 白银 → 黄金 → 铂金 → 钻石 → 王者 → 荣耀
+```
+
+### 升级节奏公式
+
+```
+每10章：小突破1次
+每20章：中突破1次
+每50章：大突破1次
+瓶颈 → 危机 → 顿悟 → 突破 → 新境界
+```
+
+### 升级名场面
+
+- 突破时的天地异象
+- 敌人发现主角突破后的震惊
+- 突破后展示实力
+
+---
+
+## 5. 马甲套路
+
+### 套路概述
+
+主角分裂成多个分身/马甲，每个身份有独立的剧情线。
+
+### 核心结构
+
+```
+【本体】实力强大，隐藏身份
+【分身/马甲】每个有独立身份
+【身份切换】根据情况切换
+【最终揭露】所有马甲都是同一人
+```
+
+### 马甲类型
+
+| 类型 | 特点 | 爽点 |
+|------|------|------|
+| 克隆流 | 多个克隆体同时行动 | 多线操作/克隆反杀 |
+| 马甲流 | 不同情况不同身份 | 身份切换/揭露震撼 |
+| 人格分裂流 | 主性格/副人格切换 | 不同人格有不同能力 |
+| 替身流 | 多个替身代替本人 | 狡兔三窟/信息差 |
+
+### 名场面
+
+> "其实……三个身份都是他。"
+>
+> "什么？神医、兵王、首富……都是同一个人？"
+
+---
+
+## 6. 直播套路
+
+### 套路概述
+
+主角在直播平台展示能力，观众互动影响剧情。
+
+### 核心结构
+
+```
+【直播开始】
+→ 展示特殊能力/技艺
+→ 观众震惊/质疑
+→ 礼物/弹幕互动
+
+【打脸联动】
+→ 有人质疑是假的
+→ 主角用实力证明
+→ 观众刷屏"牛X"
+
+【热度攀升】
+→ 粉丝增长/礼物爆发
+→ 引发更大关注
+→ 连麦/PK其他主播
+```
+
+### 直播类型
+
+| 类型 | 内容 | 爽点 |
+|------|------|------|
+| 荒野直播 | 荒野求生/搭建 | 硬核技能/危机化解 |
+| 游戏直播 | 电竞/冲段 | 技术碾压/五杀 |
+| 玄学直播 | 算命/风水/抓鬼 | 精准预测/鬼出现 |
+| 美食直播 | 顶级烹饪/网红店 | 好吃到哭/排队三公里 |
+| 古玩鉴定直播 | 古玩鉴定/赌石 | 一夜暴富/眼力失误 |
+
+---
+
+## 7. 宠物/灵兽系统套路
+
+### 套路概述
+
+主角拥有独特的宠物/灵兽，共同成长。
+
+### 核心结构
+
+```
+【获得灵兽】
+→ 意外获得稀有灵兽
+→ 灵兽看似普通实则强大
+→ 签订契约，共同成长
+
+【共同成长】
+→ 灵兽进化/升级
+→ 灵兽救主/主救灵兽
+→ 羁绊加深，实力倍增
+
+【终极形态】
+→ 灵兽觉醒终极形态
+→ 横扫一切，震惊众人
+→ 羁绊牢不可破
+```
+
+### 灵兽类型
+
+| 类型 | 示例 | 特点 |
+|------|------|------|
+| 进化型 | 小蛇 → 蛟龙 → 真龙 | 成长线清晰 |
+| 融合型 | 灵兽与主人融合 | 战力倍增 |
+| 召唤型 | 可召唤多只灵兽 | 群战优势 |
+| 共生型 | 灵兽即主人 | 生死相连 |
+
+---
+
+## 8. 传承套路
+
+### 套路概述
+
+主角获得古代/神话强者传承，一步步解锁。
+
+### 核心结构
+
+```
+【发现传承】
+→ 意外获得传承之地
+→ 接受传承考验
+→ 通过考验，获得传承
+
+【解锁升级】
+→ 传承有多层
+→ 逐渐解锁更高级内容
+→ 每次解锁都是一个爽点
+
+【终极传承】
+→ 获得最强传承
+→ 实力碾压同辈
+→ 成为新的传说
+```
+
+### 传承类型
+
+| 类型 | 示例 | 爽点 |
+|------|------|------|
+| 功法传承 | 获得古代功法 | 功法碾压 |
+| 技艺传承 | 获得失传技艺 | 技艺震惊 |
+| 记忆传承 | 获得强者记忆 | 全知全能 |
+| 师徒传承 | 接受师徒传承 | 身份逆转 |
+
+---
+
+## 9. 组合套路公式
+
+爆款网文通常是多种套路组合。
+
+### 常见黄金组合
+
+| 组合 | 描述 | 适用类型 |
+|------|------|---------|
+| 系统+升级 | 系统发布任务，奖励促进升级 | 玄幻/都市 |
+| 重生+复仇 | 重生复仇敌人 | 都市/历史 |
+| 退婚+系统 | 退婚激活系统 | 玄幻/仙侠 |
+| 直播+打脸 | 直播打脸质疑者 | 都市/异能 |
+| 传承+升级 | 传承辅助升级 | 玄幻/仙侠 |
+| 重生+甜宠 | 重生追爱人 | 都市/校园 |
+| 系统+甜宠 | 系统配婚 | 都市/现代 |
+| 马甲+身份揭露 | 多个马甲最终揭露 | 都市/职场 |
+
+### 套路选择原则
+
+1. **选择一个主套路**作为核心框架
+2. **添加一个副套路**作为变化和爽点
+3. **情感线贯穿**增加读者粘性
+4. **反派不断搞事**维持冲突
+
+---
+
+## 10. 套路避坑指南
+
+| 坑 | 问题 | 解决方案 |
+|---|------|---------|
+| 套路太老 | 读者审美疲劳 | 旧瓶装新酒，添加新元素 |
+| 套路太乱 | 没有主线 | 一个主套路贯穿始终 |
+| 节奏失控 | 前10章没有爽点 | 第1章必须有钩子 |
+| 反派太蠢 | 打脸不爽 | 反派必须强大，打脸才爽 |
+| 系统太无敌 | 没有危机 | 添加系统限制/冷却时间 |
+| 升级太容易 | 没有成就感 | 瓶颈+危机+突破循环 |

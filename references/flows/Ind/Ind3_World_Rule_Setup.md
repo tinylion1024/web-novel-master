@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 3: World & Rule Setup
+# Industrial 模式 - Phase 3：世界规则
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 4/10

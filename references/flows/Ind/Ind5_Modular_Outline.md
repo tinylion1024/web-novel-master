@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 5: Modular Outline
+# Industrial 模式 - Phase 5：模块化大纲
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 6/10

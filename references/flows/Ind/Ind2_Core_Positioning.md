@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 2: Core Positioning
+# Industrial 模式 - Phase 2：核心定位
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 3/10

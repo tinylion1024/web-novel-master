@@ -1,4 +1,4 @@
-# Fast Mode - Phase 1: Idea Clarify
+# Fast 模式 - Phase 1：想法明确
 
 **模式**: Fast 快速模式（爱好者・极简）
 **Phase数**: 2/5

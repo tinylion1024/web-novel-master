@@ -1,479 +1,562 @@
-# Scene Template Library
+# 场景模板库
 
-Templates for famous scenes in hit web novels across various genres, ready to apply directly.
-
----
-
-## 1. Urban Power Fantasy Scene Templates
-
-### 1. Divine Doctor Scene
-
-**Scene: Terminal patient → No one can save → Protagonist acts → Shocks everyone**
-
-```
-【Premise】Patient critically ill, Western medicine declares ineffective, family collapses
-
-【Obstacle】Director expert blocks: "What right does an intern have..."
-
-【Slap Face】Protagonist three needles down/one medicine/one sentence
-        ↓
-Patient improves/recovers
-        ↓
-Director: "That's impossible!"
-        ↓
-Experts/leaders/ dean shocked
-        ↓
-Protagonist questioned about background
-
-【Golden Quote】
-"Things Western medicine can't do, traditional Chinese medicine can."
-"Three years of unremarkable intern, today opens your eyes."
-"Not that I look down on Western medicine, you just fell a bit short."
-```
-
-### 2. Soldier King Scene
-
-**Scene: 废物 son-in-law humiliated → Old acquaintance arrives → Identity revealed → Everyone kneels**
-
-```
-【Premise】Father-in-law/wife mocked, protagonist treated as废物
-
-【Conflict】"You废物, can't even protect your wife!"
-
-【Reversal】Military vehicles stop at entrance
-        General/boss/old comrade appears
-        ↓
-"Commander! Subordinate arrives late!"
-        ↓
-General salutes废物 son-in-law
-        ↓
-Complete silence
-
-【Golden Quote】
-"I just wanted to be a废物quietly, you wouldn't let me."
-"What I protected back then, no one can touch."
-"Commander? Oh, that was in another era."
-```
-
-### 3. President Scene
-
-**Scene: Contract marriage → Public humiliation → Identity曝光 → Slap face**
-
-```
-【Premise】Female/male lead hides identity, treated as poor/废物
-
-【Conflict】Rival throws check/explicit divorce/mocks lack of money
-        ↓
-"30 million, buy her one night, enough?"
-        ↓
-Protagonist picks up check, smiles
-
-【Reversal】Female/male lead reveals identity
-        ↓
-"XX Group boss/largest shareholder/actual controller"
-        ↓
-Rival's family needs to beg protagonist
-        ↓
-Protagonist calmly: "Keep the money for treatment."
-
-【Golden Quote】
-"I never said I didn't have money, you assumed I didn't."
-"The contract only protects her, not you."
-"Want to buy my wife for a night? Your money enough to buy your whole family's lives?"
-```
-
-### 4. Bodyguard Scene
-
-**Scene: Employer threatened → Protagonist acts → One beats ten → Shocks**
-
-```
-【Premise】Employer kidnapped/threatened/in crisis
-        ↓
-Bodyguards/security easily beaten
-        ↓
-"No one can save you now."
-
-【Explosion】Protagonist acts
-        ↓
-One beats ten/twenty/a hundred
-        ↓
-Clean and decisive movements, effortless
-        ↓
-Enemy goes from arrogant to terrified
-
-【Golden Quote】
-"The high salary I charge is because I'm worth it."
-"Trying to touch who I protect? I give you three seconds to run."
-"Relax, I have分寸, they won't die."
-```
+各类热门网文名场面的模板，可直接套用。
 
 ---
 
-## 2. Fantasy Xianxia Scene Templates
+## 1. 都市爽文场景模板
 
-### 1. Waste Material Counterattack Scene
+### 1. 神医场面
 
-**Scene: Dan破碎 → Public divorce → Accidental awakening → Shocks entire sect**
-
-```
-【Suppression】Dan test: 废物, not qualified to be a cultivator
-        ↓
-Divorce scene: Fiancée publicly returns marriage contract
-        ↓
-"废物not worthy to enter my Zhao family door."
-        ↓
-Whole sect laughs
-
-【Explosion】Protagonist takes contract, smiles
-        ↓
-In mind: Sleeping inheritance awakens/ring old man/system activates
-        ↓
-A surge of momentum erupts from protagonist
-        ↓
-Test stone: Not废物, top talent!
-        ↓
-Elders/Sect Master shocked
-
-【Golden Quote】
-"Thirty years east, thirty years west, don't欺youth穷."
-"You call me废物? Today let you see what genius is."
-"The contract I received, but—I'm the one divorcing you."
-```
-
-### 2. Pill Refining Scene
-
-**Scene: Mocked can't refine pills → Refines divine pill → Pill tribulation descends → Slap face**
+**场景：绝症患者 → 无人能救 → 主角出手 → 震惊全场**
 
 ```
-【Suppression】Pill refining test: Success rate zero
-        ↓
-Mocked: "Can't even refine pills,还想 enter inner sect?"
-        ↓
-Fiancée: "Dissolve marriage contract with him, he doesn't deserve."
+【前提】患者病危，西医宣布无效，家属崩溃
 
-【Explosion】Protagonist takes out herbs
-        ↓
-Begins pill refining, movements like clouds flowing water
-        ↓
-Pill formed! Quality: Divine!
-        ↓
-Sky changes color—Pill tribulation descends!
-        ↓
-"This is... Divine pill tribulation?!"
-        ↓
-Everyone kneels
+【阻碍】主任专家阻拦："一个实习生有什么资格……"
 
-【Golden Quote】
-"Not that I can't refine, you just don't deserve to see."
-"My pill, can bring dead back to life."
-"Pill refining? Sorry, I refine heavenly tribulation."
+【打脸】主角三针下去/一颗药/一句话
+        ↓
+患者好转/痊愈
+        ↓
+主任："这不可能！"
+        ↓
+专家/领导/院长震惊
+        ↓
+主角被追问背景
+
+【金句】
+"西医做不到的事，中医能做到。"
+"三年平凡的实习生，今天让你开开眼。"
+"不是我看不起西医，你们还差点。"
 ```
 
-### 3. Sect Competition Scene
+### 2. 兵王场面
 
-**Scene: Bottom disciple → Crushes through → Sect Master shocked → Identity mysterious**
-
-```
-【Suppression】Sect competition, everyone looks down on protagonist
-        ↓
-"Lin Mo? That废物? Can't even get past first round."
-        ↓
-Drawing lots, opponent mocks
-
-【Explosion】First round: Protagonist wins easily
-        ↓
-Second round: Crushes seed player
-        ↓
-Quarterfinals: Defeats first genius
-        ↓
-Semifinals: Defeats Sect Master's personal disciple
-        ↓
-Finals: Opponent forfeits
-        ↓
-Everyone incredulous
-
-【Golden Quote】
-"You call me废物? Today let you see."
-"Not that I want to be low-key, you all just too weak."
-"This competition, I was just playing around."
-```
-
-### 4. Inheritance Awakening Scene
-
-**Scene: Accept inheritance → Pass trial → Gain power → Everyone kneels**
+**场景：废物女婿被羞辱 → 故人到来 → 身份曝光 → 众人跪**
 
 ```
-【Trial】Inheritance ground opens
-        ↓
-All disciples attempt, all fail
-        ↓
-"This inheritance thousand years no one could fully receive."
+【前提】岳父/妻子被嘲讽，主角被视为废物
 
-【Explosion】Protagonist steps in
-        ↓
-One checkpoint, two, three... all passed
-        ↓
-Inheritance temple glows—Receive inheritance!
-        ↓
-Ancient will: "How many years, finally someone fully received."
-        ↓
-Protagonist's gained power shocks elders
-        ↓
-Sect Master personally greets
+【冲突】"你这个废物，连老婆都保护不了！"
 
-【Golden Quote】
-"I've been waiting for this inheritance, for a long time."
-"Sorry, this inheritance is mine now."
-"The master you worship, was my old friend."
+【反转】军车停在门口
+        将军/老板/老战友出现
+        ↓
+"司令！属下来迟了！"
+        ↓
+将军向废物女婿敬礼
+        ↓
+全场鸦雀无声
+
+【金句】
+"我只是想安静地当个废物，你们不让。"
+"当年我守护的东西，没人能碰。"
+"司令？哦，那是另一个时代的事了。"
+```
+
+### 3. 总裁场面
+
+**场景：契约婚姻 → 当众羞辱 → 身份曝光 → 打脸**
+
+```
+【前提】女主/男主隐藏身份，被当成穷人/废物
+
+【冲突】对手扔出支票/当众退婚/嘲讽没钱
+        ↓
+"三千万，买她一夜，够不够？"
+        ↓
+主角拿起支票，微微一笑
+
+【反转】女主/男主揭露身份
+        ↓
+"XX集团老板/最大股东/实际控制人"
+        ↓
+对手家族需要求主角
+        ↓
+主角淡淡道："钱留着看病吧。"
+
+【金句】
+"我没说过我没钱，你们自己以为的。"
+"契约只保护她，不保护你。"
+"想买我老婆一夜？你的钱够买你全家的命吗？"
+```
+
+### 4. 保镖场面
+
+**场景：雇主被威胁 → 主角出手 → 一打十 → 震惊**
+
+```
+【前提】雇主被绑架/威胁/危机
+        ↓
+保镖/保安轻易被打倒
+        ↓
+"现在没人能救你了。"
+
+【爆发】主角出手
+        ↓
+一打十/二十/一百
+        ↓
+干净利落，毫不费力
+        ↓
+敌人从嚣张到恐惧
+
+【金句】
+"我收这么高的薪水，是因为我值这个价。"
+"敢动我保护的人？给你三秒钟跑。"
+"放心，我有分寸，他们死不了。"
 ```
 
 ---
 
-## 3. Sweet Romance Scene Templates
+## 2. 玄幻仙侠场景模板
 
-### 1. Jealousy Scene
+### 1. 废物材料逆袭场面
 
-**Scene: Sees him/her with someone else → Jealous king online → Wall slam/claim territory**
-
-```
-【Jealousy Trigger】Sees partner with opposite sex alone/being hit on/very sweet smile
-        ↓
-Heart churning inside, surface calm
-        ↓
-Walks toward them
-
-【Action】Pulls over/wall slams/holds in arms
-        ↓
-Looks at partner/looks at that opposite sex
-        ↓
-"Who is he/she?"
-
-【Claim Territory】"Stay away from him/her in the future, got it?"
-        ↓
-Fierce declaration/kisses/ princess carry
-        ↓
-Other party blushing, heart racing
-
-【Golden Quote】
-"I didn't say you can leave my sight."
-"Jealous? Jealous about my wife, is there something wrong?"
-"Remember, you're mine."
-```
-
-### 2. Protection Scene
-
-**Scene: Wife/husband bullied → Fiercely protects → Slaps face opponent**
+**场景：丹破碎 → 当众退婚 → 意外觉醒 → 震惊全宗**
 
 ```
-【Conflict】Wife/husband mocked/made things difficult/attacked
+【压制】丹测：废物，没资格成为修士
         ↓
-Protagonist appears
+退婚场面：未婚妻当众退回婚约
         ↓
-"It was you bullying my wife?"
+"废物不配进我赵家大门。"
+        ↓
+全场哄笑
 
-【Protect】Opponent mocks protagonist
+【爆发】主角拿起婚约，微微一笑
         ↓
-Protagonist one look/one movement
+脑海中：沉睡的传承觉醒/戒指老爷爷/系统激活
         ↓
-Opponent intimidated/taught lesson
+主角身上爆发出一股气势
         ↓
-"You're the first to dare touch my person."
+测灵石：不是废物，是顶级天才！
+        ↓
+长老/宗主震惊
 
-【Golden Quote】
-"She is my wife, my person, no one can bully."
-"Apologize, or your company won't exist tomorrow."
-"I never cause trouble, but when my person is bullied, this becomes big trouble."
+【金句】
+"三十年东，三十年西，莫欺少年穷。"
+"你们叫我废物？今天让你们看看什么叫天才。"
+"这婚约我收下了，但是——是我休你们。"
 ```
 
-### 3. Mask Falling Scene
+### 2. 炼丹场面
 
-**Scene: Multiple masks gradually revealed → Identity layer by layer shocks → Sweet**
-
-```
-【Surface Identity】废物/ordinary/looked down upon
-
-【First Mask Revealed】
-She is heir of certain group
-        ↓
-"She is our long-lost daughter?"
-
-【Second Mask Revealed】
-She is elder of secret organization
-        ↓
-"What? She actually is...?!"
-
-【Third Mask Revealed】
-She is also heir of hidden clan
-        ↓
-"Impossible! How is this possible!"
-
-【Male Lead's Reaction】
-Has been drinking tea calmly to the side the whole time
-        ↓
-"Wife, how many more masks are there?"
-
-【Golden Quote】
-"Wife, how many masks do you have left?"
-"I thought I married an ordinary person, turned out to be finding treasure."
-"The whole city is shocked, only he... seems to have known all along?"
-```
-
-### 4. Fierce Declaration Scene
-
-**Scene: Someone questions this relationship → Male/female lead fiercely responds**
+**场景：被嘲笑不会炼丹 → 炼出神丹 → 丹劫降临 → 打脸**
 
 ```
-【Conflict】Someone questions this relationship
+【压制】炼丹测试：成功率零
         ↓
-"How does your/her status配得上him/me?"
+被嘲笑："连丹药都炼不出来，还想进内门？"
         ↓
-Silence for a moment
+未婚妻："和他解除婚约吧，他不配。"
 
-【Explosion】Looks directly at other party
+【爆发】主角拿出灵草
         ↓
-"He/she is my boyfriend/girlfriend, whether配得上, I decide."
+开始炼丹，动作行云流水
         ↓
-Fiercely pulls partner
+丹药成！品质：神！
         ↓
-"Speak like that again, consequences on you."
+天变色——丹劫降临！
+        ↓
+"这是……神丹丹劫？！"
+        ↓
+众人跪
 
-【Golden Quote】
-"Even if the whole world opposes, I want to be with him/her."
-"You may not like me, but don't question my眼光."
-"I love him/her, what does it have to do with you?"
+【金句】
+"不是我不会炼，是你们不配看。"
+"我的丹，能起死回生。"
+"炼丹？不好意思，我炼的是天劫。"
 ```
 
----
+### 3.宗门大比场面
 
-## 4. Mystery Reversal Scene Templates
-
-### 1. Identity Reversal Type
-
-**Scene: Thought was good person → Revealed as mastermind → Shock**
+**场景：底层弟子 → 一路碾压 → 宗主震惊 → 身份神秘**
 
 ```
-【Surface Identity】Kind elder/trusted mentor/close friend
+【压制】宗门大比，众人看不起主角
         ↓
-Investigation deepens
+"林墨？那个废物？第一轮都过不了。"
         ↓
-Discover clues
+抽签，对手嘲笑
 
-【Reversal Revealed】
-He is the mastermind!
+【爆发】第一轮：主角轻松取胜
         ↓
-Everything was his layout
+第二轮：碾压种子选手
         ↓
-"So it was you from the beginning."
+八强：击败第一天骄
+        ↓
+四强：击败宗主亲传弟子
+        ↓
+决赛：对手认输
+        ↓
+众人难以置信
 
-【Golden Quote】
-"Thank you for trusting me, unfortunately... you trusted the wrong person."
-"I've been waiting for this day, for a long time."
-"You thought you were investigating me, actually you've been on my chessboard all along."
+【金句】
+"你们叫我废物？今天让你们看看。"
+"不是我想低调，是你们太弱了。"
+"这场比试，我只是玩玩。"
 ```
 
-### 2. Strength Reversal Type
+### 4. 传承觉醒场面
 
-**Scene: Thought protagonist was废物 → Revealed as strongest → Slap face**
-
-```
-【Surface】废物/no background/no strength
-        ↓
-Suppressed/mocked
-
-【Reversal】Key moment acts
-        ↓
-Displays strength: Strongest/highest/most mysterious
-        ↓
-"You thought I was废物?"
-
-【Golden Quote】
-"Sorry, I just wanted to be a废物quietly."
-"The place you can't reach, just happens to be my starting point."
-"Disappointing you, I'm not any废物—I'm the person you can't afford to provoke."
-```
-
-### 3. Relationship Reversal Type
-
-**Scene: Thought was enemy → Revealed as family/ally → Shock**
+**场景：接受传承 → 通过考验 → 获得力量 → 众人跪**
 
 ```
-【Surface Relationship】Competitor/enemy/stranger
+【考验】传承之地开启
         ↓
-Truth revealed
+所有弟子尝试，全部失败
         ↓
-They are blood brothers/sisters/parents
-        ↓
-Or: His father killed my father
-        ↓
-Wait—His father was framed! Real culprit is someone else!
+"这传承千年无人能完全承受。"
 
-【Golden Quote】
-"We thought our enemy, turned out to be blood relative."
-"Fate played a joke, but we're family after all."
-"Some truths, need a lifetime to find."
+【爆发】主角踏入
+        ↓
+一关，两关，三关……全部通过
+        ↓
+传承神殿发光——接受传承！
+        ↓
+远古意志："多少年了，终于有人完全承受。"
+        ↓
+主角获得的力量震惊长老
+        ↓
+宗主亲自迎接
+
+【金句】
+"这个传承，我等了很久了。"
+"抱歉，这传承现在是我的了。"
+"你们崇拜的那位前辈，是我老友。"
 ```
 
 ---
 
-## 5. Universal Scene Templates
+## 3. 甜宠场景模板
 
-### 1. Show-off Type Universal Template
+### 1. 吃醋场面
 
-```
-【Premise】Looked down upon/mocked/suppressed
-        ↓
-Forced to act/forced to prove
-        ↓
-Sigh: "Since you all want to see..."
-        ↓
-Casual display/simple operation
-        ↓
-Everyone shocked
-        ↓
-"It's not that I want to show off, you forced me."
-
-【Golden Quote】
-"Just playing around, don't take it seriously."
-"I wanted to be low-key, but my strength doesn't allow."
-"This trivial matter still requires me to personally act?"
-```
-
-### 2. Slap Face Type Universal Template
+**场景：看到他/她和别人在一起 → 醋王上线 → 壁咚/宣示主权**
 
 ```
-【Suppression】Humiliated, stepped on
+【吃醋触发】看到对象和异性单独在一起/被搭讪/笑容很甜
         ↓
-Endure, silent, restrain
+内心翻涌，表面平静
         ↓
-Timing mature
-        ↓
-Reveal identity/strength/ trump card
-        ↓
-"Who did you just say? Say it again?"
+向他们走去
 
-【Golden Quote】
-"I didn't speak at the time, not because I didn't have confidence—I'm too lazy to bother with you all."
-"Today this slap face, I originally didn't want to give."
-"Figured out where you were wrong yet?"
+【行动】拉过来/壁咚/搂在怀里
+        ↓
+看着对象/看着那个异性
+        ↓
+"他/她是谁？"
+
+【宣示主权】"以后离他/她远点，听懂了吗？"
+        ↓
+强势宣言/亲吻/公主抱
+        ↓
+对方脸红心跳
+
+【金句】
+"我没说你可以离开我的视线。"
+"吃醋？吃我老婆的醋，有问题吗？"
+"记住，你是我的。"
 ```
 
-### 3. Passion Type Universal Template
+### 2. 护短场面
+
+**场景：老婆/老公被欺负 → 强势护短 → 打脸对方**
 
 ```
-【Desperate】Teammates fall/enemy too strong/can not win
+【冲突】老婆/老公被嘲笑/刁难/攻击
         ↓
-Belief triggered: For who/for what
+主角出现
         ↓
-"You touched the person/thing I care about."
-        ↓
-Explosion! Breakthrough! Awakening!
-        ↓
-Crush!
-        ↓
-"I said, no one can touch the person I care about."
+"是你欺负我老婆？"
 
-【Golden Quote】
-"This battle, for brothers! For sect! For belief!"
-"Burning everything, so what!"
-"You picked the wrong person to provoke."
+【护短】对手嘲笑主角
+        ↓
+主角一眼/一动
+        ↓
+对手被震慑/教训
+        ↓
+"你是第一个敢动我的人。"
+
+【金句】
+"她是我老婆，我的人，没人能欺负。"
+"道歉，否则你的公司明天就不存在了。"
+"我不惹事，但当我的人被欺负时，这就成了大事。"
 ```
+
+### 3. 马甲掉落场面
+
+**场景：多个马甲层层揭露 → 身份一层层震惊 → 甜**
+
+```
+【表面身份】废物/普通/被看不起
+
+【第一个马甲掉落】
+她是某个组织的继承人
+        ↓
+"她是我们失散多年的女儿？"
+
+【第二个马甲掉落】
+她是某个秘密组织的长老
+        ↓
+"什么？她竟然是……？！"
+
+【第三个马甲掉落】
+她还是某个隐世家族的继承人
+        ↓
+"不可能！怎么可能！"
+
+【男主角反应】
+一直在一旁淡定喝茶
+        ↓
+"老婆，你还有多少马甲？"
+
+【金句】
+"老婆，你还有多少马甲没掉？"
+"我以为娶了个普通人，结果是寻到宝了。"
+"全城震惊，只有他……好像早就知道了？"
+```
+
+### 4. 强势宣言场面
+
+**场景：有人质疑这段感情 → 男/女主角强势回应**
+
+```
+【冲突】有人质疑这段感情
+        ↓
+"你/她的身份配得上他/我吗？"
+        ↓
+沉默片刻
+
+【爆发】直视对方
+        ↓
+"他/她是我男朋友/女朋友，配不配，我说了算。"
+        ↓
+强势拉过对象
+        ↓
+"再敢说这种话，后果自负。"
+
+【金句】
+"就算全世界反对，我也要和他/她在一起。"
+"你可能不喜欢我，但别质疑我的眼光。"
+"我爱他/她，关你什么事？"
+```
+
+---
+
+## 4. 悬疑反转场景模板
+
+### 1. 身份反转型
+
+**场景：以为是好人 → 揭露是幕后黑手 → 震惊**
+
+```
+【表面身份】善良长辈/信任导师/亲密朋友
+        ↓
+调查深入
+        ↓
+发现线索
+
+【反转揭露】
+他是幕后黑手！
+        ↓
+一切都是他的布局
+        ↓
+"原来从一开始就是你。"
+
+【金句】
+"谢谢你信任我，可惜……你信任错了人。"
+"我等这一天，等了很久了。"
+"你以为你在调查我，其实你一直在我的棋盘上。"
+```
+
+### 2. 实力反转型
+
+**场景：以为主角是废物 → 揭露是最强 → 打脸**
+
+```
+【表面】废物/没背景/没实力
+        ↓
+被压制/被嘲笑
+
+【反转】关键时刻出手
+        ↓
+展示实力：最强/最高/最神秘
+        ↓
+"你们以为我是废物？"
+
+【金句】
+"抱歉，我只是想安静地当个废物。"
+"你们够不到的地方，恰好是我的起点。"
+"让你们失望了，我不是什么废物——我是你们惹不起的人。"
+```
+
+### 3. 关系反转型
+
+**场景：以为是敌人 → 揭露是家人/盟友 → 震惊**
+
+```
+【表面关系】竞争者/敌人/陌生人
+        ↓
+真相揭露
+        ↓
+他们是亲兄弟/姐妹/父母
+        ↓
+或者：他父亲杀了我父亲
+        ↓
+等等——他父亲是被陷害的！真凶另有其人！
+
+【金句】
+"我们以为是敌人，结果是血亲。"
+"命运开了个玩笑，但我们终究是一家人。"
+"有些真相，需要一辈子才能找到。"
+```
+
+---
+
+## 5. 通用场景模板
+
+### 1. 装逼型通用模板
+
+```
+【前提】被看不起/被嘲笑/被压制
+        ↓
+被迫出手/被迫证明
+        ↓
+叹气："既然你们都想看……"
+        ↓
+随意展示/简单操作
+        ↓
+众人震惊
+        ↓
+"不是我想装逼，是你们逼我的。"
+
+【金句】
+"只是随便玩玩，别当真。"
+"我想低调，但实力不允许。"
+"这点小事还需要我亲自出手？"
+```
+
+### 2. 打脸型通用模板
+
+```
+【压制】被羞辱，被踩在脚下
+        ↓
+隐忍，沉默，克制
+        ↓
+时机成熟
+        ↓
+揭露身份/实力/底牌
+        ↓
+"你刚才说谁是废物？再说一遍？"
+
+【金句】
+"我当时不说话，不是因为没底气——我只是懒得理你们。"
+"今天这个脸，我本来不想给。"
+"想明白自己错哪儿了吗？"
+```
+
+### 3. 热血型通用模板
+
+```
+【绝境】队友倒下/敌人太强/打不赢
+        ↓
+信念触发：为了谁/为了什么
+        ↓
+"你碰了我在乎的人/事。"
+        ↓
+爆发！突破！觉醒！
+        ↓
+碾压！
+        ↓
+"我说过，没人能碰我在乎的人。"
+
+【金句】
+"这一战，为了兄弟！为了宗门！为了信念！"
+"燃尽一切，又怎样！"
+"你惹错人了。"
+```
+
+### 4. 甜宠型通用模板
+
+```
+【日常】甜蜜相处/互相调侃
+        ↓
+小误会/小冲突
+        ↓
+宠溺瞬间
+        ↓
+高甜场面
+        ↓
+读者尖叫
+
+【金句】
+"我老婆全世界最可爱。"
+"乖，别闹。"
+"想我了？嗯？"
+```
+
+### 5. 虐心型通用模板
+
+```
+【冲突】误会/被迫分开/生死离别
+        ↓
+虐心场面
+        ↓
+情绪爆发
+        ↓
+留下悬念
+        ↓
+读者心塞
+
+【金句】
+"如果这就是你的选择，我不拦你。"
+"我以为你会懂我。"
+"有些事，回不去了。"
+```
+
+### 6. 悬疑型通用模板
+
+```
+【谜团】神秘事件/无法解释的现象
+        ↓
+调查/推理
+        ↓
+发现线索
+        ↓
+悬念钩子
+        ↓
+读者猜测
+
+【金句】
+"这一切的背后……"
+"真相，远比你想的复杂。"
+"有些秘密，不该被知道。"
+```
+
+---
+
+## 使用说明
+
+### 模板选用原则
+
+1. **匹配题材**：都市用都市模板，玄幻用仙侠模板
+2. **匹配节奏**：打脸要狠，甜宠要到位，热血要燃
+3. **灵活变通**：模板是骨架，填充自己的血肉
+
+### 模板升级技巧
+
+1. **加入细节**：让场面更生动
+2. **加入反转**：出人意料又在情理之中
+3. **加入金句**：点睛之笔，让人截图
+4. **加入铺垫**：前面的压抑越多，后面爆发越爽
+
+### 常见问题
+
+| 问题 | 原因 | 解决方案 |
+|------|------|---------|
+| 打脸不够爽 | 对手不够强 | 让对手更嚣张，结局更惨 |
+| 甜宠不够甜 | 缺乏细节 | 加入小动作、小眼神 |
+| 热血不够燃 | 铺垫不足 | 先写绝境，再写爆发 |
+| 悬疑不够悬 | 线索太明显 | 隐藏关键信息，制造误导 |

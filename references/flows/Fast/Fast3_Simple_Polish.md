@@ -1,4 +1,4 @@
-# Fast Mode - Phase 3: Simple Polish
+# Fast 模式 - Phase 3：简单润色
 
 **模式**: Fast 快速模式（爱好者・极简）
 **Phase数**: 4/5

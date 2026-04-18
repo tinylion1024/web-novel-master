@@ -1,4 +1,4 @@
-# Industrial Mode - Phase 6: Team Writing
+# Industrial 模式 - Phase 6：团队写作
 
 **模式**: Industrial 工业模式（团队・最完整・可流水线）
 **Phase数**: 7/10

@@ -1,274 +1,274 @@
-# Famous Scenes Design Guide
+# 名场面设计指南
 
-Famous scenes are the core competitive advantage of hit web novels—scenes that make readers unable to stop reading and can't help but share.
+名场面是爆款网络小说的核心竞争力——让读者欲罢不能、忍不住分享的场景。
 
 ---
 
-## 1. Definition of Famous Scenes
+## 1. 名场面的定义
 
-**Famous Scene = Emotional Explosion Point × Dramatic Tension × Memory Anchor**
+**名场面 = 情绪爆发点 × 戏剧张力 × 记忆锚点**
 
-| Element | Description |
+| 元素 | 描述 |
 |---------|-------------|
-| **Emotional Explosion Point** | Reader emotions strongly mobilized (爽/cry/anger/laugh/燃) |
-| **Dramatic Tension** | Conflict, reversal, unexpected |
-| **Memory Anchor** | Golden quotes/famous lines/famous visuals, readers can retell |
+| **情绪爆发点** | 读者情绪被充分调动（爽/哭/怒/笑/燃） |
+| **戏剧张力** | 冲突、反转、出人意料 |
+| **记忆锚点** | 金句/名台词/名画面，读者能复述 |
 
 ---
 
-## 2. Famous Scene Type System
+## 2. 名场面类型系统
 
-### A. Excitement Famous Scenes (Make readers "爽")
+### A. 爽感名场面（让读者"爽"）
 
-| Type | Core Formula | Typical Scene |
+| 类型 | 核心公式 | 典型场景 |
 |------|-------------|---------------|
-| **Slap Face** | Humiliate → Reverse → Crush | 废物 publicly embarrassed → Reveals true identity → Slaps entire venue |
-| **Validation** | Question → Display → Shock | Everyone doubts → Protagonist acts → Full venue shocked |
-| **Show-off** | Low-key → Forced → Reluctant display | Protagonist doesn't want to act → Forced → Strength crushes |
-| **Revenge** | Endure → Timing成熟 → Settle | Years of endurance → Enemy falls → Personal revenge |
-| **Counterattack** | Desperate → Golden finger → Turnaround | Pushed to extreme → System activates → Heroic comeback |
+| **打脸** | 羞辱 → 逆转 → 碾压 | 废物当众出丑 → 揭露真实身份 → 巴掌响彻全场 |
+| **验证** | 质疑 → 展示 → 震惊 | 众人质疑 → 主角出手 → 全场震惊 |
+| **装逼** | 低调 → 被迫 → 不情愿展示 | 主角不想出手 → 被逼 → 实力碾压 |
+| **复仇** | 隐忍 → 时机成熟 → 算账 | 多年隐忍 → 敌人落难 → 亲手复仇 |
+| **反击** | 被逼绝境 → 金手指 → 逆转 | 被逼到极限 → 系统激活 → 绝地翻盘 |
 
-### B. Emotional Famous Scenes (Make readers "cry/sweet/虐")
+### B. 情感名场面（让读者"哭/甜/虐"）
 
-| Type | Core Formula | Typical Scene |
+| 类型 | 核心公式 | 典型场景 |
 |------|-------------|---------------|
-| **Sacrifice** | Crisis → Choice → Sacrifice | To save XX, protagonist chooses to sacrifice self |
-| **Confession** | Misunderstanding → Truth → Confession | Discovers the other has been silently giving → True confession |
-| **Farewell** | Must leave → Reluctant → Promise | Must leave → Tearful goodbye → Next meeting |
-| **Reunion** | Years apart → Changes → Cherish | Reunion after years → Everything changed → Cherish the present |
-| **Misunderstanding** | Saw surface → Truth → Heartache | Saw him with another woman → Actually sister → Regret |
+| **牺牲** | 危机 → 选择 → 牺牲 | 为救XX，主角选择牺牲自己 |
+| **表白** | 误会 → 真相 → 表白 | 发现对方一直默默付出 → 真情表白 |
+| **离别** | 必须离开 → 依依不舍 → 承诺 | 必须离开 → 含泪告别 → 下次相见 |
+| **重逢** | 多年分离 → 物是人非 → 珍惜 | 多年后重逢 → 一切都变了 → 珍惜当下 |
+| **误会** | 看到表面 → 真相 → 心痛 | 看到他和其他女人在一起 → 其实是妹妹 → 后悔 |
 
-### C. Passion Famous Scenes (Make readers "燃")
+### C. 热血名场面（让读者"燃"）
 
-| Type | Core Formula | Typical Scene |
+| 类型 | 核心公式 | 典型场景 |
 |------|-------------|---------------|
-| **Heroic** | Impossible → Desperate fight → Miracle | Everyone says impossible → Protagonist risks life → Actually succeeded |
-| **Protection** | Family threatened → Explosion → Crush | Family harmed → Protagonist utterly angry → Annihilate enemies |
-| **Team Battle** | Desperate → Cooperation → Turnaround | Teammates fall one by one → Final reversal → Team victory |
-| **Awakening** | Suppressed → Limit → Awakening | Getting beaten → Trigger condition → Strength surges |
+| **英雄** | 不可能 → 拼死一搏 → 奇迹 | 所有人都说不可能 → 主角冒死 → 竟然成功了 |
+| **守护** | 家人被威胁 → 爆发 → 碾压 | 家人被害 → 主角怒发冲冠 → 灭敌 |
+| **团战** | 队友一个个倒下 → 最终逆转 → 团队胜利 | 队友一个个倒下 → 最后翻盘 → 团队胜利 |
+| **觉醒** | 被压制 → 极限 → 觉醒 | 一直被殴打 → 触发条件 → 实力暴涨 |
 
-### D. Mystery/Reversal Famous Scenes (Make readers "懵/惊")
+### D. 悬疑/反转名场面（让读者"懵/惊"）
 
-| Type | Core Formula | Typical Scene |
+| 类型 | 核心公式 | 典型场景 |
 |------|-------------|---------------|
-| **Identity Reversal** | Thought was good person → Revealed → Shock | Trusted person → Actually mastermind behind everything |
-| **Strength Reversal** | Thought was strong → Truth → Slap face | Thought protagonist was废物 → Actually strongest |
-| **Relationship Reversal** | Thought was enemy → Truth → Stunned | Thought was competitor → Actually blood brother |
-| **Conspiracy Reveal** | Surface calm → Exposed → Chaos | Seemingly peaceful → Expose shocking conspiracy |
+| **身份反转** | 以为是好人 → 揭露 → 震惊 | 信任的人 → 竟是幕后黑手 |
+| **实力反转** | 以为是废物 → 真相 → 打脸 | 以为主角是废物 → 实际最强 |
+| **关系反转** | 以为是敌人 → 真相 → 懵了 | 以为是竞争对手 → 实际是亲兄弟 |
+| **阴谋揭露** | 表面平静 → 暴露 → 混乱 | 看似和平 → 揭露惊人阴谋 |
 
 ---
 
-## 3. Famous Scene Timeline Planning
+## 3. 名场面时间线规划
 
-### 20-Chapter Famous Scene Rhythm
+### 20章名场面节奏
 
 ```
-Chapter 1: 【Awakening Famous Scene】System activation/rebirth return/divorce slap face
-         → Immediately hook readers
+第1章：【觉醒名场面】系统激活/重生回归/退婚打脸
+         → 立刻抓住读者
 
-Chapter 3: 【First Slap Face Famous Scene】Small test, initial validation of excitement
-         → Establish "this story is very爽" expectation
+第3章：【第一次打脸名场面】小试牛刀，初步验证爽感
+         → 建立"这个故事很爽"的期待
 
-Chapter 5: 【Emotional Famous Scene】First attraction/misunderstanding/farewell
-         → Build emotional bond
+第5章：【情感名场面】第一次心动/误会/离别
+         → 建立情感羁绊
 
-Chapter 7: 【Show-off Famous Scene】Public slap face/strength display
-         → Accumulate emotion of "waiting for protagonist to crush"
+第7章：【装逼名场面】当众打脸/展示实力
+         → 积累"等着看主角碾压"的情绪
 
-Chapter 10: 【First Major Climax Famous Scene】Dungeon cleared/revenge first step
-         → First emotional peak
+第10章：【第一个大高潮名场面】副本通关/复仇第一步
+         → 第一个情绪高峰
 
-Chapter 12: 【Sacrifice/Angst Famous Scene】Important character sacrifice/farewell
-         → Create emotional valley, enhance subsequent excitement
+第12章：【牺牲/虐名场面】重要角色牺牲/离别
+         → 制造情绪低谷，增强后续爽感
 
-Chapter 15: 【Identity Reversal Famous Scene】Hidden identity revealed
-         → Major suspense release
+第15章：【身份反转名场面】隐藏身份揭露
+         → 重大悬念释放
 
-Chapter 18: 【Team Battle/Passion Famous Scene】Protect XX/team battle
-         → Pull emotion up again
+第18章：【团战/热血名场面】守护XX/团队战
+         → 再次拉高情绪
 
-Chapter 20: 【Finale Famous Scene】Final confrontation/final revenge/sweet ending
-         → Climax ending
+第20章：【大结局名场面】最终对决/最终复仇/甜蜜结局
+         → 高潮结尾
 ```
 
-### Rhythm Principles
+### 节奏原则
 
-- Every 3-5 chapters must have 1 medium famous scene
-- Every 10 chapters must have 1 large famous scene (book climax anchor)
-- Between famous scenes there must be "emotional buffer" (daily/sweet/accumulation)
+- 每3-5章必须有1个中型名场面
+- 每10章必须有1个大型名场面（全书高潮锚点）
+- 名场面之间必须有"情绪缓冲"（日常/甜蜜/蓄力）
 
 ---
 
-## 4. Three Elements of Famous Scene Design
+## 4. 名场面设计三要素
 
-### 1. 【Accumulation】Before famous scene there must be foreshadowing
+### 1. 【蓄力】名场面之前必须有铺垫
 
-Humiliation must be狠enough (slap face only爽enough when severe)
-Misunderstanding must be deep enough (only sweet enough when resolved)
-Oppression must be strong enough (only燃enough when released)
+羞辱要够狠（不够狠打脸不够爽）
+误会要够深（不够深解开心甜不够甜）
+压迫要够强（不够强燃放不够燃）
 
-**Anti-example:**
-> Protagonist suddenly becomes strong with no foreshadowing at all
+**反面教材：**
+> 主角毫无铺垫突然变强
 
-**Positive example:**
-> Everyone mocks him as废物, fiancée divorces, little sister bullied... when he acts in Chapter 3, readers have been suppressing anger waiting to vent
+**正面教材：**
+> 所有人都嘲笑他是废物，未婚妻退婚，小姨子被欺负...第3章他出手时，读者已经憋着一股气等着发泄
 
-### 2. 【Explosion】When emotion reaches peak, must write it thoroughly
+### 2. 【爆发】情绪到达顶点时，要写透
 
-Action/language/psychological description must be in place
-Don't stop writing at highest climax
-Golden quote/famous line must appear
+动作/语言/心理描写要到位
+最高潮处不要停笔
+金句/名台词必须出现
 
-**Anti-example:**
-> He displayed his strength, everyone was shocked.
+**反面教材：**
+> 他展示了实力，众人都很震惊。
 
-**Positive example:**
-> He gently raises his hand.
+**正面教材：**
+> 他轻轻抬起手。
 >
-> "Wait."
+> "等一下。"
 >
-> The voice isn't loud, yet like a stone dropped into still water, the entire main hall goes silent.
+> 声音不大，却如石子投入静水，整个大殿鸦雀无声。
 >
-> The seal笼罩在他身上的封印, shattered.
+> 笼罩在他身上的封印，碎裂。
 >
-> "What did you say?" The Grand Master's voice trembles slightly.
+> "你说什么？"大长老的声音微微颤抖。
 >
-> "I said," he raises his head, eyes burning with three years of suppressed anger, "what you owe me, it's time to collect."
+> "我说，"他抬起头，眼中燃烧着三年来压抑的怒火，"你们欠我的，是时候讨回来了。"
 
-### 3. 【Aftermath】After famous scene there must be emotional continuation
+### 3. 【余韵】名场面之后必须有情绪延续
 
-Describe reactions of those around
-Describe protagonist's psychological state
-Plant seeds for next famous scene
+描写周围人的反应
+描写主角的心理状态
+为下一个名场面埋下种子
 
 ---
 
-## 5. Famous Scene Sketch Formulas
+## 5. 名场面公式模板
 
-### Slap Face Famous Scene Formula
+### 打脸名场面公式
 
 ```
-【Accumulation】XX humiliates protagonist, says "in this lifetime you probably can't..."
-【Explosion】Protagonist smiles faintly, reveals/says/does XX
-【Result】Everyone shocked, XX's face turns pale
-【Golden Quote】"What you called 'this lifetime'... seems a bit short?"
+【蓄力】XX羞辱主角，说"你这辈子估计都..."
+【爆发】主角淡淡一笑，揭露/说出/做出XX
+【结果】众人震惊，XX脸色发白
+【金句】"你说的'这辈子'...好像有点短？"
 ```
 
-**Complete example:**
-> "废物就是废物," Young Master Wang splashes tea in his face, "in this lifetime you only deserve to pick up my leftovers."
+**完整示例：**
+> "废物就是废物，"王少把茶泼到他脸上，"你这辈子只配捡我的剩饭吃。"
 >
-> Lin Mo doesn't move. He just smiles.
+> 林墨没动。他只是笑了笑。
 >
-> Outside the door, a dozen black Maybachs slowly pull up. An elderly white-haired man gets out, walks quickly into the hotel.
+> 门外，十几辆黑色迈巴赫缓缓停下。一位白发苍苍的老人下车，快步走进酒店。
 >
-> "Master!" The elder kneels on one knee before him, "Subordinate arrives late to receive you!"
+> "主人！"老人单膝跪地，"属下接驾来迟！"
 >
-> Young Master Wang's face, green.
+> 王少的脸，绿了。
 
-### Show-off Famous Scene Formula
-
-```
-【Background】Everyone despises, protagonist ignored
-【Provocation】Someone deliberately makes things difficult/humiliates
-【Reluctant】Protagonist sighs: "Since you all want to see..."
-【Display】Protagonist displays strength/reveals truth
-【Golden Quote】"It's not that I want to show off, you forced me."
-```
-
-### Passion Famous Scene Formula
+### 装逼名场面公式
 
 ```
-【Desperate】Teammates fall, enemy approaches, resources exhausted
-【Trigger】XX (family/lover/belief) is touched
-【Explosion】Protagonist awakens/breaks through/explodes
-【Crush】Enemy goes from mocking to terrified
-【Golden Quote】"No one can touch the people I care about."
+【背景】众人鄙视，主角被无视
+【挑衅】有人故意刁难/羞辱
+【不情愿】主角叹气："既然你们都想看..."
+【展示】主角展示实力/揭露真相
+【金句】"不是我想装逼，是你们逼我的。"
 ```
 
-### Sweet Romance Famous Scene Formula
+### 热血名场面公式
 
 ```
-【Jealousy】Sees him/her with someone else
-【Action】Directly pulls/wall slams/claims territory
-【Golden Quote】"Stay away from him, got it?"
-【Reaction】Other party's heart races/face red/struggles
+【绝境】队友倒下，敌人逼近，资源耗尽
+【触发】XX（家人/爱人/信念）被触碰
+【爆发】主角觉醒/突破/爆发
+【碾压】敌人从嘲讽变为恐惧
+【金句】"谁也不能动我在乎的人。"
+```
+
+### 甜宠名场面公式
+
+```
+【吃醋】看到他/她和别人在一起
+【行动】直接拉过/壁咚/宣示主权
+【金句】"以后离他远点，听到没？"
+【反应】对方心跳加速/脸红/挣扎
 ```
 
 ---
 
-## 6. Famous Scene Templates by Genre
+## 6. 各类型名场面模板
 
-### Urban Power Fantasy Famous Scenes
+### 都市爽文名场面
 
-| Famous Scene Type | Typical Scene |
+| 名场面类型 | 典型场景 |
 |------------------|---------------|
-| Divine Doctor | Terminal patient Western medicine ineffective → Protagonist three needles/one medicine → Full venue shocked |
-| Soldier King | Retired war god looked down upon → Reveals identity → Commander salutes |
-| President | Mocked as poor → Shows black card/strength → Slaps fiancée |
-| Bodyguard | Employer threatened → One beats ten → Full venue shocked |
+| 神医 | 绝症病人西医无效 → 主角三针/一药 → 全场震惊 |
+| 兵王 | 退役战神被看不起 → 揭露身份 → 司令敬礼 |
+| 总裁 | 被嘲笑穷 → 展示黑卡/实力 → 打脸未婚妻 |
+| 保镖 | 雇主被威胁 → 一打十 → 全场震惊 |
 
-### Fantasy Xianxia Famous Scenes
+### 玄幻仙侠名场面
 
-| Famous Scene Type | Typical Scene |
+| 名场面类型 | 典型场景 |
 |------------------|---------------|
-| Waste Material Counterattack | Dan破碎 → Accidentally awakens → Public slap face |
-| Pill Refining | Mocked can't refine pills → Refines divine pill → Pill tribulation descends |
-| Sect Competition | Bottom disciple → Crushing through → Sect Master shocked |
-| Inheritance | Receives ancient inheritance → Strength surges → Slaps master |
+| 废物流逆袭 | 丹破碎 → 意外觉醒 → 当众打脸 |
+| 炼丹 | 被嘲笑不会炼丹 → 炼出神丹 → 丹劫降临 |
+| 宗门比试 | 底层弟子 → 横扫全场 → 宗主震惊 |
+| 传承 | 接受上古传承 → 实力暴涨 → 打脸师父 |
 
-### Sweet Romance Famous Scenes
+### 甜宠文名场面
 
-| Famous Scene Type | Typical Scene |
+| 名场面类型 | 典型场景 |
 |------------------|---------------|
-| Misrecognition | Mistook protagonist as bad guy → Truth revealed → Chases after |
-| Jealousy | Sees him with someone else → Jealous king上线 → Wall slam |
-| Protection | She bullied → He fiercely protects wife → Explosively sweet |
-| Mask | Her multiple masks fall one by one → He learns each → Sweet with excitement |
+| 认错人 | 误以为主角是坏人 → 真相揭露 → 追夫 |
+| 吃醋 | 看到他/她和别人 → 醋王上线 → 壁咚 |
+| 保护 | 她被欺负 → 他全力护妻 → 爆炸甜 |
+| 马甲 | 她的多个马甲一个个掉落 → 他一一得知 → 甜中带爽 |
 
 ---
 
-## 7. Golden Quote Library
+## 7. 金句库
 
-### Slap Face Golden Quotes
+### 打脸金句
 
-- "What you called 'this lifetime'... seems a bit short?"
-- "I'm not targeting anyone, all of you are garbage."
-- "Who was it that called me废物来着?"
-- "There are some things in this world you can never reach."
+- "你说的'这辈子'...好像有点短？"
+- "我不是针对谁，你们各位...都是垃圾。"
+- "谁刚才叫我是废物来着？"
+- "有些东西，你这辈子都够不着。"
 
-### Show-off Golden Quotes
+### 装逼金句
 
-- "It's not that I want to show off, you forced me."
-- "I was just playing around, didn't expect you to take it seriously."
-- "This thing? My kid's toy."
+- "不是我想装逼，是你们逼我的。"
+- "随便玩玩而已，没想到你们当真了。"
+- "这玩意儿？我小孩的玩具。"
 
-### Passion Golden Quotes
+### 热血金句
 
-- "No one can touch the people I care about."
-- "This battle, for brothers! For sect!"
-- "Burning everything, so what!"
+- "谁也不能动我在乎的人。"
+- "此战，为兄弟！为宗门！"
+- "燃尽一切，又怎样！"
 
-### Sweet Golden Quotes
+### 甜蜜金句
 
-- "Stay away from him, got it?"
-- "Only I can bully my people."
-- "Miss me? Hm?"
+- "以后离他远点，听到没？"
+- "只有我能欺负我的人。"
+- "想我了？嗯？"
 
 ---
 
-## 8. Famous Scene Density Check
+## 8. 名场面密度检查
 
-### Per 2000 Words Must Include
+### 每2000字必须包含
 
-| Type | Quantity | Description |
+| 类型 | 数量 | 描述 |
 |------|----------|-------------|
-| Small excitement | 1-2 | Minor slap face/small surprise/ambiguous interaction |
-| Medium excitement | 1 | Clear slap face/emotional升温/sanguine moment |
-| Hook | 1-2 | Information bomb/suspense/next chapter preview |
+| 小爽 | 1-2 | 轻度打脸/小惊喜/暧昧互动 |
+| 中爽 | 1 | 明显打脸/情感升温/热血场面 |
+| 钩子 | 1-2 | 信息炸弹/悬念/下章预告 |
 
-### Checklist
+### 检查清单
 
-- [ ] Does this chapter have excitement? (If not, readers feel "watery")
-- [ ] Is there accumulation before excitement? (Slap face not爽enough without accumulation)
-- [ ] Is there a golden quote? (Famous scene not "famous" without golden quote)
-- [ ] Is the ending hook strong enough? (Can readers want to click next chapter?)
+- [ ] 这章有爽点吗？（没有，读者觉得"水"）
+- [ ] 爽点前有蓄力吗？（没有蓄力打脸不够爽）
+- [ ] 有金句吗？（没有金句名场面不"名"）
+- [ ] 结尾钩子够不够强？（读者想不想点下一章？）

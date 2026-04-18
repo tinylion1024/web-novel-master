@@ -1,4 +1,4 @@
-# Professional Mode - Phase 3: Outline Planning
+# Professional 模式 - Phase 3：大纲规划
 
 **模式**: Professional 专业模式（作者・完整但不繁琐）
 **Phase数**: 4/8

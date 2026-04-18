@@ -1,4 +1,4 @@
-# Fast Mode - Phase 2: Quick Draft
+# Fast 模式 - Phase 2：快速起草
 
 **模式**: Fast 快速模式（爱好者・极简）
 **Phase数**: 3/5

@@ -1,4 +1,4 @@
-# Fast Mode - Phase 0: Initialization
+# Fast 模式 - Phase 0：初始化
 
 **模式**: Fast 快速模式（爱好者・极简）
 **Phase数**: 1/5

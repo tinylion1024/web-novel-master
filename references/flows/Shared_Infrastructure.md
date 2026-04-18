@@ -1,4 +1,4 @@
-# Shared Infrastructure
+# 共享基础设施
 
 本文件定义跨阶段共享的机制、规则和数据结构。
 

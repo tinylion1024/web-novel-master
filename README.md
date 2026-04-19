@@ -15,7 +15,7 @@ description: |
 [![CLAUDE](https://img.shields.io/badge/Power%20By-Claude%20Code-orange.svg)](https://claude.com/claude-code)
 [![Stars](https://img.shields.io/github/stars/tinylion1024/web-novel-master?style=social)](https://github.com/tinylion1024/web-novel-master)
 
-![封面](./assets/web-novel-master-cover.jpg)
+![封面](./assets/web-novel-master-cover.png)
 
 </div>
 
@@ -446,12 +446,12 @@ web-novel-master/
 <table>
 <tr>
 <td align="center">
-<img src="./assets/wechat-QR-code.jpg" width="200" alt="微信公众号"/>
+<img src="./assets/wechat-QR-code.png" width="200" alt="微信公众号"/>
 <br/>
 <strong>微信公众号</strong>
 </td>
 <td align="center">
-<img src="./assets/xhs-QR-code.jpg" width="200" alt="小红书"/>
+<img src="./assets/xhs-QR-code.png" width="200" alt="小红书"/>
 <br/>
 <strong>小红书</strong>
 </td>

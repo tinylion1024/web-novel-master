@@ -354,23 +354,6 @@ MIT License - 永久开源，可自由使用、修改、商业化。
 
 <p>获取更多网文创作干货、素材和最新更新</p>
 
-<table>
-<tr>
-<td align="center">
-<img src="./assets/wechat-QR-code.jpeg" width="200" alt="微信公众号"/>
-<br/>
-<strong>微信公众号</strong>
-<br/>
-<small>扫码关注，回复"素材"领取资料包</small>
-</td>
-<td align="center">
-<img src="./assets/xhs-QR-code.jpg" width="200" alt="小红书"/>
-<br/>
-<strong>小红书</strong>
-<br/>
-<small>浏览更多网文创作内容</small>
-</td>
-</tr>
-</table>
+<p>关注微信公众号、关注小红书，一起交流学习。</p>
 
 </div>

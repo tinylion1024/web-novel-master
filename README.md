@@ -35,6 +35,7 @@ description: |
 - [输出示例](#输出示例)
 - [谁在用 Web Novel Master](#谁在用-web-novel-master)
 - [如何贡献](#如何贡献)
+- [世界观设定](#世界观设定)
 
 ---
 
@@ -46,7 +47,7 @@ description: |
 
 > 每章 2000-3000 字，章章有爽点，名场面驱动，金句记忆 —— 这些都有方法论。
 
-Web Novel Master 把 **26 位顶流网文作者的写作套路**、**爆款四法则**、**套路模板库**全部结构化，嵌入 AI 写作流程，让 AI 帮你写出专业级别的网文。
+Web Novel Master 把 **26 位顶流网文作者的写作套路**、**爆款四法则**、**套路模板库**、**完整世界观体系**全部结构化，嵌入 AI 写作流程，让 AI 帮你写出专业级别的网文。
 
 ---
 
@@ -285,14 +286,18 @@ web-novel-master/
 │   ├── Guides/                       # [写作教程/模板](#快速开始)
 │   │   ├── Chapter-Writing-Guide.md # 章节写作指南
 │   │   └── Chapter-Template.md       # 章节模板
-│   ├── World/                        # 世界观设定（待填充）
+│   ├── World/                        # [世界观设定](#世界观设定)
+│   │   ├── Power-Systems/           # 力量体系（修仙/武侠/异能/科幻）
+│   │   ├── Factions/               # 势力设定（宗门/企业/家族）
+│   │   ├── Rules/                  # 世界规则（魔法/系统/社会）
+│   │   └── Geography/              # 地理设定（大陆/城市）
 │   ├── Data/                         # 市场数据（待填充）
 │   └── Check/                        # 自检清单（待填充）
 └── scripts/
     └── check_chapter_wordcount.py     # 字数校验脚本
 ```
 
-**70+ 参考文件**，覆盖网文创作的全部环节。
+**80+ 参考文件**，覆盖网文创作的全部环节。
 
 ---
 
@@ -344,6 +349,46 @@ MIT License - 永久开源，可自由使用、修改、商业化。
 
 ---
 
+## 世界观设定
+
+> 完整的世界观是爆款网文的骨架。Web Novel Master 内置了四大体系的世界观模板，涵盖玄幻仙侠、都市异能、武侠江湖、科幻星际等主流题材。
+
+### 力量体系
+
+| 体系 | 内容 | 适用题材 |
+|------|------|---------|
+| [修仙力量体系](./references/World/Power-Systems/Cultivation.md) | 境界9级、丹药资源、战斗体系、升级节奏 | 玄幻仙侠 |
+| [武侠力量体系](./references/World/Power-Systems/Martial-Arts.md) | 武功境界、门派江湖、秘籍传承 | 武侠小说 |
+| [现代异能体系](./references/World/Power-Systems/Modern-Ability.md) | 异能分类、等级划分、都市异能设定 | 都市异能 |
+| [科幻科技体系](./references/World/Power-Systems/Sci-Fi-Tech.md) | 文明等级、星际势力、机甲战斗 | 科幻小说 |
+
+### 势力设定
+
+| 体系 | 内容 | 适用题材 |
+|------|------|---------|
+| [宗门势力](./references/World/Factions/Sects.md) | 宗门等级5级、资源争夺、传承体系 | 玄幻仙侠 |
+| [企业势力](./references/World/Factions/Corporations.md) | 企业等级、商战异能、职场模板 | 都市商战 |
+| [家族势力](./references/World/Factions/Families.md) | 嫡庶之争、继承权、豪门恩怨 | 都市豪门 |
+
+### 世界规则
+
+| 体系 | 内容 | 适用题材 |
+|------|------|---------|
+| [魔法规则](./references/World/Rules/Magic-Rules.md) | 魔法等级、元素融合、施法体系 | 西幻异世 |
+| [系统规则](./references/World/Rules/System-Rules.md) | 系统类型8种、任务/商城/合成 | 系统流 |
+| [社会规则](./references/World/Rules/Social-Rules.md) | 社会阶层、货币体系、势力关系 | 所有题材 |
+
+### 地理设定
+
+| 体系 | 内容 | 适用题材 |
+|------|------|---------|
+| [大陆设定](./references/World/Geography/Continents.md) | 五域格局、禁地秘境、势力分布 | 玄幻仙侠 |
+| [城市设定](./references/World/Geography/Cities.md) | 城市分级、功能区域、打脸场景 | 都市小说 |
+
+**12 个世界观文件**，覆盖所有主流网文题材。
+
+---
+
 <div align="center">
 
 **如果这个项目对你有帮助，请点个 ⭐ Star**
@@ -352,14 +397,14 @@ MIT License - 永久开源，可自由使用、修改、商业化。
 
 ## 关注我们
 
-<p>获取更多网文创作干货、素材和最新更新</p>
+<p>获取更多AI实战干货</p>
 
 <p>关注微信公众号、关注小红书，一起交流学习。</p>
 
 <table>
 <tr>
 <td align="center">
-<img src="./assets/wechat-QR-code.jpeg" width="200" alt="微信公众号"/>
+<img src="./assets/wechat-QR-code.jpg" width="200" alt="微信公众号"/>
 <br/>
 <strong>微信公众号</strong>
 </td>

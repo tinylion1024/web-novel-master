@@ -24,10 +24,10 @@ metadata:
 
 | 模式 | Phase数 | 适用场景 |
 |------|---------|---------|
-| **Instant** | 1 | claude -n -p 非交互，一站式生成 |
 | **Fast** | 5 | 爱好者，极简快速 |
 | **Professional** | 8 | 作者，质量优先 |
 | **Industrial** | 10 | 团队，流水线生产 |
+| **Instant** | 1 | claude -n -p 非交互，一站式生成 |
 
 ---
 
@@ -49,12 +49,6 @@ metadata:
 ---
 
 ## 模式文件索引
-
-### Instant 即刻模式（1 次生成）
-
-| Phase | 文件 | 核心职责 |
-|-------|------|---------|
-| 0 | Instant/Instant0_One_Shot.md | 一站式生成 |
 
 ### Fast 快速模式（5 Phase）
 
@@ -93,6 +87,12 @@ metadata:
 | 7 | Ind/Ind7_Unified_Polish.md | 统一润色 |
 | 8 | Ind/Ind8_QC_Validation.md | QC校验 |
 | 9 | Ind/Ind9_Release_Operation.md | 发布运营 |
+
+### Instant 即刻模式（1 次生成）
+
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Instant/Instant0_One_Shot.md | 一站式生成 |
 
 ---
 

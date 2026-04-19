@@ -11,48 +11,42 @@
 
 请选择创作模式（输入数字）：
 
-【1】Instant 即刻模式 — 1 次生成
-claude -n -p 非交互｜一站式｜快速验证
-适合：直接生成完整小说，适合 claude -n -p 调用
-
-【2】Fast 快速模式 — 5 个 Phase
+【1】Fast 快速模式 — 5 个 Phase
 爱好者・极简｜快速开始｜快开写
 适合：已有明确想法，想立刻动笔的爱好者
 
-【3】Professional 专业模式 — 8 个 Phase
+【2】Professional 专业模式 — 8 个 Phase
 作者・完整但不繁琐｜质量优先
 适合：认真创作，追求质量的作者
 
-【4】Industrial 工业模式 — 10 个 Phase
+【3】Industrial 工业模式 — 10 个 Phase
 团队・最完整・可流水线
 适合：长篇创作，团队协作，流水线生产
+
+【4】Instant 即刻模式 — 1 次生成
+claude -n -p 非交互｜一站式｜快速验证
+适合：直接生成完整小说，适合 claude -n -p 调用
 ```
 
 ---
 
-## 三模式对比
+## 四模式对比
 
-| 维度 | Instant | Fast | Professional | Industrial |
-|------|---------|------|--------------|------------|
-| **Phase数** | 1 | 5 | 8 | 10 |
-| **交互次数** | 0 | 3-5 | 6-8 | 8-10 |
-| **市场调研** | ❌ | ❌ | ❌ | ✅ |
-| **问答深度** | 无 | 极简 | 适中 | 完整 |
-| **大纲精细度** | 简略 | 简略 | 完整 | 模块化 |
-| **写作模式** | 一次性生成 | 串行 | 串行+并行 | 串行+并行+Teams |
-| **润色深度** | 无 | 基础 | 完整 | 工业化QC |
-| **包装发布** | 包含简介+评价 | 简单 | 完整 | 运营规划 |
-| **适用场景** | claude -n -p | 快速动笔 | 单人创作 | 团队协作 |
+| 维度 | Fast | Professional | Industrial | Instant |
+|------|------|--------------|------------|--------|
+| **Phase数** | 5 | 8 | 10 | 1 |
+| **交互次数** | 3-5 | 6-8 | 8-10 | 0 |
+| **市场调研** | ❌ | ❌ | ✅ | ❌ |
+| **问答深度** | 极简 | 适中 | 完整 | 无 |
+| **大纲精细度** | 简略 | 完整 | 模块化 | 简略 |
+| **写作模式** | 串行 | 串行+并行 | 串行+并行+Teams | 一次性生成 |
+| **润色深度** | 基础 | 完整 | 工业化QC | 无 |
+| **包装发布** | 简单 | 完整 | 运营规划 | 包含简介+评价 |
+| **适用场景** | 快速动笔 | 单人创作 | 团队协作 | claude -n -p |
 
 ---
 
 ## 模式详细说明
-
-### Instant 即刻模式（1 次生成）
-
-| Phase | 文件 | 职责 |
-|-------|------|------|
-| 0 | Instant/Instant0_One_Shot.md | 一站式生成 |
 
 ### Fast 快速模式（5 Phase）
 
@@ -92,14 +86,20 @@ claude -n -p 非交互｜一站式｜快速验证
 | 8 | Ind/Ind8_QC_Validation.md | QC校验 |
 | 9 | Ind/Ind9_Release_Operation.md | 发布运营 |
 
+### Instant 即刻模式（1 次生成）
+
+| Phase | 文件 | 职责 |
+|-------|------|------|
+| 0 | Instant/Instant0_One_Shot.md | 一站式生成 |
+
 ---
 
 ## 选择后进入对应模式
-
-**用户选择 Instant** → 进入 `./Instant/Instant0_One_Shot.md`
 
 **用户选择 Fast** → 进入 `./Fast/Fast0_Initialization.md`
 
 **用户选择 Professional** → 进入 `./Pro/Pro0_Initialization.md`
 
 **用户选择 Industrial** → 进入 `./Ind/Ind0_Project_Initialize.md`
+
+**用户选择 Instant** → 进入 `./Instant/Instant0_One_Shot.md`

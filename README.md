@@ -356,4 +356,19 @@ MIT License - 永久开源，可自由使用、修改、商业化。
 
 <p>关注微信公众号、关注小红书，一起交流学习。</p>
 
+<table>
+<tr>
+<td align="center">
+<img src="./assets/wechat-QR-code.jpeg" width="200" alt="微信公众号"/>
+<br/>
+<strong>微信公众号</strong>
+</td>
+<td align="center">
+<img src="./assets/xhs-QR-code.jpg" width="200" alt="小红书"/>
+<br/>
+<strong>小红书</strong>
+</td>
+</tr>
+</table>
+
 </div>

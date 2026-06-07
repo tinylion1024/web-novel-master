@@ -407,7 +407,8 @@ web-novel-master/
 │   │   └── Dialogue-Writing.md      # 对话写作规范
 │   └── guides/                       # [写作教程/模板](#快速开始)
 │       ├── Chapter-Writing-Guide.md  # 章节写作指南
-│       └── Chapter-Template.md       # 章节模板
+│       ├── Chapter-Template.md       # 章节模板
+│       └── Naming-Diversity-Guide.md # 命名多样化指南
 └── scripts/
     └── check_chapter_wordcount.py     # 字数校验脚本
 ```
@@ -441,7 +442,7 @@ web-novel-master/
 # 初始化一个最小可执行项目
 python3 scripts/manage_novel_project.py init \
   --mode professional \
-  --title "县城神医重生记" \
+  --title "雾梁医案" \
   --genre "都市重生" \
   --golden-finger "望气医术" \
   --core-tropes "打脸逆袭" \

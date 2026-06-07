@@ -96,6 +96,13 @@
     "goldenFinger": "[金手指类型]",
     "coreTropes": "[核心爽点]"
   },
+  "namingLedger": {
+    "usedPersonNames": ["[已使用角色名]"],
+    "usedPlaceNames": ["[已使用地名]"],
+    "usedOrganizations": ["[已使用组织名]"],
+    "usedArtifacts": ["[已使用法宝/功法/系统名]"],
+    "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"]
+  },
   "chapters": [
     {
       "chapterNumber": 1,
@@ -223,6 +230,8 @@ python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/chapters/
 - 章节文件：`chapters/第01章.md`、`chapters/第02章.md`
 - 写作计划：统一为 `03-写作计划.json`
 - JSON 中 `filePath` 一律写相对路径，如 `chapters/第01章.md`
+- 核心角色、地名、势力名、器物名应写入 `namingLedger`
+- 用户未指定时，不要默认优先使用高频姓氏或泛化城市名
 
 ### 状态流转
 

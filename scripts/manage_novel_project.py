@@ -86,6 +86,7 @@ def load_plan(project_dir: Path) -> tuple[Path, dict[str, Any]]:
 
 def build_plan(args: argparse.Namespace, project_dir: Path) -> dict[str, Any]:
     created_at = now_iso()
+    used_person_names = [name for name in [args.protagonist, args.heroine, args.antagonist] if name and name != "待补充"]
     chapters = []
     for number in range(1, args.chapters + 1):
         title = args.chapter_titles[number - 1] if args.chapter_titles and number <= len(args.chapter_titles) else f"第{number:02d}章"
@@ -134,6 +135,13 @@ def build_plan(args: argparse.Namespace, project_dir: Path) -> dict[str, Any]:
             "goldenFinger": args.golden_finger,
             "coreTropes": args.core_tropes,
         },
+        "namingLedger": {
+            "usedPersonNames": used_person_names,
+            "usedPlaceNames": [],
+            "usedOrganizations": [],
+            "usedArtifacts": [],
+            "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"],
+        },
         "characters": {
             "protagonist": args.protagonist,
             "heroine": args.heroine,
@@ -154,6 +162,7 @@ def outline_template(plan: dict[str, Any]) -> str:
 - 类型：{core["genre"]}
 - 金手指：{core["goldenFinger"]}
 - 核心爽点：{core["coreTropes"]}
+- 核心舞台：待补充正式地名
 - 章节数：{total} 章
 
 ## 核心设定
@@ -167,6 +176,10 @@ def outline_template(plan: dict[str, Any]) -> str:
 ### 势力分布
 - 主角阵营：待补充
 - 主要反派势力：待补充
+
+### 命名约束
+- 避开高频默认姓氏：林 / 顾 / 沈 / 苏 / 叶 / 秦 / 萧 / 楚 / 陆 / 傅
+- 为城市、组织、器物提供正式名称
 
 ## 章节规划
 
@@ -186,16 +199,19 @@ def character_template(plan: dict[str, Any]) -> str:
 
 ## 主角
 - 姓名：{characters["protagonist"]}
+- 命名来源：待补充
 - 身份：待补充
 - 性格：待补充
 - 金手指：{plan["coreSetting"]["goldenFinger"]}
 
 ## 女主
 - 姓名：{characters["heroine"] or "待补充"}
+- 命名来源：待补充
 - 关系：待补充
 
 ## 反派
 - 姓名/代号：{characters["antagonist"] or "待补充"}
+- 命名来源：待补充
 - 压迫感来源：待补充
 """
 

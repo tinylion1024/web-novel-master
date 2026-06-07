@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 章节字数检查脚本
-检查指定章节文件的字数，低于3000字时提示需要扩充
+检查指定章节文件的字数，低于目标字数时提示需要扩充
 """
 
-import os
 import re
 import sys
 from pathlib import Path
@@ -90,6 +89,8 @@ def check_all_chapters(directory: str, pattern: str = '第*.md', min_words: int 
         return []
 
     chapter_files = sorted(dir_path.glob(pattern))
+    if not chapter_files and (dir_path / 'chapters').exists():
+        chapter_files = sorted((dir_path / 'chapters').glob(pattern))
     results = []
 
     for chapter_file in chapter_files:
@@ -140,7 +141,7 @@ def print_results(results: list, min_words: int = 2000):
         print('   - 增加对话场景')
         print('   - 扩展人物内心活动')
         print('   - 补充背景故事')
-        print(f'\n   参考: references/content-expansion.md')
+        print('\n   参考: references/Materials/Content-Expansion.md')
 
 
 def main():
@@ -153,10 +154,10 @@ def main():
         print('  检查所有章节: python check_chapter_wordcount.py --all <目录路径> [最小字数]')
         print('')
         print('示例:')
-        print('  python check_chapter_wordcount.py novels/故事/第01章.md')
-        print('  python check_chapter_wordcount.py novels/故事/第01章.md 3500')
-        print('  python check_chapter_wordcount.py --all novels/故事')
-        print('  python check_chapter_wordcount.py --all novels/故事 3500')
+        print('  python check_chapter_wordcount.py web-novels/故事/chapters/第01章.md')
+        print('  python check_chapter_wordcount.py web-novels/故事/chapters/第01章.md 3500')
+        print('  python check_chapter_wordcount.py --all web-novels/故事')
+        print('  python check_chapter_wordcount.py --all web-novels/故事 3500')
         return
 
     if sys.argv[1] == '--all':

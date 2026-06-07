@@ -35,16 +35,19 @@ metadata:
 
 进入每个阶段时，先阅读对应的流程文档以获取详细执行指令。
 
-### Phase 0: 初始化
-
-读取用户偏好，检测未完成项目（中断续写），展示个性化欢迎。
-→ 详见 [Phase0_Initialization.md](references/flows/Phase0_Initialization.md)
-
 ### 模式选择
 
+先根据用户需求选择创作模式。
 → 详见 [Mode_Selector.md](references/flows/Mode_Selector.md)
 
-用户选择模式后，进入对应模式的 Phase 1。
+### 对应模式入口
+
+用户选择模式后，进入对应入口文件执行初始化与后续流程：
+
+- Fast → [Fast0_Initialization.md](references/flows/Fast/Fast0_Initialization.md)
+- Professional → [Pro0_Initialization.md](references/flows/Pro/Pro0_Initialization.md)
+- Industrial → [Ind0_Project_Initialize.md](references/flows/Ind/Ind0_Project_Initialize.md)
+- Instant → [Instant0_One_Shot.md](references/flows/Instant/Instant0_One_Shot.md)
 
 ---
 

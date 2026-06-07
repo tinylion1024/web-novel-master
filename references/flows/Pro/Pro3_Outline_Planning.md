@@ -124,7 +124,7 @@
     {
       "chapterNumber": 1,
       "title": "[章节标题]",
-      "filePath": "第01章.md",
+      "filePath": "chapters/第01章.md",
       "status": "pending",
       "wordCount": null,
       "famousScene": "[名场面类型]",

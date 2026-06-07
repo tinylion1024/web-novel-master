@@ -37,7 +37,7 @@
 
 ## 1.3 创建项目
 
-创建 `./web-novels/{timestamp}-{小说名称}/`
+创建 `./web-novels/{timestamp}-{小说名称}/`，并初始化 `chapters/` 目录
 
 创建简版 `03-写作计划.json`：
 

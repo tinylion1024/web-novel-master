@@ -19,3 +19,7 @@ __pycache__/
 
 # Claude Code
 .claude/
+
+# Web Novel Master runtime artifacts
+web-novels/
+user-preferences.json

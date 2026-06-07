@@ -67,15 +67,15 @@
 
 ### 存储文件
 
-`03-写作计划.json`（项目文件夹内，Phase 5 创建）
+`03-写作计划.json`（项目文件夹内，在大纲规划阶段创建）
 
 ### 作用
 
 - **进度跟踪**：记录每章创作状态（pending/in_progress/completed/failed）
 - **写作模式**：记录用户选择的写作模式
 - **名场面跟踪**：记录每章的名场面类型和描述
-- **中断续写**：Phase 0 读取 JSON 检测未完成项目
-- **校验依据**：Phase 9 基于 JSON 校验章节完成度
+- **中断续写**：初始化阶段读取 JSON 检测未完成项目
+- **校验依据**：校验阶段基于 JSON 校验章节完成度
 
 ### JSON Schema
 
@@ -100,7 +100,7 @@
     {
       "chapterNumber": 1,
       "title": "[章节标题]",
-      "filePath": "第01章.md",
+      "filePath": "chapters/第01章.md",
       "status": "pending",
       "wordCount": null,
       "wordCountPass": null,
@@ -131,22 +131,22 @@ planning → in_progress → validating → completed
 
 ```bash
 # 检查单个章节
-python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/第01章.md
+python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/chapters/第01章.md
 
 # 检查所有章节
 python scripts/check_chapter_wordcount.py --all ./web-novels/项目文件夹/
 
 # 自定义最小字数
-python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/第01章.md 2500
+python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/chapters/第01章.md 2500
 ```
 
 ### 使用场景
 
 | Phase | 用途 |
 |-------|------|
-| Phase 6（撰写） | 撰写后检查单章字数 |
-| Phase 7（润色） | 润色后再次确认 |
-| Phase 9（校验） | 批量检查所有章节字数 |
+| 正文撰写阶段 | 撰写后检查单章字数 |
+| 润色阶段 | 润色后再次确认 |
+| 校验阶段 | 批量检查所有章节字数 |
 
 ---
 
@@ -186,42 +186,95 @@ python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/第01章.
 
 ---
 
-## 流程状态转换图
+## 模式流程映射
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    爆款网文创作10阶段流程                         │
-└─────────────────────────────────────────────────────────────────┘
+当前仓库使用四套模式化流程文件，不再使用单一的通用 `Phase0`-`Phase9` 文件命名。
 
-Phase 0 ──→ Phase 1 ──→ Phase 2 ──→ Phase 3 ──→ Phase 4
- 初始化      市场调研    核心明确    世界人设    风格定制
-    │          │           │           │           │
-    │           ↓           ↓           ↓           ↓
-    │      ┌─────────────────────────────────────────┐
-    │      │           快捷入口/问答入口              │
-    │      └─────────────────────────────────────────┘
-    │                                               │
-    ↓                                               ↓
-Phase 9 ←─ Phase 8 ←─ Phase 7 ←─ Phase 6 ←──── Phase 5
- 校验发布     钩子包装     润色节奏     大纲规划 ←┘
-                                          ↑
-                               用户确认后进入
-```
+---
 
-### 阶段状态流转
+## 统一产物规范
 
-| 当前 Phase | 触发条件 | 下一 Phase | 可返回 |
-|-----------|---------|-----------|--------|
-| Phase 0 | 完成初始化 | Phase 1 或 Phase 5（跳过） | - |
-| Phase 1 | 完成市场分析 | Phase 2 | Phase 0 |
-| Phase 2 | Q1-Q4 完成 | Phase 3 | Phase 1 |
-| Phase 3 | Q5-Q8 完成 | Phase 4 | Phase 2 |
-| Phase 4 | 用户确认配置 | Phase 5 | Phase 3 |
-| Phase 5 | 用户确认大纲+写作模式 | Phase 6 | Phase 4 |
-| Phase 6 | 所有章节完成 | Phase 7 | - |
-| Phase 7 | 所有章节润色完成 | Phase 8 | - |
-| Phase 8 | 包装完成 | Phase 9 | Phase 7 |
-| Phase 9 | 校验完成 | 完成 | Phase 6 |
+### 输出目录
+
+`./web-novels/{timestamp}-{小说名称}/`
+
+### 必备文件
+
+| 文件 | 作用 |
+|------|------|
+| `00-大纲.md` | 核心设定与章节规划 |
+| `01-人物档案.md` | 主角/女主/反派信息 |
+| `03-写作计划.json` | 状态机、章节进度、校验结果 |
+| `chapters/第01章.md` | 章节正文，按两位数顺序命名 |
+
+### 可选文件
+
+| 文件 | 场景 |
+|------|------|
+| `02-名场面时间轴.md` | 需要提前规划爽点节奏时 |
+| `04-章节详细规划.md` | Professional / Industrial 模式推荐 |
+| `05-伏笔系统.md` | 需要长期管理伏笔时 |
+| `QC校验报告.md` | 批量校验后生成 |
+| `市场调研报告.md` | Industrial 模式可选 |
+
+### 命名规则
+
+- 项目目录：`{YYYYMMDD-HHmmss}-{小说名称}`
+- 章节文件：`chapters/第01章.md`、`chapters/第02章.md`
+- 写作计划：统一为 `03-写作计划.json`
+- JSON 中 `filePath` 一律写相对路径，如 `chapters/第01章.md`
+
+### 状态流转
+
+`planning -> in_progress -> validating -> completed`
+
+失败分支：`failed`
+
+失败章节允许重试，`retryCount` 递增；校验通过后写回 `validation` 字段。
+
+### Fast 快速模式
+
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Fast/Fast0_Initialization.md | 初始化 |
+| 1 | Fast/Fast1_Idea_Clarify.md | 想法明确 |
+| 2 | Fast/Fast2_Quick_Draft.md | 快速起草 |
+| 3 | Fast/Fast3_Simple_Polish.md | 简单润色 |
+| 4 | Fast/Fast4_Final_Validation.md | 最终校验 |
+
+### Professional 专业模式
+
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Pro/Pro0_Initialization.md | 初始化 |
+| 1 | Pro/Pro1_Core_Clarify.md | 核心明确 |
+| 2 | Pro/Pro2_World_Character_Setup.md | 世界观与人设 |
+| 3 | Pro/Pro3_Outline_Planning.md | 大纲规划 |
+| 4 | Pro/Pro4_Full_Draft_Writing.md | 正文撰写 |
+| 5 | Pro/Pro5_Polish_Pacing.md | 润色节奏 |
+| 6 | Pro/Pro6_Hook_Packaging.md | 钩子包装 |
+| 7 | Pro/Pro7_Validation_Release.md | 校验发布 |
+
+### Industrial 工业模式
+
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Ind/Ind0_Project_Initialize.md | 项目初始化 |
+| 1 | Ind/Ind1_Market_Research.md | 市场调研 |
+| 2 | Ind/Ind2_Core_Positioning.md | 核心定位 |
+| 3 | Ind/Ind3_World_Rule_Setup.md | 世界规则设定 |
+| 4 | Ind/Ind4_Character_Standard.md | 人物标准化 |
+| 5 | Ind/Ind5_Modular_Outline.md | 模块化大纲 |
+| 6 | Ind/Ind6_Team_Writing.md | 团队写作 |
+| 7 | Ind/Ind7_Unified_Polish.md | 统一润色 |
+| 8 | Ind/Ind8_QC_Validation.md | QC 校验 |
+| 9 | Ind/Ind9_Release_Operation.md | 发布运营 |
+
+### Instant 即刻模式
+
+| Phase | 文件 | 核心职责 |
+|-------|------|---------|
+| 0 | Instant/Instant0_One_Shot.md | 一站式生成 |
 
 ### 写作模式
 
@@ -241,26 +294,9 @@ web-novels/
     ├── 00-大纲.md                    # 故事大纲 + 章节规划
     ├── 01-人物档案.md                # 主角/女主/反派档案
     ├── 03-写作计划.json              # 写作进度状态
-    └── 第XX章-xxx.md                # 各章正文
+    └── chapters/
+        └── 第01章.md                # 各章正文
 ```
-
----
-
-## 阶段文件索引
-
-| Phase | 文件 | 核心职责 |
-|-------|------|---------|
-| Phase 0 | Phase0_Initialization.md | 初始化、偏好加载、中断续写检测 |
-| Phase 1 | Phase1_Market_Research.md | 市场分析、套路速查、意向提取 |
-| Phase 2 | Phase2_Core_Clarify.md | 类型、金手指、爽点、主角 |
-| Phase 3 | Phase3_World_Character_Setup.md | 世界观、情感线、反派、名场面 |
-| Phase 4 | Phase4_Style_Customization.md | 读者定位、章节数量、特殊要求 |
-| Phase 5 | Phase5_Outline_Planning.md | 大纲生成、人物档案、写作计划 |
-| Phase 6 | Phase6_Full_Draft_Writing.md | 逐章创作、三种写作模式 |
-| Phase 7 | Phase7_Polish_Pacing.md | AI味清除、语言质量、节奏调整 |
-| Phase 8 | Phase8_Hook_Packaging.md | 标题优化、章节简介、连载钩子 |
-| Phase 9 | Phase9_Validation_Release.md | 自动校验、自动修复、完成报告 |
-| - | Shared_Infrastructure.md | 共享机制、偏好系统、写作计划、营销素材 |
 
 ---
 

@@ -2,7 +2,7 @@
 
 好的人物是故事的灵魂。读者记住的是人，不是情节。
 
-> 人物档案模板请使用 [character-template.md](character-template.md)（Phase 2 创建时使用）。本文档聚焦于**在写作过程中**塑造人物的技法。
+> 人物档案模板请使用 [Character-Template.md](Character-Template.md)（Phase 2 创建时使用）。本文档聚焦于**在写作过程中**塑造人物的技法。
 
 ---
 

@@ -79,9 +79,12 @@
 
 ### JSON Schema
 
+唯一的机器可读契约是 [writing-plan.schema.json](../../schemas/writing-plan.schema.json)。新项目必须使用 v4；工具会在读取旧 v1-v3 文件时迁移字段，但不会将旧版本作为新模板继续传播。
+
 ```json
 {
-  "version": 3,
+  "version": 4,
+  "mode": "professional",
   "novelName": "[小说名称]",
   "projectPath": "./web-novels/{timestamp}-[小说名称]",
   "totalChapters": [章节数],
@@ -101,7 +104,7 @@
     "usedPlaceNames": ["[已使用地名]"],
     "usedOrganizations": ["[已使用组织名]"],
     "usedArtifacts": ["[已使用法宝/功法/系统名]"],
-    "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"]
+    "defaultAvoidSurnames": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅", "江", "韩"]
   },
   "chapters": [
     {
@@ -131,6 +134,12 @@ planning → in_progress → validating → completed
                               ↓
                            failed (可重试，最多3次)
 ```
+
+### 并行写作约束
+
+- 子 Agent 只写自己负责的章节和摘要，不直接覆盖 `03-写作计划.json`。
+- 主 Agent 通过 `manage_novel_project.py set-status` 合并状态；该命令持有短时锁并使用原子写入。
+- 批次完成后再由主 Agent 更新伏笔、命名台账和跨章节状态，避免丢失更新。
 
 ---
 
@@ -291,7 +300,7 @@ python scripts/check_chapter_wordcount.py ./web-novels/项目文件夹/chapters/
 |------|------|---------|
 | `serial` | 主 Agent 逐章串行写 | 短中篇，默认推荐 |
 | `subagent-parallel` | 子 Agent 分批并行写 | 中长篇，追求速度 |
-| `agent-teams` | Claude Code 多 Agent 协作 | 大型长篇，需手动开启 |
+| `agent-teams` | 支持任务协作能力的平台的多 Agent 协作 | 大型长篇，需手动开启；不支持时降级为串行 |
 
 ---
 

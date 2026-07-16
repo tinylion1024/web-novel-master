@@ -433,7 +433,7 @@ web-novel-master/
 │   ├── 第01章.md                     # 2000-3000字/章
 │   ├── 第02章.md
 │   └── ...
-└── QC校验报告.md                      # 质量评分 & 修复建议
+└── QC校验报告.md                      # 自动基线评分、命名警告与人工复核项
 ```
 
 ### 内置工具
@@ -454,9 +454,14 @@ python3 scripts/manage_novel_project.py resume
 # 批量校验项目并生成 QC 报告
 python3 scripts/manage_novel_project.py validate ./web-novels/<项目目录>
 
+# 运行工具链回归测试（零第三方依赖）
+python3 -m unittest discover -s tests -v
+
 # 校验核心文档引用与命名一致性
 python3 scripts/validate_docs.py
 ```
+
+`validate` 检查字数范围、占位重复、结构性钩子和命名台账；它通过的是自动基线，不替代人工对剧情一致性、原创性和平台规范的复核。
 
 ---
 

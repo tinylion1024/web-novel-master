@@ -102,39 +102,7 @@
 
 ## 3.3 生成写作计划
 
-创建 `03-写作计划.json`：
-
-```json
-{
-  "version": 2,
-  "mode": "professional",
-  "novelName": "[小说名称]",
-  "projectPath": "./web-novels/{timestamp}-[小说名称]",
-  "totalChapters": [章节数],
-  "minWordsPerChapter": 2000,
-  "maxWordsPerChapter": 3000,
-  "status": "planning",
-  "writingMode": "[serial|subagent-parallel]",
-  "coreSetting": {
-    "genre": "[类型]",
-    "goldenFinger": "[金手指]",
-    "coreTropes": "[爽点]"
-  },
-  "chapters": [
-    {
-      "chapterNumber": 1,
-      "title": "[章节标题]",
-      "filePath": "chapters/第01章.md",
-      "status": "pending",
-      "wordCount": null,
-      "famousScene": "[名场面类型]",
-      "emotionalArc": "[情绪弧线]",
-      "foreshadow": { "seeds": [], "resolves": [] },
-      "retryCount": 0
-    }
-  ]
-}
-```
+创建 `03-写作计划.json` 时使用 [共享写作计划 Schema](../Shared_Infrastructure.md#json-schema) 的 v4 结构，并设置 `"mode": "professional"`。不要复制旧 v2 示例；命名台账、状态机、章节校验字段均为必填协作数据。
 
 ---
 

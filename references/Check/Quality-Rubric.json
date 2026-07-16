@@ -1,46 +1,62 @@
 {
-  "version": 1,
+  "version": 2,
   "minimumScore": 70,
+  "manualReviewRequired": true,
   "checks": [
     {
       "id": "word_count",
-      "weight": 25,
-      "minimumWords": 2000,
-      "description": "章节字数达标"
+      "weight": 30,
+      "required": true,
+      "description": "章节字数位于项目设定的范围内"
+    },
+    {
+      "id": "content_integrity",
+      "weight": 10,
+      "required": true,
+      "minimumUniqueChineseCharacters": 120,
+      "maximumRepeatedCharacterRun": 20,
+      "description": "正文不是低多样性或连续重复的占位内容"
     },
     {
       "id": "opening_hook",
       "weight": 15,
+      "required": false,
       "openingWindow": 500,
-      "keywords": ["退婚", "系统", "重生", "危机", "抓", "跪", "血", "突然", "忽然", "竟然", "没想到"],
-      "description": "前 500 字有冲突、悬念或强情绪"
+      "minimumDistinctKeywords": 1,
+      "keywords": ["退婚", "系统", "重生", "危机", "追杀", "抓捕", "血迹", "失踪", "背叛", "秘密"],
+      "description": "前 500 字出现可解释的冲突或悬念线索"
     },
     {
       "id": "excitement_density",
       "weight": 20,
+      "required": false,
       "minimumHitsPer2000Chars": 1,
-      "keywords": ["打脸", "冷笑", "突破", "系统", "重生", "跪下", "震惊", "逆袭", "觉醒", "轰", "爆", "赢了"],
-      "description": "爽点关键词密度达标"
+      "minimumDistinctKeywords": 2,
+      "keywords": ["打脸", "反击", "突破", "觉醒", "逆袭", "翻盘", "获胜", "揭穿", "震惊", "传承"],
+      "description": "爽点线索具备最低密度且不是单一关键词重复"
     },
     {
       "id": "emotional_rhythm",
-      "weight": 15,
-      "negativeKeywords": ["压住", "羞辱", "危机", "绝望", "冷汗", "狼狈", "疼", "退婚", "讥讽"],
-      "positiveKeywords": ["反击", "笑了", "赢", "突破", "轻松", "跪下", "扳回", "震惊", "翻盘"],
-      "description": "前半有压迫，后半有释放"
+      "weight": 0,
+      "required": false,
+      "negativeKeywords": ["压住", "羞辱", "危机", "绝望", "冷汗", "狼狈", "疼痛", "退婚", "讥讽"],
+      "positiveKeywords": ["反击", "笑了", "获胜", "突破", "轻松", "扳回", "震惊", "翻盘"],
+      "description": "情绪节奏提示，仅用于人工复核，不计入自动评分"
     },
     {
       "id": "quote_line",
       "weight": 10,
+      "required": false,
       "minimumQuotedLineLength": 8,
-      "description": "章节内包含可传播的引号金句"
+      "description": "章节内包含长度足够的引号对白或金句候选"
     },
     {
       "id": "ending_hook",
       "weight": 15,
+      "required": false,
       "endingWindow": 200,
-      "keywords": ["？", "！", "门外", "下一刻", "然而", "电话", "消息", "脚步声", "原来", "又是他"],
-      "description": "结尾有钩子或信息炸弹"
+      "keywords": ["门外", "下一刻", "然而", "电话", "消息", "脚步声", "原来", "真相", "名字", "来人"],
+      "description": "结尾出现可解释的悬念或信息变化线索"
     }
   ]
 }

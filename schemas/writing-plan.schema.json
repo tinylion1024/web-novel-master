@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tinylion1024/web-novel-master/schemas/writing-plan.schema.json",
+  "title": "Web Novel Master Writing Plan",
+  "type": "object",
+  "required": [
+    "version",
+    "mode",
+    "novelName",
+    "projectPath",
+    "totalChapters",
+    "minWordsPerChapter",
+    "maxWordsPerChapter",
+    "status",
+    "writingMode",
+    "coreSetting",
+    "namingLedger",
+    "chapters"
+  ],
+  "properties": {
+    "version": {"const": 4},
+    "mode": {"enum": ["fast", "professional", "industrial", "instant"]},
+    "novelName": {"type": "string", "minLength": 1},
+    "projectPath": {"type": "string", "pattern": "^\\./web-novels/[^/]+$"},
+    "totalChapters": {"type": "integer", "minimum": 1},
+    "minWordsPerChapter": {"type": "integer", "minimum": 1},
+    "maxWordsPerChapter": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["planning", "in_progress", "validating", "completed", "failed"]},
+    "writingMode": {"enum": ["serial", "subagent-parallel", "agent-teams"]},
+    "coreSetting": {
+      "type": "object",
+      "required": ["genre", "goldenFinger", "coreTropes"],
+      "properties": {
+        "genre": {"type": "string"},
+        "goldenFinger": {"type": "string"},
+        "coreTropes": {"type": "string"}
+      }
+    },
+    "namingLedger": {
+      "type": "object",
+      "required": ["usedPersonNames", "usedPlaceNames", "usedOrganizations", "usedArtifacts", "defaultAvoidSurnames"],
+      "properties": {
+        "usedPersonNames": {"$ref": "#/$defs/nameList"},
+        "usedPlaceNames": {"$ref": "#/$defs/nameList"},
+        "usedOrganizations": {"$ref": "#/$defs/nameList"},
+        "usedArtifacts": {"$ref": "#/$defs/nameList"},
+        "defaultAvoidSurnames": {"$ref": "#/$defs/nameList"}
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["chapterNumber", "title", "filePath", "status", "retryCount"],
+        "properties": {
+          "chapterNumber": {"type": "integer", "minimum": 1},
+          "title": {"type": "string", "minLength": 1},
+          "filePath": {"type": "string", "pattern": "^chapters/第[0-9]{2,}章\\.md$"},
+          "status": {"enum": ["pending", "in_progress", "completed", "failed"]},
+          "retryCount": {"type": "integer", "minimum": 0}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nameList": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    }
+  }
+}

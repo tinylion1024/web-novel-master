@@ -101,7 +101,7 @@
     "usedPlaceNames": ["临岚市", "鹤汀县"],
     "usedOrganizations": ["衡越生物"],
     "usedArtifacts": ["乌檀镇脉针"],
-    "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"]
+    "defaultAvoidSurnames": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅", "江", "韩"]
   }
 }
 ```

@@ -14,7 +14,7 @@
 | 目录结构 | 确保 `./web-novels/` 存在 |
 | 偏好系统 | 检查 `user-preferences.json` |
 | 脚本可用性 | `scripts/check_chapter_wordcount.py` |
-| Agent权限 | TaskCreate / TeamCreate 权限 |
+| Agent权限 | 可选的任务协作能力；缺失时使用批次分配降级 |
 
 ---
 
@@ -26,20 +26,7 @@
 
 ### 创建项目配置
 
-```json
-{
-  "version": 1,
-  "mode": "industrial",
-  "projectName": "[项目名称]",
-  "projectPath": "./web-novels/{timestamp}-[项目名称]",
-  "createdAt": "[ISO时间]",
-  "status": "initializing",
-  "team": {
-    "size": null,
-    "members": []
-  }
-}
-```
+使用 [共享写作计划 Schema](../Shared_Infrastructure.md#json-schema) 的 v4 结构，并设置 `"mode": "industrial"`。团队人数和成员信息可作为扩展字段记录，但项目状态必须使用标准状态机中的 `planning`、`in_progress`、`validating`、`completed` 或 `failed`。
 
 ---
 

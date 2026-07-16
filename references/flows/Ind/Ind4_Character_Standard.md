@@ -191,7 +191,7 @@
   "supportingCharacters": [ ... ],
   "namingLedger": {
     "usedPersonNames": [],
-    "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"]
+    "defaultAvoidSurnames": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅", "江", "韩"]
   }
 }
 ```

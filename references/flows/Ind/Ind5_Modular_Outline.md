@@ -149,47 +149,7 @@
 
 ## 5.7 写作计划创建
 
-创建 `03-写作计划.json`：
-
-```json
-{
-  "version": 3,
-  "mode": "industrial",
-  "novelName": "[小说名称]",
-  "projectPath": "./web-novels/{timestamp}-[小说名称]",
-  "totalChapters": [章节数],
-  "minWordsPerChapter": 2000,
-  "maxWordsPerChapter": 3000,
-  "status": "planning",
-  "writingMode": "[serial|subagent-parallel|agent-teams]",
-  "coreSetting": {
-    "genre": "[类型]",
-    "goldenFinger": "[金手指]",
-    "coreTropes": "[爽点]"
-  },
-  "phases": [
-    {
-      "phaseName": "开局",
-      "chapters": "1-5",
-      "goal": "建立爽文基调"
-    }
-  ],
-  "chapters": [
-    {
-      "chapterNumber": 1,
-      "title": "[章节标题]",
-      "filePath": "chapters/第01章.md",
-      "status": "pending",
-      "wordCount": null,
-      "chapterType": "[类型]",
-      "famousScene": "[名场面类型]",
-      "emotionalArc": "[情绪弧线]",
-      "foreshadow": { "seeds": [], "resolves": [] },
-      "retryCount": 0
-    }
-  ]
-}
-```
+创建 `03-写作计划.json` 时使用 [共享写作计划 Schema](../Shared_Infrastructure.md#json-schema) 的 v4 结构，并设置 `"mode": "industrial"`。`phases` 和 `chapterType` 可以作为扩展字段保留，但不替代必填的 `namingLedger`、章节路径、状态与校验字段。
 
 ---
 

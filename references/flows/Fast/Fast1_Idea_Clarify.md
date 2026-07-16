@@ -41,29 +41,7 @@
 
 创建 `./web-novels/{timestamp}-{小说名称}/`，并初始化 `chapters/` 目录
 
-创建简版 `03-写作计划.json`：
-
-```json
-{
-  "version": 1,
-  "mode": "fast",
-  "novelName": "[小说名称]",
-  "totalChapters": [待定],
-  "status": "planning",
-  "coreSetting": {
-    "genre": "[类型]",
-    "goldenFinger": "[金手指]",
-    "coreTropes": "[爽点]"
-  },
-  "namingLedger": {
-    "usedPersonNames": [],
-    "usedPlaceNames": [],
-    "usedOrganizations": [],
-    "usedArtifacts": [],
-    "blockedHighFrequency": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅"]
-  }
-}
-```
+使用 [共享写作计划 Schema](../Shared_Infrastructure.md#json-schema) 的 v4 结构创建 `03-写作计划.json`，并设置 `"mode": "fast"`。章节数尚未确定时，先填入当前要生成的章节数，后续通过规划阶段扩展；不要再创建 v1 简版计划。
 
 ---
 

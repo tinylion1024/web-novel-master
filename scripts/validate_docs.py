@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import re
 import sys
+import json
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -29,6 +30,8 @@ EXPECTED_MODE_ENTRIES = [
     "references/flows/Ind/Ind0_Project_Initialize.md",
     "references/flows/Instant/Instant0_One_Shot.md",
 ]
+PLAN_SCHEMA_PATH = ROOT_DIR / "schemas" / "writing-plan.schema.json"
+RUBRIC_PATH = ROOT_DIR / "references" / "Check" / "Quality-Rubric.json"
 
 BANNED_PATTERNS = {
     "references/Flow/": "旧目录名，应使用 references/flows/",
@@ -97,6 +100,34 @@ def validate_skill_entries(skill_path: Path) -> list[str]:
     return errors
 
 
+def validate_machine_contracts() -> list[str]:
+    errors: list[str] = []
+    try:
+        schema = json.loads(PLAN_SCHEMA_PATH.read_text(encoding="utf-8"))
+        if schema.get("properties", {}).get("version", {}).get("const") != 4:
+            errors.append("schemas/writing-plan.schema.json -> version 必须固定为 4")
+        required = set(schema.get("required", []))
+        for field in ("namingLedger", "chapters", "writingMode"):
+            if field not in required:
+                errors.append(f"schemas/writing-plan.schema.json -> 缺少必填字段: {field}")
+    except (OSError, json.JSONDecodeError) as error:
+        errors.append(f"schemas/writing-plan.schema.json -> 无法读取: {error}")
+
+    try:
+        rubric = json.loads(RUBRIC_PATH.read_text(encoding="utf-8"))
+        check_ids = {item.get("id") for item in rubric.get("checks", []) if isinstance(item, dict)}
+        if rubric.get("version") != 2:
+            errors.append("references/Check/Quality-Rubric.json -> version 必须为 2")
+        if not rubric.get("manualReviewRequired"):
+            errors.append("references/Check/Quality-Rubric.json -> 必须要求人工内容复核")
+        for check_id in ("word_count", "content_integrity"):
+            if check_id not in check_ids:
+                errors.append(f"references/Check/Quality-Rubric.json -> 缺少校验项: {check_id}")
+    except (OSError, json.JSONDecodeError) as error:
+        errors.append(f"references/Check/Quality-Rubric.json -> 无法读取: {error}")
+    return errors
+
+
 def main() -> int:
     files = iter_markdown_files()
     errors: list[str] = []
@@ -106,6 +137,7 @@ def main() -> int:
         errors.extend(find_banned_pattern_errors(file_path))
 
     errors.extend(validate_skill_entries(ROOT_DIR / "SKILL.md"))
+    errors.extend(validate_machine_contracts())
 
     if errors:
         print("文档校验失败：")

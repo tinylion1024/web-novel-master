@@ -14,3 +14,7 @@ jobs:
           python-version: "3.11"
       - run: python -m unittest discover -s tests -v
       - run: python scripts/validate_docs.py
+      - run: python -m json.tool schemas/writing-plan.schema.json > /dev/null
+      - run: find examples -name '*.json' -exec python -m json.tool {} \; > /dev/null
+      - run: python scripts/install_skill.py --platform claude-code --target "$RUNNER_TEMP/claude-skills"
+      - run: test -f "$RUNNER_TEMP/claude-skills/web-novel-master/SKILL.md"

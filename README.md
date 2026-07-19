@@ -10,7 +10,7 @@ description: |
 
 ### 从一个想法，到可继续创作的网文项目
 
-[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/tinylion1024/web-novel-master)
+[![Version](https://img.shields.io/badge/version-v1.1.0-blue.svg)](https://github.com/tinylion1024/web-novel-master/releases/tag/v1.1.0)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![CLAUDE](https://img.shields.io/badge/Power%20By-Claude%20Code-orange.svg)](https://claude.com/claude-code)
 [![Validate](https://github.com/tinylion1024/web-novel-master/actions/workflows/ci.yml/badge.svg)](https://github.com/tinylion1024/web-novel-master/actions/workflows/ci.yml)
@@ -71,12 +71,16 @@ python3 scripts/manage_novel_project.py validate ./web-novels/<项目目录>
 - [自检清单](#自检清单)
 - [叙事技法参考](#叙事技法参考)
 - [完整安装与启动](#完整安装与启动)
+- [平台定位包](#平台定位包)
+- [连续创作模板](#连续创作模板)
+- [模式对照样例](#模式对照样例)
 - [项目结构](#项目结构)
 - [输出示例](#输出示例)
 - [谁在用 Web Novel Master](#谁在用-web-novel-master)
 - [如何贡献](#如何贡献)
 - [负责任使用](#负责任使用)
 - [路线图](#路线图)
+- [版本与安全](#版本与安全)
 - [关注我们](#关注我们)
 
 ---
@@ -253,29 +257,11 @@ claude -n -p "生成一个都市重生文，主角是医生，有透视金手指
 
 ## 市场数据参考
 
-> 选题决策前，先看数据。数据来源：2024-2026 年官方报告、平台数据、行业统计。
+> 市场资料用于提出选题假设，而不是提供热度、收入或过审承诺。平台规则、榜单和市场指标应以平台官方最新信息为准。
 
-### 核心数据速查
+使用前请在 [数据来源核验登记表](./references/Data/Source-Registry.md) 记录原始链接、发布日期与统计口径；未核验的数字不得用于商业决策或对外陈述。
 
-```
-市场规模：502.1 亿元（+16.6%）
-IP 改编：3676.1 亿元（+23.13%）
-短剧市场：1080 亿元（+110%）
-海外营收：56.4 亿元（+11.2%）
-
-国内用户：5.75 亿
-月活用户：1.36 亿
-付费读者：2 亿+
-海外用户：近 2 亿
-
-男频主流：玄幻 40% > 都市 25% > 科幻 15% > 历史 10%
-女频主流：现言 35% > 古言 30% > 幻言 20% > 耽美 10%
-
-爆款门槛：起点均订 10 万+，番茄阅读量 10 亿+
-作者收入：月入过万约 5%，月入过十万约 1%
-```
-
-详细数据：[市场数据参考](./references/Data/Market-Data.md)
+研究资料：[市场数据参考](./references/Data/Market-Data.md)
 
 ---
 
@@ -364,19 +350,28 @@ IP 改编：3676.1 亿元（+23.13%）
 
 ## 完整安装与启动
 
-### 1. 安装
+完整兼容矩阵、更新方式和故障排查见 [安装指南](./docs/INSTALLATION.md)。
+
+### 1. Claude Code 安装
 
 ```bash
 # 克隆仓库
 git clone https://github.com/tinylion1024/web-novel-master.git
 
-# 放入 Claude Code skills 目录（OpenClaw 请按其技能目录规则安装）
-cp -r web-novel-master ~/.claude/skills/
+# 安装到 Claude Code 的用户技能目录
+python3 scripts/install_skill.py --platform claude-code
 
 # 重启 Claude Code，输入 /skill web-novel-master 启动
 ```
 
-### 2. 选择模式
+### 2. OpenClaw 安装
+
+```bash
+# 在仓库根目录执行；OpenClaw 会从 SKILL.md 识别技能
+openclaw skills install . --global
+```
+
+### 3. 选择模式
 
 启动后，AI 会引导你选择模式：
 
@@ -388,7 +383,7 @@ cp -r web-novel-master ~/.claude/skills/
   [4] ⚡ Instant - 一次生成（适合快速验证）
 ```
 
-### 3. 开始创作
+### 4. 开始创作
 
 以 Professional 模式为例：
 
@@ -500,6 +495,18 @@ python3 scripts/validate_docs.py
 
 `validate` 检查字数范围、占位重复、结构性钩子和命名台账；它通过的是自动基线，不替代人工对剧情一致性、原创性和平台规范的复核。
 
+## 平台定位包
+
+按发布平台准备简介、标签、开篇验证与发布前检查时，请使用 [平台定位包](./references/Platforms/README.md)。其中不复述平台规则，要求作者在发布当天回到官方创作后台确认最新要求。
+
+## 连续创作模板
+
+连载时用 [连续创作模板](./references/guides/Serial-Continuity-Template.md) 记录上一章摘要、角色状态、未回收伏笔与下一章承诺，降低长篇写作中的设定漂移。
+
+## 模式对照样例
+
+同一创意在 Fast、Professional、Industrial 与 Instant 中的输入深度和交付物差异见 [模式对照样例](./examples/mode-comparison/README.md)。
+
 ---
 
 ## 谁在用 Web Novel Master？
@@ -516,6 +523,8 @@ python3 scripts/validate_docs.py
 
 欢迎通过 Issue、Discussion 和 Pull Request 参与。请先阅读 [贡献指南](./CONTRIBUTING.md)，其中说明了可提交的题材资料、样例要求、引用规则和本地校验命令。
 
+使用、提问与社区交流入口见 [支持与社区](./SUPPORT.md)。
+
 - 🐛 报告工具或文档问题
 - 💡 提出流程、题材或样例建议
 - 📝 补充经过来源核验的创作资料
@@ -528,6 +537,10 @@ python3 scripts/validate_docs.py
 ## 路线图
 
 近期维护目标和适合新贡献者的方向见 [ROADMAP.md](./ROADMAP.md)。
+
+## 版本与安全
+
+版本变更见 [CHANGELOG.md](./CHANGELOG.md)，发布流程见 [发布指南](./docs/RELEASING.md)。如发现脚本或供应链安全问题，请按 [SECURITY.md](./SECURITY.md) 私密报告。
 
 ---
 

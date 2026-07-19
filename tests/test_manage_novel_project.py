@@ -11,6 +11,7 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT_DIR / "scripts"))
 
 import manage_novel_project as manager
+import install_skill
 
 
 def make_args(**overrides: object) -> Namespace:
@@ -39,6 +40,42 @@ def valid_text() -> str:
 
 
 class ManageNovelProjectTests(unittest.TestCase):
+    def test_skill_installer_copies_runtime_files_and_ignores_workspace_state(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source"
+            source.mkdir()
+            (source / "SKILL.md").write_text("---\nname: test\n---\n", encoding="utf-8")
+            (source / "references").mkdir()
+            (source / "references" / "guide.md").write_text("guide", encoding="utf-8")
+            (source / "web-novels").mkdir()
+            (source / "web-novels" / "draft.md").write_text("private", encoding="utf-8")
+            target = Path(directory) / "skills"
+            destination = install_skill.install_skill(source, target)
+            self.assertTrue((destination / "SKILL.md").is_file())
+            self.assertTrue((destination / "references" / "guide.md").is_file())
+            self.assertFalse((destination / "web-novels").exists())
+
+    def test_skill_installer_requires_force_for_existing_destination(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source"
+            source.mkdir()
+            (source / "SKILL.md").write_text("---\nname: test\n---\n", encoding="utf-8")
+            target = Path(directory) / "skills"
+            install_skill.install_skill(source, target)
+            with self.assertRaisesRegex(FileExistsError, "--force"):
+                install_skill.install_skill(source, target)
+            self.assertEqual(install_skill.install_skill(source, target, force=True), target / install_skill.SKILL_NAME)
+
+    def test_skill_installer_dry_run_does_not_write(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source"
+            source.mkdir()
+            (source / "SKILL.md").write_text("---\nname: test\n---\n", encoding="utf-8")
+            target = Path(directory) / "skills"
+            destination = install_skill.install_skill(source, target, dry_run=True)
+            self.assertEqual(destination, target / install_skill.SKILL_NAME)
+            self.assertFalse(destination.exists())
+
     def test_build_plan_uses_v4_contract(self) -> None:
         plan = manager.build_plan(make_args(), Path("20260717-测试小说"))
         errors, warnings = manager.validate_plan_data(plan)

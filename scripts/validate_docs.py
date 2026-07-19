@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parent.parent
 MARKDOWN_GLOBS = [
     "*.md",
+    "docs/**/*.md",
     "examples/**/*.md",
     "references/**/*.md",
 ]

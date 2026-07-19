@@ -1,0 +1,35 @@
+name: Content or workflow request
+description: 建议新的题材资料、样例或流程改进。
+title: "[Content]: "
+labels: [content]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 建议类型
+      options:
+        - 题材或叙事技法资料
+        - 原创示例项目
+        - 创作流程改进
+        - 质量检查规则
+    validations:
+      required: true
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: 用户问题
+      description: 哪类创作者会在什么场景遇到这个问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 请说明预期文件、示例或验收方式；不要粘贴未授权正文。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源与边界
+      description: 若涉及数据或外部资料，请给出原始来源、日期和授权说明。

@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "mode": "professional",
+  "novelName": "雾港回声",
+  "projectPath": "./web-novels/示例-雾港回声",
+  "totalChapters": 3,
+  "minWordsPerChapter": 2000,
+  "maxWordsPerChapter": 3000,
+  "createdAt": "2026-07-20T00:00:00+00:00",
+  "updatedAt": "2026-07-20T00:00:00+00:00",
+  "status": "planning",
+  "writingMode": "serial",
+  "requiredFiles": ["00-大纲.md", "01-人物档案.md", "03-写作计划.json", "chapters/"],
+  "optionalFiles": ["02-名场面时间轴.md", "04-章节详细规划.md"],
+  "coreSetting": {
+    "genre": "都市重生",
+    "goldenFinger": "旧物记忆回溯",
+    "coreTropes": "债务危机、信息反转、代价成长"
+  },
+  "namingLedger": {
+    "usedPersonNames": ["闻人澈", "阮栖月", "柏砚川"],
+    "usedPlaceNames": ["雾港"],
+    "usedOrganizations": ["雾港社区档案馆"],
+    "usedArtifacts": ["生锈钥匙", "老录音机"],
+    "defaultAvoidSurnames": ["林", "顾", "沈", "苏", "叶", "秦", "萧", "楚", "陆", "傅", "江", "韩"]
+  },
+  "characters": {
+    "protagonist": "闻人澈",
+    "heroine": "阮栖月",
+    "antagonist": "柏砚川"
+  },
+  "chapters": [
+    {"chapterNumber": 1, "title": "旧钥匙", "filePath": "chapters/第01章.md", "status": "pending", "retryCount": 0},
+    {"chapterNumber": 2, "title": "废码头", "filePath": "chapters/第02章.md", "status": "pending", "retryCount": 0},
+    {"chapterNumber": 3, "title": "回声为证", "filePath": "chapters/第03章.md", "status": "pending", "retryCount": 0}
+  ]
+}

@@ -10,7 +10,9 @@ description: |
 
 ### 从一个想法，到可继续创作的网文项目
 
-[![Version](https://img.shields.io/badge/version-v1.1.0-blue.svg)](https://github.com/tinylion1024/web-novel-master/releases/tag/v1.1.0)
+[中文](./README.md) | [English](./README_EN.md)
+
+[![Version](https://img.shields.io/badge/version-v1.1.1-blue.svg)](https://github.com/tinylion1024/web-novel-master/releases/tag/v1.1.1)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![CLAUDE](https://img.shields.io/badge/Power%20By-Claude%20Code-orange.svg)](https://claude.com/claude-code)
 [![Validate](https://github.com/tinylion1024/web-novel-master/actions/workflows/ci.yml/badge.svg)](https://github.com/tinylion1024/web-novel-master/actions/workflows/ci.yml)
@@ -24,7 +26,7 @@ description: |
 
 > 用于把模糊灵感拆成大纲、人设、章节计划和可复核的写作任务。它提供流程与检查工具，不承诺作品热度或替代作者判断。
 
-**第一次使用？** 先完成下面的 [60 秒体验](#60-秒体验)，再查看 [原创示例项目](./examples/urban-rebirth-starter/README.md)。
+**第一次使用？** 先完成下面的 [60 秒体验](#60-秒体验)，再查看 [快速演示](./docs/DEMO.md) 和 [原创示例项目](./examples/urban-rebirth-starter/README.md)。
 
 ## 60 秒体验
 
@@ -54,11 +56,14 @@ python3 scripts/manage_novel_project.py validate ./web-novels/<项目目录>
 
 该校验覆盖项目结构、章节字数、内容完整性和命名台账。它是自动基线，不替代人工对原创性、剧情质量和发布平台规则的复核。
 
+命令实际生成的目录、关键文件和校验结果见 [快速演示](./docs/DEMO.md)。
+
 ---
 
 ## Table of Contents
 
 - [60 秒体验](#60-秒体验)
+- [快速演示](#快速演示)
 - [原创示例项目](#原创示例项目)
 - [为什么需要 Web Novel Master？](#为什么需要-web-novel-master)
 - [核心亮点](#核心亮点)
@@ -90,6 +95,10 @@ python3 scripts/manage_novel_project.py validate ./web-novels/<项目目录>
 第一章的冲突、人物动机、章节节奏和后续伏笔常常需要反复来回调整。这个项目把选题、大纲、人设、章节任务和质量检查拆成可执行流程，帮助作者从一个可控的最小项目开始。
 
 它提供题材结构、叙事技法和创作检查清单，供作者组合与改写；最终作品的审美、原创性和发布判断始终由作者负责。
+
+## 快速演示
+
+从一条初始化命令到可检查的项目目录、人物与命名台账，见 [快速演示](./docs/DEMO.md)。该演示使用原创设定，不包含任何未授权小说正文。
 
 ---
 
@@ -351,6 +360,10 @@ claude -n -p "生成一个都市重生文，主角是医生，有透视金手指
 ## 完整安装与启动
 
 完整兼容矩阵、更新方式和故障排查见 [安装指南](./docs/INSTALLATION.md)。
+
+### 使用模板创建自己的小说项目
+
+本仓库已启用 GitHub Template。若想从干净的项目结构开始，可在仓库页面选择 **Use this template** 创建自己的仓库；这不会继承本仓库的提交历史。随后按本节安装技能并运行初始化命令。
 
 ### 1. Claude Code 安装
 
